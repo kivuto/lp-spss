@@ -1,0 +1,81 @@
+/* #############################
+       Email CTA block
+   #############################*/
+
+.content-email {
+	text-align: center;
+	.button span {
+		font-size: 19px; 
+		font-weight: bold;
+	}
+	[class*="block-grid-"] {
+		margin: 0;
+	}
+	.row.email, .row.email-button, .row.thank-you {
+		@include css-transition(all, 1s, ease-in-out); 
+	}
+
+	// INPUT STYLING
+	input, textarea {
+	    background: #F37022;
+	    border: 2px solid #FFF;
+	    color: #FFF;
+	    outline: none;
+	    width: 90%;
+	    -moz-box-shadow: 0 3px 0 0 #FFF;
+	    -webkit-box-shadow: 0 3px 0 0 #FFF;
+	    box-shadow: 0 3px 0 0 #FFF;
+	    margin: 0 auto 50px auto;
+	}
+
+	// SUBMIT FORM BUTTON STYLING
+	#SubmitElement_0_input.button  {
+		 color: #F37022;
+		 padding-top: 0.40rem !important;
+		 font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important;
+		 font-size: 1.5em;
+		 moz-box-shadow: 0 0px 0 0 #FFF !important;
+	     -webkit-box-shadow: 0 0px 0 0 #FFF !important;
+	     box-shadow: 0 0px 0 0 #FFF !important;
+	}
+	input:focus, textarea:focus {
+		background: #F37022;
+	    border: 2px solid #FFF;
+	}
+
+	::-webkit-input-placeholder { color: #FFF;} 
+	:-moz-placeholder { color: #FFF; }
+	::-moz-placeholder { color:    #FFF; }
+	:-ms-input-placeholder { color: #FFF; }
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+		// MOBILE //
+	    @media screen and (max-width: 40em) {
+	      	.button {  
+	      		height: 50px !important; 
+	      		width: 95%; 
+				padding-top: 0.70rem !important;
+	      	}
+			input, textarea { width: 97% !important; }
+	    }
+
+		// MED SCREENS AND UP //
+		@media only screen and (min-width: 40.063em) {
+			.button {  width: 40%; }
+			input, textarea { width: 50% !important; }
+
+			// TEXT PADDING //
+			h1 { padding-bottom: 30px; }
+			p { padding-bottom: 15px; }
+		}	
+
+		// LARGE //  
+		@media only screen and (min-width: 64em) {
+			h1 { padding-bottom: 40px; }
+			p { padding-bottom: 20px; }
+			.button { 
+				width: 50%;
+			}
+		}
+}

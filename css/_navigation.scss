@@ -1,0 +1,56 @@
+/* #############################
+       Sub Header / Navigation
+   #############################*/
+
+// CENTERING NAV
+.top-bar-section ul {display: table; margin: 0 auto;}
+.top-bar-section ul li {display: table-cell;}
+
+.top-bar-section ul {display: table; margin: 0 auto;}
+.top-bar-section ul li {display: table-cell;}
+
+.inner-wrap,
+.offHeader {
+  transition: transform 500ms ease;
+}
+
+.move-right > .inner-wrap,
+.move-right > .offHeader {
+  transform: translate3d(250px, 0, 0);
+}
+
+
+nav.subHeader {
+	background-color: $sub-header-color !important;
+	a { font-size: 15px !important;}
+	box-shadow: 0px 1px 1px #888888;
+
+	// HOVER COLORS
+	.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) {
+		background: $sub-header-color;
+		@include css-transition(all, 200ms, ease-in-out); 
+		color: #000;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button) .active {
+		background: #F27120;
+		color: #FFF;
+	}
+
+	// FIXING LOGO PADDING
+	.top-bar-section li img { padding-top: 3px; }
+
+	// FIXING BACKGROUND COLOR
+	.top-bar-section ul { background: $sub-header-color; }
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+	// SUPER CUSTOM MEDIA QUERY THAT PREVENTS MENU ITEM FROM FLOWING ONTO SECOND LINE //
+    @media only screen and (min-width: 641px) and (max-width: 747px) {
+    	.top-bar-section li:not(.has-form) a:not(.button) {
+    		padding: 0 7px;
+    	}
+	}
+}
+.top-bar.expanded .title-area {
+	background: #545454 !important;
+}

@@ -1,0 +1,181 @@
+body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span { 
+  font-family: 'AvenirLTStd55Roman', Verdana, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+
+// Mix in for transitions
+@mixin css-transition($attribute, $duration, $type) {
+  webkit-transition: $attribute $duration $type;
+  -moz-transition: $attribute $duration $type;
+    -o-transition: $attribute $duration $type;
+     transition: $attribute $duration $type;
+}
+
+
+/* SETTING A CONTAINER MAX WIDTH */
+.wrapper {
+  max-width: 1280px !important;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 40em) {
+  .hide-for-mobile {
+      display: none !important; 
+  }
+}
+
+.links a:focus,
+.kvt-solutions a:focus {
+  border-bottom: 2px solid #64BAE7;
+  outline: none;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~
+      g. SUB-FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.subFooter {
+  padding: 25px 20px 0px 20px;
+  background-color: #252525 !important;
+  .line {
+    width: 100%; /*can be in percentage also.*/
+    margin: 0 auto;
+    padding: 1px 10px 1px 0px;
+    position: relative;
+  }
+  .line.hide-for-mobile {
+     .links {
+        padding: 5px 10px 0px 10px;
+     }
+     .notice {
+        padding: 0px 10px 1px 10px;
+     }
+     
+  }
+  .list {
+    ul li {
+      padding: 0px 7px;
+    }
+  }
+
+  p { color: #B4B4B4; }
+  img { padding-right: 10px; }
+  h3 { 
+    font-size: 28px; 
+    color: #FFF;
+    font-family: 'AvenirLTStd55Heavy', Verdana, sans-serif !important;
+  }
+  p { font-size: 12px; }
+
+  // UL LIST STYLING
+  ul {
+    a, a:link, a:active, a:visited {
+      color: #FFF;
+      // SASS MIXIN FOR COLOR TRANSITION
+      @include css-transition(color, 0.15s, ease-in-out); 
+       text-decoration: none;
+    }
+    a:hover { color: #B0B0B0; }
+    li { 
+      color: #FFF; 
+      display: inline;
+      list-style: none; 
+      font-size: 16px;
+    }
+  }
+
+  /*~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    /* MOBILE */
+    @media screen and (max-width: 40em) {
+      padding: 15px 0px;
+      .line { width: inherit; }
+      h3 { font-size: 15px; }
+    }
+
+    /* MEDIUM SCREENS  */
+    @media screen and (min-width: 40.063em) and (max-width: 64em) {
+      
+    }
+
+    /* LARGE SCREENS AND UP*/
+    @media screen and (min-width: 64.063em) {
+      
+    }
+  
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~
+      h. FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+  background-color: #191919 !important;
+  p { 
+    color: #CBD2DA; 
+    font-size: 14px;
+  }
+  a, a:link, a:active, a:visited { 
+    color: #CBD2DA; 
+    text-decoration: none;
+  }
+  .wrapper { 
+    padding: 10px 0px 10px 0px;
+  }
+  .darker { color: #878876 }
+  .kvt-solutions {
+    display: inline-block;
+    padding-top: 9px;
+  }
+  .powered-by {
+    display: inline-block;
+    margin-left: 33%;
+  }
+
+  /*~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    /* MOBILE */
+    @media screen and (max-width: 40em) {
+      .wrapper { 
+        padding-bottom: 45px !important;
+        padding-top: 12px; 
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      p { font-size: 12px; }
+      .powered-by { margin-left: 0% !important; }
+    }
+    /* MEDIUM  */
+    @media screen and (min-width: 40.063em) and (max-width: 64em) {
+        .powered-by { margin-left: 19%; }
+    }
+
+}
+
+
+
+/*--------------------------------------*\
+
+    3. FONTS (put the URL to your fonts example: 'yourroot/yourpath/footer/fonts/avernirltstd-roman.eot')
+
+\*--------------------------------------*/
+
+@font-face {
+    font-family: 'AvenirLTStd55Roman';
+    src: url('footer/fonts/avenirltstd-roman.eot');
+    src: url('footer/fonts/avenirltstd-roman.eot') format('embedded-opentype'),
+         url('footer/fonts/avenirltstd-roman.woff') format('woff'),
+         url('footer/fonts/avenirltstd-roman.ttf') format('truetype'),
+         url('footer/fonts/avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    src: url('footer/fonts/avenirltstd-heavy.eot');
+    src: url('footer/fonts/avenirltstd-heavy.eot') format('embedded-opentype'),
+         url('footer/fonts/avenirltstd-heavy.woff') format('woff'),
+         url('footer/fonts/avenirltstd-heavy.ttf') format('truetype'),
+         url('footer/fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}

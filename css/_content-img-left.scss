@@ -1,0 +1,84 @@
+/* #############################
+       Block with image left of content 
+   #############################*/
+.inline-content-imgleft {
+	.button {
+		align: baseline;
+		span { 
+			font-size: 18px; 
+			font-weight: bold; 
+		}
+	}
+	h2 {
+		color: #6EB43F !important;
+	}
+	.small-4 {
+		width: 56.33333%;
+	}
+	span { font-size: 16px; }
+	.large-12 { padding-left: 0rem; }
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+		/* MOBILE */
+		@media only screen and (max-width: 40em){
+			// PADDING AND SIZING FIXES
+			.row.title { padding: 25px 0px 25px 15px; }
+			.small-3 { width: 25%; }
+			.ctaBtns { 
+				padding: 0px 10px; 
+				margin-right: 0rem;
+				.button { padding-right: 0rem;}
+			}
+			.small-4 {
+				padding-left: 25px !important;
+				width: 70.333%;
+			}
+			h1, h2 { 
+				text-align: left; 
+				line-height: 1.0;
+				span { font-size: 14px; }
+			}
+			h2 { font-size: 20px !important; }
+			.info { 
+				p { padding: 0px 7px; }
+			}
+		}
+
+		/* MEDIUM SCREENS  */
+		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			.row.title { padding: 25px 0px 25px 15px; }
+			.button span {
+				font-size: 18px;
+			}
+			.rent {
+				width: 48%;
+				padding: 0px;
+			}
+			.trial {
+				width: 48%;
+				padding: 0px;
+			}
+			.large-offset-1 { margin-left: 2.33333% !important; }
+		}
+
+		/* LARGE SCREENS AND UP*/
+		@media only screen and (min-width: 64.063em) {
+			// PADDING AND SIZING FIXES
+			.image { padding-right: 0px; }
+			.info { 
+				width: 55.333%; 
+				p { 
+					padding-top: 10px; 
+					width: 97%;
+				}
+			}
+			.large-12 p { padding-top: 0px !important; }
+
+			// CHANGING THE SPACING BETWEEN THE TWO BUTTONS
+			.large-offset-1 { margin-left: 2.33333% !important; }
+
+			.rent { width: 45%; }
+			.trial { width: 45%; }
+		}
+}

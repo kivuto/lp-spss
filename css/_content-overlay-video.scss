@@ -1,0 +1,107 @@
+/* #############################
+       Video background div
+   #############################*/
+.content-overlay-video {
+	padding: 0px !important;
+	video, img  { width: 100%; }
+
+	// POSITIONING VIDEO OVER IMAGE
+	img {
+		position: relative;
+		z-index: -1;
+	}
+	video {
+		position: absolute;
+	}
+
+	// GREY OVERLAY ON VIDEO BG
+	.ovrlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	 	background: rgba(0,0,0,0.4)
+	}
+	// VERTICALLY ALIGN CONTENT
+	.container {
+		position: relative;
+		color: #fff;
+		padding: 50px 100px;
+		text-align: center;
+		position: absolute;
+		top: 50%; left: 50%;
+		width: 100%;
+	    -webkit-transform: translate(-50%,-50%);
+	        -ms-transform: translate(-50%,-50%);
+	            transform: translate(-50%,-50%);
+	}
+
+	// BUTTON STYLING
+	.button { 
+		padding: 20px 20px !important;
+	}
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+	// MOBILE //
+    @media screen and (max-width: 40em) {
+      	img { min-height: 250px; }
+
+      	// TEXT SIZING //
+      	.container { 
+      		padding: 50px 50px; 
+      		h1 { 
+      			font-size: 20px !important; 
+      			padding: 10px 0px; 
+      		}
+      	}
+      	.button { width: 50%; }
+    }
+
+	// MEDIUM SCREENS 
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		// TEXT SIZING //
+		h1 { font-size: 30px; }
+		p { font-size: 15px; }
+		span { font-size: 21px !important; }
+		// SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS //
+		min-height: 0 !important;
+
+		// TEXT PADDING //
+		h1 { padding-bottom: 20px; }
+		p { padding-bottom: 25px; font-size: 20px !important;}
+		.button { width: 30%; }
+	}
+
+	// LARGE SCREENS  
+	@media only screen and (min-width: 64em) {
+		.ovrlay { padding: 85px 20px; }
+		.container { padding: 50px 100px !important;} 
+		.button { width: 30%; }
+		min-height: 0 !important;
+		// TEXT STYLING //
+		h1 { 
+			padding-bottom: 30px; 
+			font-size: 65px;
+		}
+		p { padding-bottom: 40px; font-size: 25px !important;}
+	}
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~
+      c. CHALLENGES BLOCk
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.content-challenges {
+	// BLOCK FONT COLOR
+	@include block-font-color(#FFF);
+	.orbit-container .orbit-timer { display: none; }
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		// PADDING FOR TITLE IN TABLET
+		h1 { padding-top: 40px; }
+	}
+}

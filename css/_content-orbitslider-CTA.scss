@@ -1,0 +1,112 @@
+/* #############################
+       Orbitslider CTA buttons
+   #############################*/
+
+.content-orbitslider-CTA {
+	text-align: center;
+	background-image: url('../img/businessmen-desktop.jpg');
+	background-repeat: none;
+	padding: 0px !important;
+
+	.orbit-container { 
+		// FIXING PADDING
+		padding: 0px 25px 0px 15px !important; 
+
+		// ADDING PADDING TO TEXT
+		li p {
+			padding: 0px 25px;
+		}
+	}
+	img { padding-bottom: 15px;  }
+	.orbit-bullets { margin: none !important; }
+	.orbit-bullets { display: block !important; }
+
+	// REMOVING THE TIMER AND PLAY/PAUSE BUTTONS, AND THE SLIDE NUMBERS
+	.orbit-timer, .orbit-slide-number { display: none; }
+
+	// STYLING THE P TAG IN BLOCK GRID
+	[class*="block-grid-"] {
+		p {  
+			max-width: 300px; 
+			margin: 0 auto;
+		}
+	}
+
+	// PADDING GREY OVERLAY
+	.ovrlay { padding: 75px 20px; }
+
+	h3 { font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
+
+		// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+		// MOBILE //
+	    @media screen and (max-width: 40em) {
+	      	background-image: url('../img/businessmen-mobile.jpg');
+	      	.ovrlay { padding: 25px 20px !important; min-height: 450px !important;}
+	      	// VERTICALLY CENTERING CONTENT BLOCK 
+			.container {
+				padding: 0px 20px !important; 
+				position: absolute;
+			    top: 50%; left: 50%;
+			    width: 100%;
+			    -webkit-transform: translate(-50%,-50%);
+			        -ms-transform: translate(-50%,-50%);
+			            transform: translate(-50%,-50%);
+			}
+			.button.ctaBtn { margin-top: 15px; }
+			.info { 
+				padding: 0px 8px; 
+				p { padding: 0px 7px; }
+			}
+	    }	
+
+	    // MEDIUM  AND UP //
+		@media only screen and (min-width: 40.063em) {
+			.ovrlay { min-height: 650px; }
+			min-height: 650px !important;
+			// TEXT PADDING //
+			h1 { padding-bottom: 30px; }
+			p { 
+				padding-bottom: 10px; 
+				min-height: 125px; 
+			}
+			// ALIGNING TEXT AND BUTTON EDGES
+			[class*="block-grid-"] {
+				p { min-height: 150px; }
+				.button { min-width: 100%; }
+			}
+		}
+		// MEDIUM SCREENS 
+		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			// TEXT SIZING //
+			h1 { font-size: 30px; }
+			h3 { font-size: 20px; }
+			p { font-size: 15px; }
+
+			// SETTING A MINIMUM HEIGHT FOR BLOCKS //
+			min-height: 950px !important;
+		}
+
+
+		// LARGE // 
+		@media only screen and (min-width: 64em) {
+			// PADDING TEXT
+			h1 { padding-bottom: 40px; }
+			p { 
+				padding-bottom: 10px; 
+				min-height: 80px; 
+			}
+			// ALIGNING TEXT AND BUTTON EDGES
+			[class*="block-grid-"] {
+				p { min-height: 110px; }
+				.button { min-width: 265px; }
+			}
+			// SETTING A MINIMUM HEIGHT FOR BLOCKS //
+			min-height: 750px !important;
+		}
+    	
+    	// EXTRA LARGE SCREENS //
+		@media only screen and (min-width: 1285px)  { 
+			background-image: url('../img/businessmen-xldesktop.jpg');
+		}
+}

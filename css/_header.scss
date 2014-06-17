@@ -1,0 +1,28 @@
+/* #############################
+       Header
+   #############################*/
+
+.row.header {
+	background-color: #25262A !important;
+	padding: $header_padding;
+	height: 70px;
+	.columns { padding-top: 7px; }
+	img { max-width: none; }
+	.large-2 { 
+		width: 50%; 
+		padding-left: 0rem;
+		padding-right: 7rem;
+	}
+	.large-offset-3 {
+		width: 18%;
+	} 
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+		/* MOBILE */
+		@media only screen and (max-width: 40em){
+			padding: 0px 10px;
+			height: 55px;
+			.columns { padding-top: 5px; }
+			img { max-width: 110px; }
+		}
+}

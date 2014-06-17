@@ -1,0 +1,126 @@
+body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
+  font-family: 'AvenirLTStd55Roman', Verdana, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
+
+/* SETTING A CONTAINER MAX WIDTH */
+.wrapper {
+  max-width: 1280px !important;
+  margin: 0 auto;
+  text-align: center; }
+
+@media screen and (max-width: 40em) {
+  .hide-for-mobile {
+    display: none !important; } }
+.links a:focus,
+.kvt-solutions a:focus {
+  border-bottom: 2px solid #64BAE7;
+  outline: none; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~
+      g. SUB-FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.subFooter {
+  padding: 25px 20px 0px 20px;
+  background-color: #252525 !important;
+  /*~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /* MOBILE */
+  /* MEDIUM SCREENS  */
+  /* LARGE SCREENS AND UP*/ }
+  .subFooter .line {
+    width: 100%;
+    /*can be in percentage also.*/
+    margin: 0 auto;
+    padding: 1px 10px 1px 0px;
+    position: relative; }
+  .subFooter .line.hide-for-mobile .links {
+    padding: 5px 10px 0px 10px; }
+  .subFooter .line.hide-for-mobile .notice {
+    padding: 0px 10px 1px 10px; }
+  .subFooter .list ul li {
+    padding: 0px 7px; }
+  .subFooter p {
+    color: #B4B4B4; }
+  .subFooter img {
+    padding-right: 10px; }
+  .subFooter h3 {
+    font-size: 28px;
+    color: #FFF;
+    font-family: 'AvenirLTStd55Heavy', Verdana, sans-serif !important; }
+  .subFooter p {
+    font-size: 12px; }
+  .subFooter ul a, .subFooter ul a:link, .subFooter ul a:active, .subFooter ul a:visited {
+    color: #FFF;
+    webkit-transition: color 0.15s ease-in-out;
+    -moz-transition: color 0.15s ease-in-out;
+    -o-transition: color 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out;
+    text-decoration: none; }
+  .subFooter ul a:hover {
+    color: #B0B0B0; }
+  .subFooter ul li {
+    color: #FFF;
+    display: inline;
+    list-style: none;
+    font-size: 16px; }
+  @media screen and (max-width: 40em) {
+    .subFooter {
+      padding: 15px 0px; }
+      .subFooter .line {
+        width: inherit; }
+      .subFooter h3 {
+        font-size: 15px; } }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~
+      h. FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+  background-color: #191919 !important;
+  /*~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  /* MOBILE */
+  /* MEDIUM  */ }
+  footer p {
+    color: #CBD2DA;
+    font-size: 14px; }
+  footer a, footer a:link, footer a:active, footer a:visited {
+    color: #CBD2DA;
+    text-decoration: none; }
+  footer .wrapper {
+    padding: 10px 0px 10px 0px; }
+  footer .darker {
+    color: #878876; }
+  footer .kvt-solutions {
+    display: inline-block;
+    padding-top: 9px; }
+  footer .powered-by {
+    display: inline-block;
+    margin-left: 33%; }
+  @media screen and (max-width: 40em) {
+    footer .wrapper {
+      padding-bottom: 45px !important;
+      padding-top: 12px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center; }
+    footer p {
+      font-size: 12px; }
+    footer .powered-by {
+      margin-left: 0% !important; } }
+  @media screen and (min-width: 40.063em) and (max-width: 64em) {
+    footer .powered-by {
+      margin-left: 19%; } }
+
+/*--------------------------------------*\
+
+    3. FONTS (put the URL to your fonts example: 'yourroot/yourpath/footer/fonts/avernirltstd-roman.eot')
+
+\*--------------------------------------*/
+@font-face {
+  font-family: 'AvenirLTStd55Roman';
+  src: url("footer/fonts/avenirltstd-roman.eot");
+  src: url("footer/fonts/avenirltstd-roman.eot") format("embedded-opentype"), url("footer/fonts/avenirltstd-roman.woff") format("woff"), url("footer/fonts/avenirltstd-roman.ttf") format("truetype"), url("footer/fonts/avenirltstd-roman.svg#AvenirLTStd55Roman") format("svg"); }
+
+@font-face {
+  font-family: 'AvenirLTStd85Heavy';
+  src: url("footer/fonts/avenirltstd-heavy.eot");
+  src: url("footer/fonts/avenirltstd-heavy.eot") format("embedded-opentype"), url("footer/fonts/avenirltstd-heavy.woff") format("woff"), url("footer/fonts/avenirltstd-heavy.ttf") format("truetype"), url("footer/fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy") format("svg"); }

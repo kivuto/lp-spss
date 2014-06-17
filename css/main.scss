@@ -1,0 +1,279 @@
+/*------------------------------*\
+
+	Table of contents
+
+	x. SASS ELEMENTS (not shown in CSS)
+
+	0. HACKS AND OVERRIDES
+
+	1. IMPORTS
+
+	2. ROW AND COLUMN STYLING
+
+	3. CUSTOM BLOCKS STYLING 
+
+	4. FONTS
+
+\*------------------------------*/
+
+
+/*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*\
+
+    NOTE: ALL MEDIA QUERIES CAN BE FOUND WITH THEIR ASSOCIATED STLYING BLOCK
+
+    AND
+
+    THIS PAGE IS BUILT USING FOUNDATION 5
+
+\*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*/
+
+
+/*------------------------------------*\
+
+    x. SASS ELEMENTS
+
+\*------------------------------------*/
+
+
+$header_padding: 0px 120px;
+$mainContent_padding: 45px 20px;
+$sub-header-color: #FFF;
+
+
+/* Block 1 */
+$block1-color: #B8B8B8;
+$block1-font-color: #000;
+$block1-button-normal: #FFF; 
+$block1-button-hover: #007095; 
+$block1-button-font: #000; 
+$block1-button-font-hover: #FFF; 
+/* Block 2 */
+$block2-color: #EBEBEB;
+$block2-font-color: #FFF;
+$block2-button-normal: #FFF; 
+$block2-button-hover: #007095; 
+$block2-button-font: #000; 
+$block2-button-font-hover: #FFF; 
+/* Block 3 */
+$block3-color: #B8B8B8;
+$block3-font-color: #000;
+$block3-button-normal: #FFF; 
+$block3-button-hover: #007095; 
+$block3-button-font: #000; 
+$block3-button-font-hover: #FFF; 
+/* Block 4 */
+$block4-color: #EBEBEB;
+$block4-font-color: #000;
+$block4-button-normal: #FFF; 
+$block4-button-hover: #007095; 
+$block4-button-font: #000; 
+$block4-button-font-hover: #FFF; 
+/* Block 5 */
+$block5-color: #B8B8B8;
+$block5-font-color: #000;
+$block5-button-normal: #FFF; 
+$block5-button-hover: #007095; 
+$block5-button-font: #000; 
+$block5-button-font-hover: #FFF; 
+
+
+
+$block2-color: #EBEBEB;
+$block3-color: #B8B8B8;
+$block4-color: #EBEBEB;
+$block5-color: #B8B8B8;
+$block6-color: #EBEBEB;
+$block7-color: #B8B8B8;
+$block8-color: #EBEBEB;
+$block9-color: #B8B8B8;
+$block10-color: #EBEBEB;
+
+// Mix in for transitions
+@mixin css-transition($attribute, $duration, $type) {
+  webkit-transition: $attribute $duration $type;
+	-moz-transition: $attribute $duration $type;
+	  -o-transition: $attribute $duration $type;
+		 transition: $attribute $duration $type;
+}
+
+@mixin block-font-color($color) {
+	h1, h2, h3, p { color: $color !important; }
+}
+
+// The defaults are the values stated after the variables
+@mixin block-colors($font-color: #000, $button-normal-color: #FFF, $button-hover-color: #007095, $button-text-normal: #000, $button-text-hover: #FFF) {
+	h1, h2, h3, p { color: $font-color !important; }
+	.button { 
+		background-color: $button-normal-color !important;
+		span { color: $button-text-normal !important; } 
+		&:hover, &:focus, &:active{ 
+			background-color: $button-hover-color !important; 
+			span { color: $button-text-hover !important; } 
+		}
+	}
+}
+
+
+
+/*----------------------------------------------------------*\
+
+    0. HACKS AND OVERRIDES (to overwrite foundation defaults)
+
+\*----------------------------------------------------------*/
+
+@import 'hacks-overrides'; // ALWAYS import this!
+
+
+/*----------------------------------------------------------*\
+
+    1. IMPORTS
+
+\*----------------------------------------------------------*/
+
+@import 'mandatory'; // ALWAYS import this!
+
+@import 'navigation';
+@import 'header';
+
+/*~~~~~~~~~~~~~~~~~~~ 
+	
+	Include your SASS file imports here!
+
+~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import 'content-overlay-video';
+@import 'content-orbitslider-headline';
+@import 'content-email-cta';
+@import 'content-img-left';
+@import 'content-img-right';
+@import 'content-img-copy-grid';
+@import 'content-simple-expand';
+
+
+
+
+
+/*----------------------------------------------------------*\
+
+    2. ROW AND COLUMN STYLING
+
+\*----------------------------------------------------------*/
+
+
+.mainContent:nth-of-type(1){ background-color: $block1-color; }
+.mainContent:nth-of-type(2){ background-color: $block2-color; }
+.mainContent:nth-of-type(3){ background-color: $block3-color; }
+.mainContent:nth-of-type(4){ background-color: $block4-color; }
+.mainContent:nth-of-type(5){ background-color: $block5-color; }
+.mainContent:nth-of-type(6){ background-color: $block6-color; }
+.mainContent:nth-of-type(7){ background-color: $block7-color; }
+.mainContent:nth-of-type(8){ background-color: $block8-color; }
+.mainContent:nth-of-type(9){ background-color: $block9-color; }
+.mainContent:nth-of-type(10){ background-color: $block10-color; }
+
+
+
+
+
+/*----------------------------------------------------------*\
+
+    3. SECTION BLOCKS STYLING
+
+\*----------------------------------------------------------*/
+
+#Block1 {
+	@include block-colors($block1-font-color, $block1-button-normal, $block1-button-hover, $block1-button-font, $block1-button-font-hover);
+}
+#Block2 {
+	@include block-colors($block2-font-color, $block2-button-normal, $block2-button-hover, $block2-button-font, $block2-button-font-hover);
+}
+#Block3 {
+	@include block-colors();
+}
+#Block4 {
+	@include block-colors();
+}
+#Block5 {
+	@include block-colors();
+}
+#Block6 {
+	@include block-colors();
+}
+#Block7 {
+	@include block-colors();
+}
+#Block8 {
+	@include block-colors();
+}
+#Block9 {
+	@include block-colors();
+}
+#Block10 {
+	@include block-colors();
+}
+#Block11 {
+	@include block-colors();
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~
+      d. Block 1
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.content-solution {
+
+	// MEDIUM 
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			// OVERRIDE MINIMUM HEIGHT FOR BLOCK //
+			min-height: 700px !important;
+		}
+	 // MEDIUM  AND UP //
+	@media only screen and (min-width: 40.063em) {
+		h2 { padding-bottom: 20px; }
+	}	
+
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~
+      f. PRICING BLOCK
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.content-pricing {
+	.button span { color: #9AD3B3; }
+
+	// BLOCK FONT COLOR
+	@include block-font-color(#FFF);
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~
+      h. CUSTOMERS BLOCK
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.content-customers {
+	h1 { 
+		color: #F37022 !important;
+		font-size: 30px !important; 
+	}
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+		/* MED SCREENS AND UP*/
+		@media only screen and (min-width: 40.063em) {
+			min-height: 400px !important;
+		}	
+
+		/* LARGE */  
+		@media only screen and (min-width: 64em) {
+			min-height: 300px !important;
+		}
+}
+
+
+/*----------------------------------------------------------*\
+
+    4. FONTS
+
+\*----------------------------------------------------------*/
+
+@import 'fonts';
