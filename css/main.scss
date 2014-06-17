@@ -41,35 +41,35 @@ $sub-header-color: #FFF;
 
 
 /* Block 1 */
-$block1-color: #B8B8B8;
-$block1-font-color: #000;
+$block1-color: #FFF;
+$block1-font-color: #FFF;
 $block1-button-normal: #FFF; 
 $block1-button-hover: #007095; 
 $block1-button-font: #000; 
 $block1-button-font-hover: #FFF; 
 /* Block 2 */
-$block2-color: #EBEBEB;
-$block2-font-color: #FFF;
+$block2-color: #FFF;
+$block2-font-color: #000;
 $block2-button-normal: #FFF; 
 $block2-button-hover: #007095; 
 $block2-button-font: #000; 
 $block2-button-font-hover: #FFF; 
 /* Block 3 */
-$block3-color: #B8B8B8;
+$block3-color: #FFF;
 $block3-font-color: #000;
 $block3-button-normal: #FFF; 
 $block3-button-hover: #007095; 
 $block3-button-font: #000; 
 $block3-button-font-hover: #FFF; 
 /* Block 4 */
-$block4-color: #EBEBEB;
+$block4-color: #FFF;
 $block4-font-color: #000;
 $block4-button-normal: #FFF; 
 $block4-button-hover: #007095; 
 $block4-button-font: #000; 
 $block4-button-font-hover: #FFF; 
 /* Block 5 */
-$block5-color: #B8B8B8;
+$block5-color: #FFF;
 $block5-font-color: #000;
 $block5-button-normal: #FFF; 
 $block5-button-hover: #007095; 
@@ -78,10 +78,6 @@ $block5-button-font-hover: #FFF;
 
 
 
-$block2-color: #EBEBEB;
-$block3-color: #B8B8B8;
-$block4-color: #EBEBEB;
-$block5-color: #B8B8B8;
 $block6-color: #EBEBEB;
 $block7-color: #B8B8B8;
 $block8-color: #EBEBEB;
@@ -141,11 +137,8 @@ $block10-color: #EBEBEB;
 
 ~~~~~~~~~~~~~~~~~~~~~~~~*/
 @import 'content-overlay-video';
-@import 'content-orbitslider-headline';
-@import 'content-email-cta';
 @import 'content-img-left';
 @import 'content-img-right';
-@import 'content-img-copy-grid';
 @import 'content-simple-expand';
 
 
@@ -187,11 +180,11 @@ $block10-color: #EBEBEB;
 	@include block-colors($block2-font-color, $block2-button-normal, $block2-button-hover, $block2-button-font, $block2-button-font-hover);
 }
 #Block3 {
-	@include block-colors();
+	@include block-colors($block3-font-color, $block3-button-normal, $block3-button-hover, $block3-button-font, $block3-button-font-hover);
 }
 #Block4 {
-	@include block-colors();
-}
+	@include block-colors($block4-font-color, $block4-button-normal, $block4-button-hover, $block4-button-font, $block4-button-font-hover);
+}	
 #Block5 {
 	@include block-colors();
 }

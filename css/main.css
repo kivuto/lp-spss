@@ -384,112 +384,6 @@ nav.subHeader {
     padding-top: 40px; } }
 
 /* #############################
-       Orbitslider with headline
-   #############################*/
-.headline-circles-orbitslider {
-  text-align: center; }
-  .headline-circles-orbitslider .orbit-container {
-    padding: 0px 25px 0px 15px !important; }
-    .headline-circles-orbitslider .orbit-container li p {
-      padding: 0px 25px; }
-  .headline-circles-orbitslider img {
-    padding-bottom: 15px; }
-  .headline-circles-orbitslider .orbit-bullets {
-    margin: none !important; }
-  .headline-circles-orbitslider .orbit-bullets {
-    display: block !important; }
-  .headline-circles-orbitslider [class*="block-grid-"] p {
-    max-width: 300px;
-    margin: 0 auto; }
-  .headline-circles-orbitslider .orbit-timer, .headline-circles-orbitslider .orbit-slide-number {
-    display: none; }
-  @media only screen and (max-width: 40em) {
-    .headline-circles-orbitslider .info {
-      padding: 0px 8px; }
-      .headline-circles-orbitslider .info p {
-        padding: 0px 7px; } }
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    .headline-circles-orbitslider {
-      min-height: 950px !important; }
-      .headline-circles-orbitslider h1 {
-        font-size: 30px; }
-      .headline-circles-orbitslider h3 {
-        font-size: 20px; }
-      .headline-circles-orbitslider p {
-        font-size: 15px; } }
-  @media only screen and (min-width: 64.063em) {
-    .headline-circles-orbitslider {
-      min-height: 750px !important; } }
-
-/* #############################
-       Email CTA block
-   #############################*/
-.content-email {
-  text-align: center; }
-  .content-email .button span {
-    font-size: 19px;
-    font-weight: bold; }
-  .content-email [class*="block-grid-"] {
-    margin: 0; }
-  .content-email .row.email, .content-email .row.email-button, .content-email .row.thank-you {
-    webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out; }
-  .content-email input, .content-email textarea {
-    background: #F37022;
-    border: 2px solid #FFF;
-    color: #FFF;
-    outline: none;
-    width: 90%;
-    -moz-box-shadow: 0 3px 0 0 #FFF;
-    -webkit-box-shadow: 0 3px 0 0 #FFF;
-    box-shadow: 0 3px 0 0 #FFF;
-    margin: 0 auto 50px auto; }
-  .content-email #SubmitElement_0_input.button {
-    color: #F37022;
-    padding-top: 0.40rem !important;
-    font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important;
-    font-size: 1.5em;
-    moz-box-shadow: 0 0px 0 0 #FFF !important;
-    -webkit-box-shadow: 0 0px 0 0 #FFF !important;
-    box-shadow: 0 0px 0 0 #FFF !important; }
-  .content-email input:focus, .content-email textarea:focus {
-    background: #F37022;
-    border: 2px solid #FFF; }
-  .content-email ::-webkit-input-placeholder {
-    color: #FFF; }
-  .content-email :-moz-placeholder {
-    color: #FFF; }
-  .content-email ::-moz-placeholder {
-    color: #FFF; }
-  .content-email :-ms-input-placeholder {
-    color: #FFF; }
-  @media screen and (max-width: 40em) {
-    .content-email .button {
-      height: 50px !important;
-      width: 95%;
-      padding-top: 0.70rem !important; }
-    .content-email input, .content-email textarea {
-      width: 97% !important; } }
-  @media only screen and (min-width: 40.063em) {
-    .content-email .button {
-      width: 40%; }
-    .content-email input, .content-email textarea {
-      width: 50% !important; }
-    .content-email h1 {
-      padding-bottom: 30px; }
-    .content-email p {
-      padding-bottom: 15px; } }
-  @media only screen and (min-width: 64em) {
-    .content-email h1 {
-      padding-bottom: 40px; }
-    .content-email p {
-      padding-bottom: 20px; }
-    .content-email .button {
-      width: 50%; } }
-
-/* #############################
        Block with image left of content 
    #############################*/
 .inline-content-imgleft {
@@ -630,24 +524,6 @@ nav.subHeader {
       width: 97%; } }
 
 /* #############################
-       Block with image next to text in a grid style
-   #############################*/
-.img-copy-grid .imgList li {
-  padding: 0 0.625rem 0.25rem 0rem; }
-.img-copy-grid ul img {
-  float: left;
-  padding-right: 13px; }
-.img-copy-grid ul p {
-  padding-top: 20px;
-  font-size: 15px;
-  text-align: left; }
-.img-copy-grid .graphs {
-  padding-top: 31px; }
-@media screen and (max-width: 999px) {
-  .img-copy-grid {
-    display: none; } }
-
-/* #############################
        Block with image and simple expand
    #############################*/
 .inline-imgcontent-simple-expand {
@@ -735,19 +611,19 @@ nav.subHeader {
 
 \*----------------------------------------------------------*/
 .mainContent:nth-of-type(1) {
-  background-color: #b8b8b8; }
+  background-color: white; }
 
 .mainContent:nth-of-type(2) {
-  background-color: #ebebeb; }
+  background-color: white; }
 
 .mainContent:nth-of-type(3) {
-  background-color: #b8b8b8; }
+  background-color: white; }
 
 .mainContent:nth-of-type(4) {
-  background-color: #ebebeb; }
+  background-color: white; }
 
 .mainContent:nth-of-type(5) {
-  background-color: #b8b8b8; }
+  background-color: white; }
 
 .mainContent:nth-of-type(6) {
   background-color: #ebebeb; }
@@ -770,7 +646,7 @@ nav.subHeader {
 
 \*----------------------------------------------------------*/
 #Block1 h1, #Block1 h2, #Block1 h3, #Block1 p {
-  color: black !important; }
+  color: white !important; }
 #Block1 .button {
   background-color: white !important; }
   #Block1 .button span {
@@ -781,7 +657,7 @@ nav.subHeader {
       color: white !important; }
 
 #Block2 h1, #Block2 h2, #Block2 h3, #Block2 p {
-  color: white !important; }
+  color: black !important; }
 #Block2 .button {
   background-color: white !important; }
   #Block2 .button span {

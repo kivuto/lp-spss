@@ -41,7 +41,7 @@
         // Google analytics command are sent in the format (event, category, action)
         // According to Katie and Angie, we send anaytics like so ('Landing Page 2014', 'Landing Page 2014 - Navigation', 'Landing Page 2014 - Navigation - Header click - Intro')
         // You can set the general name of the landing page here
-        $gaEvent = "Landing Page 2014";
+        $gaEvent = "SPSS Landing Page 2014";
 
         $counter = 0;
 
@@ -74,14 +74,6 @@
                 include 'header.php';
           ?>
          
-
-          <!-- INCLUDE First Band  --> 
-         
-          <?php  
-                include 'content-simple-expand.php';
-                $counter++;
-          ?>
-
           <!-- INCLUDE First Band  --> 
          
           <?php  
@@ -90,59 +82,12 @@
           ?>
 
 
-          <!-- INCLUDE Second Band  --> 
-         
+          <!-- INCLUDE First Band  --> 
+                   
           <?php  
-                include 'content-orbitslider-headline-1.php';
+                include 'content-simple-expand.php';
                 $counter++;
           ?>
-
-
-          <!-- INCLUDE Third Band  --> 
-         
-          <?php  
-                include 'content-orbitslider-headline-2.php';
-                $counter++;
-          ?>
-
-
-          <!-- INCLUDE Fourth Band  --> 
-         
-          <?php  
-                include 'content-orbitslider-CTA.php';
-                $counter++;
-          ?>
-
-         
-          <!-- INCLUDE Fifth Band -->
-         
-          <?php  
-                include 'content-headline-cta.php';
-                $counter++;
-          ?>
-
-          <!-- INCLUDE Sixth Band  --> 
-         
-          <?php  
-                include 'content-email-cta.php';
-                $counter++;
-          ?>
-
-
-          <!-- INCLUDE Sixth Band  --> 
-         
-          <?php  
-                include 'content-customers.php';
-                $counter++;
-          ?>
-
-          <!-- INCLUDE rurturtyrtand  --> 
-         
-          <?php  
-                include 'content-headline-circles.php';
-                $counter++;
-          ?>
-
          
          
           <!-- INCLUDE Second Band -->
@@ -156,12 +101,12 @@
                   {
                     
                   } else {
-                     include 'content-img-copy-grid.php';
+                     include 'content-spss-amos.php';
                      $counter++;
                   }
               }
               else {
-                  include 'content-img-copy-grid.php';
+                  include 'content-spss-amos.php';
                   $counter++;
               }
           ?>
@@ -169,14 +114,14 @@
           <!-- INCLUDE Third Band -->
          
           <?php  
-                include 'content-img-left.php';
+                include 'content-spss-modeler.php';
                 $counter++;
           ?>
 
           <!-- INCLUDE Fourth Band -->
          
           <?php  
-                include 'content-img-right.php';
+                include 'content-spss-data-collection.php';
                 $counter++;
           ?>
 

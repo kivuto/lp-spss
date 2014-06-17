@@ -3,12 +3,12 @@
       <div class="container">
           <div class="row">
               <div class="large-5 columns image">
-                <img src="img/woman_computer.png" alt="Woman on Computer">
+                <img src="img/modeler_computer.jpg" alt="SPSS Modeller on computer">
               </div>
               <div class="large-7 columns info">
                   <div class="row title">
                       <div class="small-3 columns no_padding">
-                          <img src="img/minitab17_boxshot.png" alt="Minitab 17">
+                          <img src="img/spss_modeler_icon.jpg" alt="SPSS Modeller ">
                       </div>  
                       <div class="small-4 columns">
                           <h1>Left image</h1>
@@ -39,3 +39,4 @@
           </div> 
       </div>  
   </div>
+  <hr />

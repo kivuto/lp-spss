@@ -3,12 +3,12 @@
       <div class="container">
           <div class="row">
               <div class="large-5 columns qcImage hide-for-large-up">
-                  <img src="img/teacher_Student.png" alt="Student and Teacher">
+                  <img src="img/amos_computer.jpg" alt="Student and Teacher">
               </div>
               <div class="large-7 columns info">
                   <div class="row title">
                       <div class="small-3 columns no_padding">
-                          <img src="img/qc_boxshot.png" alt="Quality Companion">
+                          <img src="img/spss-amos-icon.jpg" alt="SPSS Amos">
                       </div>  
                       <div class="small-4 columns">
                           <h1>Right image</h1>
@@ -32,8 +32,9 @@
                   </div>
               </div>
               <div class="large-5 columns show-for-large-up">
-                  <img src="img/teacher_Student.png" alt="Student and Teacher">
+                  <img src="img/amos_computer.jpg" alt="Student and Teacher">
               </div>
           </div> 
       </div>  
   </div>
+   <hr />
