@@ -50,30 +50,30 @@ $block1-button-font-hover: #FFF;
 /* Block 2 */
 $block2-color: #FFF;
 $block2-font-color: #000;
-$block2-button-normal: #FFF; 
-$block2-button-hover: #007095; 
-$block2-button-font: #000; 
+$block2-button-normal: #F05038; 
+$block2-button-hover: #70251A; 
+$block2-button-font: #FFF; 
 $block2-button-font-hover: #FFF; 
 /* Block 3 */
 $block3-color: #FFF;
 $block3-font-color: #000;
-$block3-button-normal: #FFF; 
-$block3-button-hover: #007095; 
-$block3-button-font: #000; 
+$block3-button-normal: #2EB24D; 
+$block3-button-hover: #1E7231; 
+$block3-button-font: #FFF; 
 $block3-button-font-hover: #FFF; 
 /* Block 4 */
 $block4-color: #FFF;
 $block4-font-color: #000;
-$block4-button-normal: #FFF; 
-$block4-button-hover: #007095; 
-$block4-button-font: #000; 
+$block4-button-normal: #81297D; 
+$block4-button-hover: #41153F; 
+$block4-button-font: #FFF; 
 $block4-button-font-hover: #FFF; 
 /* Block 5 */
 $block5-color: #FFF;
 $block5-font-color: #000;
-$block5-button-normal: #FFF; 
-$block5-button-hover: #007095; 
-$block5-button-font: #000; 
+$block5-button-normal: #2FB2E8; 
+$block5-button-hover: #2281A8; 
+$block5-button-font: #FFF; 
 $block5-button-font-hover: #FFF; 
 
 
@@ -120,6 +120,7 @@ $block10-color: #EBEBEB;
 @import 'hacks-overrides'; // ALWAYS import this!
 
 
+
 /*----------------------------------------------------------*\
 
     1. IMPORTS
@@ -152,16 +153,15 @@ $block10-color: #EBEBEB;
 \*----------------------------------------------------------*/
 
 
-.mainContent:nth-of-type(1){ background-color: $block1-color; }
-.mainContent:nth-of-type(2){ background-color: $block2-color; }
-.mainContent:nth-of-type(3){ background-color: $block3-color; }
-.mainContent:nth-of-type(4){ background-color: $block4-color; }
-.mainContent:nth-of-type(5){ background-color: $block5-color; }
-.mainContent:nth-of-type(6){ background-color: $block6-color; }
-.mainContent:nth-of-type(7){ background-color: $block7-color; }
-.mainContent:nth-of-type(8){ background-color: $block8-color; }
-.mainContent:nth-of-type(9){ background-color: $block9-color; }
-.mainContent:nth-of-type(10){ background-color: $block10-color; }
+.mainContent:nth-of-type(2){ background-color: $block1-color; }
+.mainContent:nth-of-type(3){ background-color: $block2-color; }
+.mainContent:nth-of-type(4){ background-color: $block3-color; }
+.mainContent:nth-of-type(5){ background-color: $block4-color; }
+.mainContent:nth-of-type(6){ background-color: $block5-color; }
+.mainContent:nth-of-type(7){ background-color: $block6-color; }
+.mainContent:nth-of-type(8){ background-color: $block7-color; }
+.mainContent:nth-of-type(9){ background-color: $block8-color; }
+.mainContent:nth-of-type(10){ background-color: $block9-color; }
 
 
 
@@ -186,25 +186,10 @@ $block10-color: #EBEBEB;
 	@include block-colors($block4-font-color, $block4-button-normal, $block4-button-hover, $block4-button-font, $block4-button-font-hover);
 }	
 #Block5 {
-	@include block-colors();
+	@include block-colors($block5-font-color, $block5-button-normal, $block5-button-hover, $block5-button-font, $block5-button-font-hover);
 }
 #Block6 {
-	@include block-colors();
-}
-#Block7 {
-	@include block-colors();
-}
-#Block8 {
-	@include block-colors();
-}
-#Block9 {
-	@include block-colors();
-}
-#Block10 {
-	@include block-colors();
-}
-#Block11 {
-	@include block-colors();
+	@include block-colors($block5-font-color, $block5-button-normal, $block5-button-hover, $block5-button-font, $block5-button-font-hover);
 }
 
 

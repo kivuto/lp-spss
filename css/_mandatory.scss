@@ -41,7 +41,6 @@ nav .container {
 	padding: $mainContent_padding;
 	position: relative;
 
-	@include css-transition(all, 0.3s, ease-in-out); 
 
 	// BUTTON STYLING
 	.button {

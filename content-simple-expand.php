@@ -9,12 +9,12 @@
               <div class="row ctaBtns">
                   <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
                       <div class="large-4 columns button minitabBtn">
-                        <span>Nulla consequat</span>
+                        <span>BUY NOW</span>
                       </div>
                   </a>   
                  <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
                       <div class="large-4 large-offset-1 columns button no_padding qualitycomp qcBtn">
-                        <span>Vestibulum egestas</span>
+                        <span>BUY NOW</span>
                       </div> 
                   </a>  
               </div>

@@ -21,12 +21,12 @@
                   <div class="row ctaBtns">
                       <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Lorem - Ipsum'); return false;">
                           <div class="large-6 columns button rent">
-                             <span>Sed sodales </span>
+                             <span>BUY NOW</span>
                           </div>
                       </a>    
                       <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
                           <div class="large-6 large-offset-1 columns button trial">
-                             <span>Sed ullamcorper</span>
+                             <span>BUY NOW</span>
                           </div>
                       </a>   
                   </div>
@@ -37,4 +37,3 @@
           </div> 
       </div>  
   </div>
-   <hr />

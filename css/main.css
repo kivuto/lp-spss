@@ -65,7 +65,7 @@
 
 @media only screen {
   .small-3 {
-    width: 18%; } }
+    width: 9%; } }
 @media only screen and (max-width: 40em) {
   p {
     line-height: 2.0; }
@@ -137,11 +137,7 @@ nav .container {
 .row.mainContent {
   margin: 0px 0px;
   padding: 45px 20px;
-  position: relative;
-  webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  position: relative; }
   .row.mainContent .button {
     background-color: #FFF;
     webkit-transition: all 0.3s ease-in-out;
@@ -610,9 +606,6 @@ nav.subHeader {
     2. ROW AND COLUMN STYLING
 
 \*----------------------------------------------------------*/
-.mainContent:nth-of-type(1) {
-  background-color: white; }
-
 .mainContent:nth-of-type(2) {
   background-color: white; }
 
@@ -626,19 +619,19 @@ nav.subHeader {
   background-color: white; }
 
 .mainContent:nth-of-type(6) {
-  background-color: #ebebeb; }
+  background-color: white; }
 
 .mainContent:nth-of-type(7) {
-  background-color: #b8b8b8; }
+  background-color: #ebebeb; }
 
 .mainContent:nth-of-type(8) {
-  background-color: #ebebeb; }
-
-.mainContent:nth-of-type(9) {
   background-color: #b8b8b8; }
 
-.mainContent:nth-of-type(10) {
+.mainContent:nth-of-type(9) {
   background-color: #ebebeb; }
+
+.mainContent:nth-of-type(10) {
+  background-color: #b8b8b8; }
 
 /*----------------------------------------------------------*\
 
@@ -659,111 +652,56 @@ nav.subHeader {
 #Block2 h1, #Block2 h2, #Block2 h3, #Block2 p {
   color: black !important; }
 #Block2 .button {
-  background-color: white !important; }
+  background-color: #f05038 !important; }
   #Block2 .button span {
-    color: black !important; }
+    color: white !important; }
   #Block2 .button:hover, #Block2 .button:focus, #Block2 .button:active {
-    background-color: #007095 !important; }
+    background-color: #70251a !important; }
     #Block2 .button:hover span, #Block2 .button:focus span, #Block2 .button:active span {
       color: white !important; }
 
 #Block3 h1, #Block3 h2, #Block3 h3, #Block3 p {
   color: black !important; }
 #Block3 .button {
-  background-color: white !important; }
+  background-color: #2eb24d !important; }
   #Block3 .button span {
-    color: black !important; }
+    color: white !important; }
   #Block3 .button:hover, #Block3 .button:focus, #Block3 .button:active {
-    background-color: #007095 !important; }
+    background-color: #1e7231 !important; }
     #Block3 .button:hover span, #Block3 .button:focus span, #Block3 .button:active span {
       color: white !important; }
 
 #Block4 h1, #Block4 h2, #Block4 h3, #Block4 p {
   color: black !important; }
 #Block4 .button {
-  background-color: white !important; }
+  background-color: #81297d !important; }
   #Block4 .button span {
-    color: black !important; }
+    color: white !important; }
   #Block4 .button:hover, #Block4 .button:focus, #Block4 .button:active {
-    background-color: #007095 !important; }
+    background-color: #41153f !important; }
     #Block4 .button:hover span, #Block4 .button:focus span, #Block4 .button:active span {
       color: white !important; }
 
 #Block5 h1, #Block5 h2, #Block5 h3, #Block5 p {
   color: black !important; }
 #Block5 .button {
-  background-color: white !important; }
+  background-color: #2fb2e8 !important; }
   #Block5 .button span {
-    color: black !important; }
+    color: white !important; }
   #Block5 .button:hover, #Block5 .button:focus, #Block5 .button:active {
-    background-color: #007095 !important; }
+    background-color: #2281a8 !important; }
     #Block5 .button:hover span, #Block5 .button:focus span, #Block5 .button:active span {
       color: white !important; }
 
 #Block6 h1, #Block6 h2, #Block6 h3, #Block6 p {
   color: black !important; }
 #Block6 .button {
-  background-color: white !important; }
+  background-color: #2fb2e8 !important; }
   #Block6 .button span {
-    color: black !important; }
+    color: white !important; }
   #Block6 .button:hover, #Block6 .button:focus, #Block6 .button:active {
-    background-color: #007095 !important; }
+    background-color: #2281a8 !important; }
     #Block6 .button:hover span, #Block6 .button:focus span, #Block6 .button:active span {
-      color: white !important; }
-
-#Block7 h1, #Block7 h2, #Block7 h3, #Block7 p {
-  color: black !important; }
-#Block7 .button {
-  background-color: white !important; }
-  #Block7 .button span {
-    color: black !important; }
-  #Block7 .button:hover, #Block7 .button:focus, #Block7 .button:active {
-    background-color: #007095 !important; }
-    #Block7 .button:hover span, #Block7 .button:focus span, #Block7 .button:active span {
-      color: white !important; }
-
-#Block8 h1, #Block8 h2, #Block8 h3, #Block8 p {
-  color: black !important; }
-#Block8 .button {
-  background-color: white !important; }
-  #Block8 .button span {
-    color: black !important; }
-  #Block8 .button:hover, #Block8 .button:focus, #Block8 .button:active {
-    background-color: #007095 !important; }
-    #Block8 .button:hover span, #Block8 .button:focus span, #Block8 .button:active span {
-      color: white !important; }
-
-#Block9 h1, #Block9 h2, #Block9 h3, #Block9 p {
-  color: black !important; }
-#Block9 .button {
-  background-color: white !important; }
-  #Block9 .button span {
-    color: black !important; }
-  #Block9 .button:hover, #Block9 .button:focus, #Block9 .button:active {
-    background-color: #007095 !important; }
-    #Block9 .button:hover span, #Block9 .button:focus span, #Block9 .button:active span {
-      color: white !important; }
-
-#Block10 h1, #Block10 h2, #Block10 h3, #Block10 p {
-  color: black !important; }
-#Block10 .button {
-  background-color: white !important; }
-  #Block10 .button span {
-    color: black !important; }
-  #Block10 .button:hover, #Block10 .button:focus, #Block10 .button:active {
-    background-color: #007095 !important; }
-    #Block10 .button:hover span, #Block10 .button:focus span, #Block10 .button:active span {
-      color: white !important; }
-
-#Block11 h1, #Block11 h2, #Block11 h3, #Block11 p {
-  color: black !important; }
-#Block11 .button {
-  background-color: white !important; }
-  #Block11 .button span {
-    color: black !important; }
-  #Block11 .button:hover, #Block11 .button:focus, #Block11 .button:active {
-    background-color: #007095 !important; }
-    #Block11 .button:hover span, #Block11 .button:focus span, #Block11 .button:active span {
       color: white !important; }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~

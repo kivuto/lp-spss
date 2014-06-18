@@ -1,15 +1,12 @@
   <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-introduction content-overlay-video" data-block="<?php echo $blocks[$counter]; ?>">
-      <video autoplay muted loop class="show-for-large-up" poster="img/video-placeholder.jpg">
-        <source src="http://www.kivuto.com/docs/introduction_video.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
-        <source src="http://www.kivuto.com/docs/introduction_video.ogg" type="video/ogg">
-        <source src="http://www.kivuto.com/docs/introduction_video.webm" type="video/webm">  
+      <video autoplay muted loop class="show-for-large-up" poster="img/background.jpg">
       </video>   
-      <img src="img/video-placeholder.jpg">
+      <img src="img/background.jpg">
       <div class="ovrlay">
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">
-                        <h1>Overlay Video<br/>Block</h1>
+                        <h1>Overlay Video Block</h1>
                   </div> 
               </div> 
               <div class="row hide-for-mobile">

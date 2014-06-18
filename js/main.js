@@ -122,10 +122,9 @@ $(document).ready(function(){
 	
 	var stickyNav = function(){  
 		var scrollTop = $(window).scrollTop();    
-		if (scrollTop >= stickyNavTop) {   
+		if (scrollTop >= stickyNavTop) { 
+			$('.firstRow').css('margin-top', '45px');   
 		    $('.subHeader').addClass('snapNav'); 
-		    // Adds margin in for lost space once subHeader becomes snapNav
-		    $('.firstRow').css('margin-top', '45px'); 
 		} else {  
 		    $('.subHeader').removeClass('snapNav');
 		    $('.firstRow').css('margin-top', '0px');   

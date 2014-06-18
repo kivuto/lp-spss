@@ -21,12 +21,12 @@
                   <div class="row ctaBtns">
                       <a href="#" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
                           <div class="large-6 columns button rent">
-                             <span>Nunc sapien</span>
+                             <span>BUY NOW</span>
                           </div>
                       </a>    
                       <a href="#" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
                           <div class="large-6 large-offset-1 columns button trial">
-                             <span>Nunc volutpat</span>
+                             <span>BUY NOW</span>
                           </div>
                       </a>   
                   </div>
