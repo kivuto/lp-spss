@@ -9,7 +9,7 @@
           </div>
           <div class="large-2 large-offset-3 columns">
               <a href="http://www.minitab.com" target="_blank" tabindex="2">
-                <img src="img/minitab_logo.png" alt="Minitab">
+                <img src="img/ibm_logo.png" alt="Minitab">
               </a>  
           </div>  
       </div>  
@@ -32,13 +32,13 @@
           <!-- Left Nav Section -->
             <ul class="center">
               <li><img src="img/kvt-logo.png" alt="Kivuto Solutions"></li>
-              <li><a onclick="tib('.content-introduction', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[0]; ?>');">Intro</a></li>
-              <li><a onclick="tib('.content-challenges', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">Challenges</a></li>
-              <li><a onclick="tib('.content-solution', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">Solution</a></li>
-              <li><a onclick="tib('.content-resources', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">Resources</a></li>
-              <li><a onclick="tib('.content-pricing', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[4]; ?>');">Pricing</a></li>
-              <li><a onclick="tib('.content-email', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[5]; ?>');">Let's talk</a></li>
-              <li><a onclick="tib('.content-customers', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[6]; ?>');">Customers</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[0]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[0]; ?>');">Intro</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">Challenges</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">Solution</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[3]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">Resources</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[4]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[4]; ?>');">Pricing</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[5]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[5]; ?>');">Let's talk</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[6]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[6]; ?>');">Customers</a></li>
             </ul>
       </section>
     </div>  
