@@ -235,24 +235,24 @@ nav .container {
   transform: translate3d(250px, 0, 0); }
 
 nav.subHeader {
-  background-color: white !important;
+  background-color: black !important;
   box-shadow: 0px 1px 1px #888888; }
   nav.subHeader a {
     font-size: 15px !important; }
   nav.subHeader .top-bar-section li:not(.has-form) a:not(.button), nav.subHeader .top-bar-section li:not(.has-form) {
-    background: white;
+    background: black;
     webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
-    color: #000; }
+    color: #FFF; }
   nav.subHeader .top-bar-section li:not(.has-form) a:not(.button):hover, nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) .active {
     background: #F27120;
-    color: #FFF; }
+    color: #000; }
   nav.subHeader .top-bar-section li img {
     padding-top: 3px; }
   nav.subHeader .top-bar-section ul {
-    background: white; }
+    background: black; }
   @media only screen and (min-width: 641px) and (max-width: 747px) {
     nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 7px; } }
@@ -310,8 +310,7 @@ nav.subHeader {
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.4); }
+    overflow: hidden; }
   .content-overlay-video .container {
     position: relative;
     color: #fff;
@@ -639,7 +638,7 @@ nav.subHeader {
 
 \*----------------------------------------------------------*/
 #Block1 h1, #Block1 h2, #Block1 h3, #Block1 p {
-  color: white !important; }
+  color: black !important; }
 #Block1 .button {
   background-color: white !important; }
   #Block1 .button span {

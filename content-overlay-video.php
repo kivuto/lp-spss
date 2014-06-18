@@ -1,5 +1,5 @@
   <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-introduction content-overlay-video" data-block="<?php echo $blocks[$counter]; ?>">
-      <video autoplay muted loop class="show-for-large-up" poster="img/background.jpg">
+      <video autoplay muted loop poster="img/background.jpg">
       </video>   
       <img src="img/background.jpg">
       <div class="ovrlay">
