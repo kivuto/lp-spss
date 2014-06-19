@@ -6,12 +6,12 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">
-                        <h1>Overlay Video Block</h1>
+                        <h1>IBM&reg; SPSS&reg; discounts for students & faculty</h1>
                   </div> 
               </div> 
               <div class="row hide-for-mobile">
                   <div class="large-12 columns info center">
-                      <p>Aenean vitae dolor ac mauris vehicula malesuada.</p>
+                      <p>Download statistical analysis and data mining software by IBM SPSS at exlusive academic pricing</p>
                   </div> 
               </div>
               <div class="row">

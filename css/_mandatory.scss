@@ -69,10 +69,7 @@ nav .container {
 	ul.none { list-style: none; }
 
 	p, h1, h2, h3 { color: #4A4A4A; }
-	h2 { 
-		font-size: 25px; 
-		font-weight: bold;
-	}
+
 	
 
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
@@ -130,5 +127,14 @@ nav .container {
 		.container {
 			text-align: center;
 		}
+
+
+		// FIRST CHILD STYLING (default)
+		&:first-child{
+			h1 { font-size: 2.75rem; }
+			h2 { font-size: 25px;}
+		}
+		h2 { font-size: 2.75rem !important;  }
+		h3 { font-size: 25px;}
 	}
 }

@@ -4,7 +4,7 @@
               <img src="img/student_computer.png" alt="Student using Computer">
           </div>
           <div class="large-7 columns circleText">
-              <h1>Inline image w content and simple-expand</h1>
+              <h2>Inline image w content and simple-expand</h2>
               <p>Aenean vitae dolor ac mauris vehicula malesuada. Aenean id imperdiet lacus, in ullamcorper tellus. Vestibulum egestas id erat vitae euismod. Fusce tincidunt elit iaculis mauris ultrices, eget blandit lectus sollicitudin. Cras cursus, enim a consectetur gravida, sapien sem posuere diam, a elementum eros sapien eu odio.</p>
               <div class="row ctaBtns">
                   <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">

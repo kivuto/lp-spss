@@ -11,24 +11,21 @@
                           <img src="img/spss-amos-icon.jpg" alt="SPSS Amos">
                       </div>  
                       <div class="small-4 columns">
-                          <h1>Right image</h1>
-                          <h2 class="no_padding"><span>From</span> $29.99 USD</h2>
+                          <h2>IBM&reg; SPSS&reg; Amos 22</h2>
                       </div> 
                       <div class="small-2 columns ">
                       </div> 
                   </div> 
-                  <p>Quality Companion teaches lean six sigma and quality improvement methods to students in business, engineering, and other disciplines. Get the all tools you need to achieve greater efficiency. Students and faculty can rent Quality Companion with academic software discounts from OnTheHub. </p>
+                  <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. </p>
+                  <p>12 month license available to verified students only.</p>
+                  <h4>VERSIONS AVAILABLE:</h4>
+                  <p>Amos 22 for Windows</p>
                   <div class="row ctaBtns">
                       <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Lorem - Ipsum'); return false;">
                           <div class="large-6 columns button rent">
                              <span>BUY NOW</span>
                           </div>
                       </a>    
-                      <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
-                          <div class="large-6 large-offset-1 columns button trial">
-                             <span>BUY NOW</span>
-                          </div>
-                      </a>   
                   </div>
               </div>
               <div class="large-5 columns show-for-large-up">

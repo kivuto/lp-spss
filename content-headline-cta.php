@@ -6,12 +6,12 @@
                     <img src="img/spss_stats_icon.jpg">
               </div> 
               <div class="large-11 columns">
-                    <h1>IBM SPSS Statistics 22</h1>
+                    <h1>IBM&reg; SPSS&reg; Statistics 22</h1>
               </div> 
           </div> 
           <div class="row">
               <div class="large-12 columns info center">
-                  <p>IBM SPSS Modeler is a data mining workbench that helps you build predictive models quickly and intuitively, without programming. 6 or 12 month licenses available to verified students and faculty.</p>
+                  <p>Use IBM SPSS Statistics to analyze data, create representative models and discover relationships between variables.</p>
               </div> 
           </div>
           <div class="row">

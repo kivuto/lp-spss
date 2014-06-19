@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>Why, this is just an awesome block style landing page template</title>
+    <title>IBM SPSS software discounts for students and faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>

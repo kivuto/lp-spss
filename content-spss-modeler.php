@@ -11,24 +11,18 @@
                           <img src="img/spss_modeler_icon.jpg" alt="SPSS Modeller ">
                       </div>  
                       <div class="small-4 columns">
-                          <h1>Left image</h1>
-                          <h2 class="no_padding"><span>From</span> $29.99 USD</h2>
+                          <h2>IBM&reg; SPSS&reg; Modeler 16</h2>
                       </div> 
                       <div class="small-4 large-offset-1 columns ">
                       </div> 
                   </div> 
-                  <p>Aenean sit amet lobortis lorem. Morbi sit amet massa elit. Aliquam elementum neque eu eros rhoncus auctor. Suspendisse eget sapien vitae odio vehicula eleifend. Suspendisse potenti. Pellentesque felis odio, fermentum at faucibus non, gravida vel urna. Vivamus tempus eu neque non dignissim. Nulla suscipit tristique dignissim.</p>
+                  <p>IBM SPSS Modeler makes building predictive models and discovering trends in your data easy.</p>
                   <div class="row ctaBtns">
                       <a href="#" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
                           <div class="large-6 columns button rent">
                              <span>BUY NOW</span>
                           </div>
                       </a>    
-                      <a href="#" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">
-                          <div class="large-6 large-offset-1 columns button trial">
-                             <span>BUY NOW</span>
-                          </div>
-                      </a>   
                   </div>
                   <div class="row">
                       <div class="large-12 columns">

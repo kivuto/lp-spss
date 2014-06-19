@@ -164,9 +164,6 @@ nav .container {
     list-style: none; }
   .row.mainContent p, .row.mainContent h1, .row.mainContent h2, .row.mainContent h3 {
     color: #4A4A4A; }
-  .row.mainContent h2 {
-    font-size: 25px;
-    font-weight: bold; }
   @media only screen and (max-width: 40em) {
     .row.mainContent {
       padding: 25px 0px; }
@@ -207,7 +204,15 @@ nav .container {
         transform: translate(-50%, -50%); } }
   @media only screen and (max-width: 64em) {
     .row.mainContent .container {
-      text-align: center; } }
+      text-align: center; }
+    .row.mainContent:first-child h1 {
+      font-size: 2.75rem; }
+    .row.mainContent:first-child h2 {
+      font-size: 25px; }
+    .row.mainContent h2 {
+      font-size: 2.75rem !important; }
+    .row.mainContent h3 {
+      font-size: 25px; } }
 
 /* #############################
        Sub Header / Navigation
@@ -264,7 +269,7 @@ nav.subHeader {
        Header
    #############################*/
 .row.header {
-  background-color: #25262A !important;
+  background-color: #FFF !important;
   padding: 0px 120px;
   height: 70px;
   /* MOBILE */ }
@@ -391,7 +396,7 @@ nav.subHeader {
   .inline-content-imgleft h2 {
     color: #6EB43F !important; }
   .inline-content-imgleft .small-4 {
-    width: 56.33333%; }
+    width: 72.33333%; }
   .inline-content-imgleft span {
     font-size: 16px; }
   .inline-content-imgleft .large-12 {
