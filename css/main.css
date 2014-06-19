@@ -471,6 +471,8 @@ nav.subHeader {
     font-size: 16px; }
   .inline-content-imgright .small-4 {
     width: 79.33333%; }
+  .inline-content-imgright .large-12 {
+    padding-left: 0rem; }
   @media only screen and (max-width: 40em) {
     .inline-content-imgright h1, .inline-content-imgright h2 {
       text-align: left;
@@ -522,86 +524,28 @@ nav.subHeader {
       width: 97%; } }
 
 /* #############################
-       Block with image and simple expand
+       Centered CTA block
    #############################*/
-.inline-imgcontent-simple-expand {
-  /* MOBILE */
-  /* MEDIUM SCREENS  */
-  /* LARGE SCREENS AND UP*/ }
-  .inline-imgcontent-simple-expand .button span {
-    font-size: 18px;
-    font-weight: bold; }
-  .inline-imgcontent-simple-expand .large-12 {
-    padding-left: 0rem; }
-    .inline-imgcontent-simple-expand .large-12 p {
-      margin-bottom: 0.2em; }
-  .inline-imgcontent-simple-expand h1 {
-    font-size: 29px;
-    font-family: 'AvenirLTStd55Heavy', Verdana, sans-serif !important; }
-  .inline-imgcontent-simple-expand .columns .expanded.expander {
-    padding-left: 16px;
-    padding-bottom: 1px;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-image: url(../img/list_icon_down.png); }
-  .inline-imgcontent-simple-expand .columns .collapsed.expander {
-    padding-left: 16px;
-    padding-bottom: 1px;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-image: url(../img/list_icon.png); }
-  .inline-imgcontent-simple-expand .content {
-    padding-left: 10px; }
-  @media only screen and (max-width: 40em) {
-    .inline-imgcontent-simple-expand h1 {
-      font-size: 22px; }
-    .inline-imgcontent-simple-expand .circle {
-      padding-left: 35px !important;
-      width: 93%; }
-    .inline-imgcontent-simple-expand .circleText {
-      padding: 0px 8px; }
-      .inline-imgcontent-simple-expand .circleText p {
-        padding: 0px 7px; }
-    .inline-imgcontent-simple-expand .ctaBtns {
-      padding: 0px 10px;
-      margin-right: -0.5rem; }
-      .inline-imgcontent-simple-expand .ctaBtns .button {
-        padding-right: 0rem; }
-    .inline-imgcontent-simple-expand .large-12 {
-      text-align: left; } }
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    .inline-imgcontent-simple-expand span {
-      font-size: 18px; }
-    .inline-imgcontent-simple-expand .minitabBtn {
-      width: 48%;
-      min-width: 185px;
-      padding: 0px; }
-    .inline-imgcontent-simple-expand .qcBtn {
-      width: 48%;
-      min-width: 185px;
-      padding: 0px; }
-    .inline-imgcontent-simple-expand .large-offset-1 {
-      margin-left: 2.33333% !important; }
-    .inline-imgcontent-simple-expand .large-12 {
-      text-align: left; } }
-  @media only screen and (min-width: 64.063em) {
-    .inline-imgcontent-simple-expand .minitabBtn {
-      width: 41%;
-      max-width: 205px;
-      padding: 0px; }
-    .inline-imgcontent-simple-expand .qcBtn {
-      width: 55%;
-      max-width: 405px;
-      padding: 0px; }
-    .inline-imgcontent-simple-expand .circle {
-      width: 37.333%; }
-    .inline-imgcontent-simple-expand .circleText {
-      float: left !important;
-      padding-top: 22px; }
-      .inline-imgcontent-simple-expand .circleText p {
-        width: 90%; }
-    .inline-imgcontent-simple-expand .large-offset-1 {
-      margin-left: 2.33333% !important; } }
+.headline-cta .button span {
+  font-size: 19px;
+  font-weight: bold; }
+.headline-cta img {
+  float: right !important; }
+@media only screen and (min-width: 64.063em) {
+  .headline-cta img {
+    padding-bottom: 30px;
+    float: right; }
+  .headline-cta h2 {
+    font-size: 45px;
+    padding-bottom: 40px; } }
+@media only screen and (min-width: 40.063em) {
+  .headline-cta img {
+    padding-bottom: 30px; }
+  .headline-cta h2 {
+    padding-bottom: 30px; } }
+@media only screen and (max-width: 40em) {
+  .headline-cta {
+    min-height: 450px !important; } }
 
 /*----------------------------------------------------------*\
 

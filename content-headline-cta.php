@@ -1,12 +1,12 @@
 
   <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-pricing headline-cta" data-block="<?php echo $blocks[$counter]; ?>">
       <div class="container">
-          <div class="row ">
-              <div class="large-1 columns">
+          <div class="row">
+              <div class="small-4 columns">
                     <img src="img/spss_stats_icon.jpg">
               </div> 
-              <div class="large-11 columns">
-                    <h1>IBM&reg; SPSS&reg; Statistics 22</h1>
+              <div class="small-8 columns">
+                    <h2>IBM&reg; SPSS&reg; Statistics 22</h2>
               </div> 
           </div> 
           <div class="row">

@@ -26,7 +26,7 @@
                   </div>
                   <div class="row">
                       <div class="large-12 columns">
-                          <p><a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">Mauris nec suscipit ante</a></p>
+                          <p><a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">Looking for Modeler 15?</a></p>
                       </div>
                   </div>
               </div>
