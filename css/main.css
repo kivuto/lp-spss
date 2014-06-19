@@ -370,8 +370,6 @@ nav.subHeader {
 /*~~~~~~~~~~~~~~~~~~~~~~~
       c. CHALLENGES BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-challenges h1, .content-challenges h2, .content-challenges h3, .content-challenges p {
-  color: white !important; }
 .content-challenges .orbit-container .orbit-timer {
   display: none; }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -702,40 +700,6 @@ nav.subHeader {
     background-color: #2281a8 !important; }
     #Block6 .button:hover span, #Block6 .button:focus span, #Block6 .button:active span {
       color: white !important; }
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      d. Block 1
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .content-solution {
-    min-height: 700px !important; } }
-@media only screen and (min-width: 40.063em) {
-  .content-solution h2 {
-    padding-bottom: 20px; } }
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      f. PRICING BLOCK
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-pricing .button span {
-  color: #9AD3B3; }
-.content-pricing h1, .content-pricing h2, .content-pricing h3, .content-pricing p {
-  color: white !important; }
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      h. CUSTOMERS BLOCK
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-customers {
-  /* MED SCREENS AND UP*/
-  /* LARGE */ }
-  .content-customers h1 {
-    color: #F37022 !important;
-    font-size: 30px !important; }
-  @media only screen and (min-width: 40.063em) {
-    .content-customers {
-      min-height: 400px !important; } }
-  @media only screen and (min-width: 64em) {
-    .content-customers {
-      min-height: 300px !important; } }
 
 /*----------------------------------------------------------*\
 

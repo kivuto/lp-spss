@@ -92,10 +92,6 @@ $block10-color: #EBEBEB;
 		 transition: $attribute $duration $type;
 }
 
-@mixin block-font-color($color) {
-	h1, h2, h3, p { color: $color !important; }
-}
-
 // The defaults are the values stated after the variables
 @mixin block-colors($font-color: #000, $button-normal-color: #FFF, $button-hover-color: #007095, $button-text-normal: #000, $button-text-hover: #FFF) {
 	h1, h2, h3, p { color: $font-color !important; }
@@ -192,60 +188,6 @@ $block10-color: #EBEBEB;
 	@include block-colors($block5-font-color, $block5-button-normal, $block5-button-hover, $block5-button-font, $block5-button-font-hover);
 }
 
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      d. Block 1
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-solution {
-
-	// MEDIUM 
-	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-			// OVERRIDE MINIMUM HEIGHT FOR BLOCK //
-			min-height: 700px !important;
-		}
-	 // MEDIUM  AND UP //
-	@media only screen and (min-width: 40.063em) {
-		h2 { padding-bottom: 20px; }
-	}	
-
-}
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      f. PRICING BLOCK
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-pricing {
-	.button span { color: #9AD3B3; }
-
-	// BLOCK FONT COLOR
-	@include block-font-color(#FFF);
-}
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      h. CUSTOMERS BLOCK
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-customers {
-	h1 { 
-		color: #F37022 !important;
-		font-size: 30px !important; 
-	}
-	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
-
-		/* MED SCREENS AND UP*/
-		@media only screen and (min-width: 40.063em) {
-			min-height: 400px !important;
-		}	
-
-		/* LARGE */  
-		@media only screen and (min-width: 64em) {
-			min-height: 300px !important;
-		}
-}
 
 
 /*----------------------------------------------------------*\
