@@ -12,14 +12,16 @@
 
 	// LARGE SCREENS AND UP //
 		@media only screen and (min-width: 64.063em) {
-		
+			.button { 
+				width: 100%;
+			}
+			p { text-align: left; }
 			// TEXT PADDING //
 			img { 
 				padding-bottom: 30px; 
 				float: right;
 			}
-			h2 { font-size: 45px;
-				padding-bottom: 40px; }
+			h2 { font-size: 80px; }
 		}	
 
 	// MEDIUM  AND UP //

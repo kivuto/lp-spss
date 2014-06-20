@@ -367,7 +367,7 @@ nav.subHeader {
         width: 30%; }
       .content-overlay-video h1 {
         padding-bottom: 30px;
-        font-size: 65px; }
+        font-size: 50px; }
       .content-overlay-video p {
         padding-bottom: 40px;
         font-size: 25px !important; } }
@@ -396,7 +396,7 @@ nav.subHeader {
   .inline-content-imgleft h2 {
     color: #6EB43F !important; }
   .inline-content-imgleft .small-4 {
-    width: 72.33333%; }
+    width: 80.33333%; }
   .inline-content-imgleft span {
     font-size: 16px; }
   .inline-content-imgleft .large-12 {
@@ -444,6 +444,8 @@ nav.subHeader {
       .inline-content-imgleft .info p {
         padding-top: 10px;
         width: 97%; }
+    .inline-content-imgleft h2 {
+      font-size: 42px; }
     .inline-content-imgleft .large-12 p {
       padding-top: 0px !important; }
     .inline-content-imgleft .large-offset-1 {
@@ -470,7 +472,7 @@ nav.subHeader {
   .inline-content-imgright span {
     font-size: 16px; }
   .inline-content-imgright .small-4 {
-    width: 79.33333%; }
+    width: 80.33333%; }
   .inline-content-imgright .large-12 {
     padding-left: 0rem; }
   @media only screen and (max-width: 40em) {
@@ -521,7 +523,9 @@ nav.subHeader {
       padding: 0px; }
     .inline-content-imgright .info p {
       padding-top: 10px;
-      width: 97%; } }
+      width: 97%; }
+    .inline-content-imgright h2 {
+      font-size: 42px; } }
 
 /* #############################
        Centered CTA block
@@ -532,12 +536,15 @@ nav.subHeader {
 .headline-cta img {
   float: right !important; }
 @media only screen and (min-width: 64.063em) {
+  .headline-cta .button {
+    width: 100%; }
+  .headline-cta p {
+    text-align: left; }
   .headline-cta img {
     padding-bottom: 30px;
     float: right; }
   .headline-cta h2 {
-    font-size: 45px;
-    padding-bottom: 40px; } }
+    font-size: 80px; } }
 @media only screen and (min-width: 40.063em) {
   .headline-cta img {
     padding-bottom: 30px; }
@@ -660,6 +667,9 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
 
+.avenir-medium {
+  font-family: 'AvenirLTStd-Medium', Verdana, sans-serif !important; }
+
 @font-face {
   font-family: 'AvenirLTStd55Roman';
   src: url("fonts/avenirltstd-roman.eot");
@@ -674,3 +684,7 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
   font-family: 'AvenirLTStd35Light';
   src: url("fonts/avenirltstd-light.eot");
   src: url("fonts/avenirltstd-light.eot") format("embedded-opentype"), url("fonts/avenirltstd-light.woff") format("woff"), url("fonts/avenirltstd-light.ttf") format("truetype"), url("fonts/avenirltstd-light.svg#AvenirLTStd35Light") format("svg"); }
+
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url("fonts/AvenirLTStd-Medium.eot?") format("eot"), url("fonts/AvenirLTStd-Medium.otf") format("opentype"), url("fonts/AvenirLTStd-Medium.woff") format("woff"), url("fonts/AvenirLTStd-Medium.ttf") format("truetype"), url("fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium") format("svg"); }

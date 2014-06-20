@@ -4,6 +4,8 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
     -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
+.avenir-medium { font-family: 'AvenirLTStd-Medium', Verdana, sans-serif !important;}
+
 @font-face {
     font-family: 'AvenirLTStd55Roman';
     src: url('fonts/avenirltstd-roman.eot');
@@ -29,4 +31,14 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
          url('fonts/avenirltstd-light.woff') format('woff'),
          url('fonts/avenirltstd-light.ttf') format('truetype'),
          url('fonts/avenirltstd-light.svg#AvenirLTStd35Light') format('svg');
+}
+
+
+@font-face {
+    font-family: 'AvenirLTStd-Medium';
+    src: url('fonts/AvenirLTStd-Medium.eot?') format('eot'), 
+         url('fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+         url('fonts/AvenirLTStd-Medium.woff') format('woff'), 
+         url('fonts/AvenirLTStd-Medium.ttf')  format('truetype'),
+         url('fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
 }
