@@ -448,6 +448,8 @@ nav.subHeader {
         width: 97%; }
     .inline-content-imgleft h2 {
       font-size: 42px; }
+    .inline-content-imgleft p {
+      margin-bottom: 5px; }
     .inline-content-imgleft .large-12 p {
       padding-top: 0px !important; }
     .inline-content-imgleft .large-offset-1 {
@@ -474,7 +476,7 @@ nav.subHeader {
   .inline-content-imgright span {
     font-size: 16px; }
   .inline-content-imgright .small-4 {
-    width: 80.33333%; }
+    width: 87.33333%; }
   .inline-content-imgright .large-12 {
     padding-left: 0rem; }
   @media only screen and (max-width: 40em) {
@@ -526,6 +528,8 @@ nav.subHeader {
     .inline-content-imgright .info p {
       padding-top: 10px;
       width: 97%; }
+    .inline-content-imgright p {
+      margin-bottom: 5px; }
     .inline-content-imgright h2 {
       font-size: 42px !important; } }
 
@@ -546,7 +550,9 @@ nav.subHeader {
     padding-bottom: 30px;
     float: right; }
   .headline-cta h2 {
-    font-size: 80px !important; } }
+    font-size: 80px !important; }
+  .headline-cta p {
+    margin-bottom: 5px; } }
 @media only screen and (min-width: 40.063em) {
   .headline-cta img {
     padding-bottom: 30px; }
