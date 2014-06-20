@@ -65,19 +65,19 @@
 		/* LARGE SCREENS AND UP*/
 		@media only screen and (min-width: 64.063em) {
 			// CHANGING THE SPACING BETWEEN THE TWO BUTTONS
-			.large-offset-1 { margin-left: 2.33333% !important; }
+			.large-offset-1 { margin-left: 5.33333% !important; }
 			.rent {
-				width: 45%;
+				width: 70%;
 				padding: 0px;
 			}
 			.trial {
-				width: 45%;
+				width: 70%;
 				padding: 0px;
 			}
 			.info p {
 				padding-top: 10px; 
 				width: 97%;
 			}
-			h2 { font-size: 42px; }
+			h2 { font-size: 42px !important; }
 		}
 }

@@ -204,14 +204,12 @@ nav .container {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); } }
   @media only screen and (min-width: 64em) {
-    .row.mainContent .container {
-      text-align: center; }
     .row.mainContent:first-child h1 {
       font-size: 2.75rem; }
     .row.mainContent:first-child h2 {
       font-size: 25px; }
     .row.mainContent h2 {
-      font-size: 2.75rem !important; }
+      font-size: 2.75rem; }
     .row.mainContent h3 {
       font-size: 25px; } }
 
@@ -453,11 +451,11 @@ nav.subHeader {
     .inline-content-imgleft .large-12 p {
       padding-top: 0px !important; }
     .inline-content-imgleft .large-offset-1 {
-      margin-left: 2.33333% !important; }
+      margin-left: 5.33333% !important; }
     .inline-content-imgleft .rent {
-      width: 45%; }
+      width: 70%; }
     .inline-content-imgleft .trial {
-      width: 45%; } }
+      width: 70%; } }
 
 /* #############################
        Block with image right of content 
@@ -518,18 +516,18 @@ nav.subHeader {
       padding: 0px; } }
   @media only screen and (min-width: 64.063em) {
     .inline-content-imgright .large-offset-1 {
-      margin-left: 2.33333% !important; }
+      margin-left: 5.33333% !important; }
     .inline-content-imgright .rent {
-      width: 45%;
+      width: 70%;
       padding: 0px; }
     .inline-content-imgright .trial {
-      width: 45%;
+      width: 70%;
       padding: 0px; }
     .inline-content-imgright .info p {
       padding-top: 10px;
       width: 97%; }
     .inline-content-imgright h2 {
-      font-size: 42px; } }
+      font-size: 42px !important; } }
 
 /* #############################
        Centered CTA block
@@ -548,7 +546,7 @@ nav.subHeader {
     padding-bottom: 30px;
     float: right; }
   .headline-cta h2 {
-    font-size: 80px; } }
+    font-size: 80px !important; } }
 @media only screen and (min-width: 40.063em) {
   .headline-cta img {
     padding-bottom: 30px; }

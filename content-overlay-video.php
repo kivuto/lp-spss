@@ -10,16 +10,10 @@
                   </div> 
               </div> 
               <div class="row hide-for-mobile">
-                  <div class="large-12 columns info center">
+                  <div class="large-12 columns center">
                       <p class="avenir-medium">Download statistical analysis and data mining software by IBM SPSS at exlusive academic pricing</p>
                   </div> 
               </div>
-              <div class="row hide-for-mobile">
-                  <div class="large-12 columns info center">
-                      <p class="avenir-medium">6 or 12 month rental licenses available to verified students and faculty. Available for Windows and mac</p>
-                  </div> 
-              </div>
-              
           </div>  
       </div>     
   </div>

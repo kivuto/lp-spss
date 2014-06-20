@@ -17,12 +17,26 @@
                       </div> 
                   </div> 
                   <p>IBM SPSS Data Collection is a dynamic research platform used to survey creation, management, and analysis.</p>
+                  <p>12 month rental licenses available to verified students and faculty</p>
                   <div class="row ctaBtns">
-                      <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Lorem - Ipsum'); return false;">
-                          <div class="large-6 columns button rent">
-                             <span>BUY NOW</span>
-                          </div>
-                      </a>  
+                      <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+                          <li>
+                              <p>Premium Grad Pack</p>
+                              <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Lorem ipsum'); return false;">
+                                  <div class="large-6 columns button rent">
+                                     <span>BUY NOW</span>
+                                  </div>
+                              </a>
+                          </li>    
+                          <li>    
+                              <p>Premium Faculty Pack</p>
+                              <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Lorem ipsum'); return false;">
+                                  <div class="large-6 columns button trial">
+                                     <span>BUY NOW</span>
+                                  </div>
+                              </a>
+                          </li>
+                      </ul>
                   </div>
               </div>
               <div class="large-5 columns show-for-large-up">
