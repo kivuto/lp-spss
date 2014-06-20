@@ -35,6 +35,12 @@
 	// MOBILE //
 		@media only screen and (max-width: 40em){
 			min-height: 450px !important;
-
+			.button { 
+				width: 100%;
+				margin-right: 0rem;
+			}
+			.ctaBtns {
+				padding: 0px 20px; 
+			}
 		}	
 }

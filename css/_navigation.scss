@@ -35,6 +35,10 @@ nav.subHeader {
 		background: #F27120;
 		color: #000;
 	}
+	.top-bar-section li:not(.has-form) a1:not(.button) {
+		padding: 0 15px;
+		line-height: 45px;
+	}
 
 	// FIXING LOGO PADDING
 	.top-bar-section li img { padding-top: 3px; }

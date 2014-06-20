@@ -14,17 +14,12 @@
                       <p class="avenir-medium">Download statistical analysis and data mining software by IBM SPSS at exlusive academic pricing</p>
                   </div> 
               </div>
-              <div class="row">
-                  <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
-                  <li>
-                      <a class="vimeo ctaBtn" href="//player.vimeo.com/video/91340823" onclick="tib('', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Introduction - Watch video'); return false;">
-                          <div class="button ctaBtn">
-                             <span>Aenean vitae</span>
-                          </div>
-                      </a>
-                  </li>
-              </ul>
+              <div class="row hide-for-mobile">
+                  <div class="large-12 columns info center">
+                      <p class="avenir-medium">6 or 12 month rental licenses available to verified students and faculty. Available for Windows and mac</p>
+                  </div> 
               </div>
+              
           </div>  
       </div>     
   </div>

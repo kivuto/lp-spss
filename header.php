@@ -8,7 +8,7 @@
               </a>
           </div>
           <div class="large-2 large-offset-3 columns">
-              <a href="http://www.minitab.com" target="_blank" tabindex="2">
+              <a href="http://www.ibm.com" target="_blank" tabindex="2">
                 <img src="img/ibm_logo.png" alt="Minitab">
               </a>  
           </div>  
@@ -30,12 +30,13 @@
 
       <section class="top-bar-section">
           <!-- Left Nav Section -->
-            <ul class="center">
-              <li><img src="img/kvt-logo.png" alt="Kivuto Solutions"></li>
-              <li><a onclick="tib('#<?php echo $blocks[0]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[0]; ?>');">Intro</a></li>
+            <ul>
               <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">SPSS STATISTICS</a></li>
+              <li><a1> | </a1></li>
               <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">AMOS</a></li>
+              <li><a1> | </a1></li>
               <li><a onclick="tib('#<?php echo $blocks[3]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">MODELER</a></li>
+              <li><a1> | </a1></li>
               <li><a onclick="tib('#<?php echo $blocks[4]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[4]; ?>');">DATA COLLECTION</a></li>
             </ul>
       </section>

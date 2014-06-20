@@ -14,7 +14,7 @@
                   <h4>Use IBM SPSS Statistics to analyze data, create representative models and discover relationships between variables.</h4>
               </div> 
           </div>
-          <div class="row">
+          <div class="row ctaBtns">
               <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 center">
                   <li></li>
                   <li>

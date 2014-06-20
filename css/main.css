@@ -179,7 +179,8 @@ nav .container {
         .row.mainContent .button span {
           font-size: 20px !important; }
       .row.mainContent .container {
-        padding: 0px 0px; }
+        padding: 0px 0px;
+        text-align: center; }
       .row.mainContent p {
         font-size: 14px; }
       .row.mainContent h1 {
@@ -202,7 +203,7 @@ nav .container {
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); } }
-  @media only screen and (max-width: 64em) {
+  @media only screen and (min-width: 64em) {
     .row.mainContent .container {
       text-align: center; }
     .row.mainContent:first-child h1 {
@@ -254,6 +255,9 @@ nav.subHeader {
   nav.subHeader .top-bar-section li:not(.has-form) a:not(.button):hover, nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) .active {
     background: #F27120;
     color: #000; }
+  nav.subHeader .top-bar-section li:not(.has-form) a1:not(.button) {
+    padding: 0 15px;
+    line-height: 45px; }
   nav.subHeader .top-bar-section li img {
     padding-top: 3px; }
   nav.subHeader .top-bar-section ul {
@@ -362,7 +366,7 @@ nav.subHeader {
       .content-overlay-video .ovrlay {
         padding: 85px 20px; }
       .content-overlay-video .container {
-        padding: 50px 100px !important; }
+        padding: 80px 100px 30px 100px !important; }
       .content-overlay-video .button {
         width: 30%; }
       .content-overlay-video h1 {
@@ -552,7 +556,12 @@ nav.subHeader {
     padding-bottom: 30px; } }
 @media only screen and (max-width: 40em) {
   .headline-cta {
-    min-height: 450px !important; } }
+    min-height: 450px !important; }
+    .headline-cta .button {
+      width: 100%;
+      margin-right: 0rem; }
+    .headline-cta .ctaBtns {
+      padding: 0px 20px; } }
 
 /*----------------------------------------------------------*\
 
@@ -669,6 +678,9 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 
 .avenir-medium {
   font-family: 'AvenirLTStd-Medium', Verdana, sans-serif !important; }
+
+.avenir-heavy {
+  font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
 
 @font-face {
   font-family: 'AvenirLTStd55Roman';
