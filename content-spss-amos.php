@@ -11,14 +11,14 @@
                           <img src="img/spss-amos-icon.jpg" alt="SPSS Amos">
                       </div>  
                       <div class="small-4 columns">
-                          <h2>IBM&reg; SPSS&reg; Amos 22</h2>
+                          <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Amos 22</h2>
                       </div> 
                       <div class="small-2 columns ">
                       </div> 
                   </div> 
                   <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. </p>
                   <p>12 month license available to verified students only.</p>
-                  <p>Amos 22 for Windows</p>
+                  <p class="hide-for-mobile" >Amos 22 for Windows</p>
                   <div class="row ctaBtns">
                       <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Lorem - Ipsum'); return false;">
                           <div class="large-6 columns button rent">

@@ -68,7 +68,11 @@
     width: 9%; } }
 @media only screen and (max-width: 40em) {
   p {
-    line-height: 2.0; }
+    line-height: 1.5;
+    margin-bottom: 1.0rem !important; }
+
+  li {
+    padding-bottom: 0.65rem !important; }
 
   /* RESIZING THE FANCYBOX IN MOBILE */
   .fancybox-inner {
@@ -251,7 +255,7 @@ nav.subHeader {
     transition: all 200ms ease-in-out;
     color: #FFF; }
   nav.subHeader .top-bar-section li:not(.has-form) a:not(.button):hover, nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) .active {
-    background: #F27120;
+    background: #FFF;
     color: #000; }
   nav.subHeader .top-bar-section li:not(.has-form) a1:not(.button) {
     padding: 0 15px;
@@ -414,7 +418,7 @@ nav.subHeader {
       .inline-content-imgleft .ctaBtns .button {
         padding-right: 0rem; }
     .inline-content-imgleft .small-4 {
-      padding-left: 25px !important;
+      padding-top: 15px !important;
       width: 70.333%; }
     .inline-content-imgleft h1, .inline-content-imgleft h2 {
       text-align: left;
@@ -565,7 +569,9 @@ nav.subHeader {
       width: 100%;
       margin-right: 0rem; }
     .headline-cta .ctaBtns {
-      padding: 0px 20px; } }
+      padding: 0px 20px; }
+    .headline-cta h4 {
+      font-size: 14px; } }
 
 /*----------------------------------------------------------*\
 

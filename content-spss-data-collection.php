@@ -11,7 +11,7 @@
                           <img src="img/spss_data_icon.jpg" alt="SPSS Data Collection">
                       </div>  
                       <div class="small-4 columns">
-                          <h2>IBM&reg; SPSS&reg; Data Collection</h2>
+                          <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Data Collection</h2>
                       </div> 
                       <div class="small-2 columns ">
                       </div> 

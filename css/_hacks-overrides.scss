@@ -15,9 +15,15 @@
     .small-3 { width: 9%; }
 }
 
-// OVERRIDING LINE HEIGHT FOR MOBILE 
+// OVERRIDING LINE HEIGHTS/MARGINS FOR MOBILE 
 @media only screen and (max-width: 40em) {
-	p { line-height: 2.0; }
+	p { 
+		line-height: 1.5; 
+		margin-bottom: 1.0rem !important;
+	}
+	li {
+		padding-bottom: 0.65rem !important;
+	}
 
 	/* RESIZING THE FANCYBOX IN MOBILE */
 	.fancybox-inner {
