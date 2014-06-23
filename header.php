@@ -2,7 +2,7 @@
  
   <div class="row header">
       <div class="container">
-          <div class="large-2 columns">
+          <div class="large-2 columns oth-logo">
               <a href="http://www.onthehub.com" target="_blank" tabindex="1">
                 <img src="img/oth_logo.png" alt="OnTheHub">
               </a>

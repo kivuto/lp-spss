@@ -6,7 +6,7 @@
 .row.mainContent .row { margin-left: 0 !important; }
 .no_padding{ padding: 0px !important; } // ATTACH THIS CLASS TO AN ELEMENT TO RESET ITS PADDING
 .no_margin{ margin: 0px !important; } // ATTACH THIS CLASS TO AN ELEMENT TO RESET ITS MARGINS
-.center { text-align: center; } // ATTACH THIS CLASS TO AN ELEMENT TO CENTER THE TEXT
+.center { text-align: center !important; } // ATTACH THIS CLASS TO AN ELEMENT TO CENTER THE TEXT
 .inline-block { display: inline-block !important; } // ATTACH THIS CLASS TO AN ELEMENT TO MAKE IT INLINE BLOCL
 .content { display:none; }
 

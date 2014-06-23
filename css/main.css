@@ -55,7 +55,7 @@
   margin: 0px !important; }
 
 .center {
-  text-align: center; }
+  text-align: center !important; }
 
 .inline-block {
   display: inline-block !important; }
@@ -281,7 +281,8 @@ nav.subHeader {
   background-color: #FFF !important;
   padding: 0px 120px;
   height: 70px;
-  /* MOBILE */ }
+  /* MOBILE */
+  /* MEDIUM SCREENS AND UP*/ }
   .row.header .columns {
     padding-top: 7px; }
   .row.header img {
@@ -300,6 +301,9 @@ nav.subHeader {
         padding-top: 5px; }
       .row.header img {
         max-width: 110px; } }
+  @media only screen and (min-width: 40.063em) {
+    .row.header .oth-logo {
+      padding-top: 20px; } }
 
 /*~~~~~~~~~~~~~~~~~~~ 
 	
@@ -557,11 +561,19 @@ nav.subHeader {
     padding-bottom: 30px;
     float: right; }
   .headline-cta h2 {
-    font-size: 80px !important; }
+    font-size: 80px !important;
+    padding-botom: 15px !important; }
+  .headline-cta h5 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+    font-size: 18px !important;
+    text-align: left; }
   .headline-cta p {
     margin-bottom: 5px; }
   .headline-cta .statistics-logo {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  .headline-cta .simple {
+    padding-left: 200px !important; } }
 @media only screen and (min-width: 40.063em) {
   .headline-cta img {
     padding-bottom: 30px; }
@@ -696,6 +708,9 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 
 .avenir-heavy {
   font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
+
+.avenir-light {
+  font-family: 'AvenirLTStd35Light', Verdana, sans-serif !important; }
 
 @font-face {
   font-family: 'AvenirLTStd55Roman';

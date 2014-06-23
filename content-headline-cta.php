@@ -11,19 +11,19 @@
           </div> 
           <div class="row">
               <div class="large-12 columns info center">
-                  <h4>Use IBM SPSS Statistics to analyze data, create representative models and discover relationships between variables.</h4>
+                  <h4 class="avenir-light">Use IBM SPSS Statistics to analyze data, create representative models and discover relationships between variables.</h4>
               </div> 
           </div>
           <div class="row">
               <div class="large-12 columns center">
-                  <h4>6 or 12 month rental licenses available to verified students and faculty. Available for Windows and mac</h4>
+                  <h4 class="avenir-light">6 or 12 month rental licenses available to verified students and faculty. Available for Windows and mac</h4>
               </div> 
           </div>
           <div class="row ctaBtns">
               <ul class="small-block-grid-1 medium-block-grid-4 large-block-grid-4 center">
                   <li></li>
                   <li>
-                      <p>Students</p>
+                      <h5 class="avenir-light">Students</h5>
                       <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Lorem ipsum'); return false;">
                           <div class="button center">
                              <span>BUY NOW</span>
@@ -31,7 +31,7 @@
                       </a>
                   </li>    
                   <li>    
-                      <p>Faculty/Staff</p>
+                      <h5 class="avenir-light">Faculty/Staff</h5>
                       <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Lorem ipsum'); return false;">
                           <div class="button center">
                              <span>BUY NOW</span>
@@ -44,7 +44,7 @@
           <div class="row show-for-medium-up">
                   <div class="large-12 columns">
                       <div> 
-                          <p><a class="expander">Academic Status</a></p>
+                          <p><a class="expander center">Academic Status</a></p>
                           <div class="content">
                             <p>Pellentesque tincidunt vitae purus non tincidunt</p>
                               <ul> 

@@ -21,10 +21,23 @@
 				padding-bottom: 30px; 
 				float: right;
 			}
-			h2 { font-size: 80px !important; }
-			p { margin-bottom: 5px; }
+			h2 { 
+				font-size: 80px !important; 
+				padding-botom: 15px !important;
+			}
+			h5 { 
+				margin-bottom: 5px; 
+				margin-top: 25px;
+				font-size: 18px !important;
+				text-align: left;
+			}
+			p{
+				margin-bottom: 5px; 
+			}
 
 			.statistics-logo { margin-top: 40px; }
+
+			.simple { padding-left: 200px !important;}
 		}	
 
 	// MEDIUM  AND UP //
