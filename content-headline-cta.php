@@ -2,7 +2,7 @@
   <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-pricing headline-cta" data-block="<?php echo $blocks[$counter]; ?>">
       <div class="container">
           <div class="row">
-              <div class="small-2 columns">
+              <div class="small-2 columns statistics-logo">
                     <img src="img/spss_stats_icon.jpg">
               </div> 
               <div class="small-10 columns">
@@ -20,7 +20,7 @@
               </div> 
           </div>
           <div class="row ctaBtns">
-              <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 center">
+              <ul class="small-block-grid-1 medium-block-grid-4 large-block-grid-4 center">
                   <li></li>
                   <li>
                       <p>Students</p>
@@ -58,31 +58,47 @@
                         <p><a class="expander" tabindex="6">Country Eligibility</a></p>
                         <div class="content">
                             <p>Our IBM SPSS offerings are available to academic users who reside in one of the following countries:</p>
-                              <ul> 
-                                <li><p>Antigua</p></li>
-                                <li><p>Barbuda</p></li>
-                                <li><p>Australia</p></li>
-                                <li><p>Bahamas</p></li>
-                                <li><p>Barbados</p></li>
-                                <li><p>Bermuda</p></li>
-                                <li><p>Canada</p></li>
-                                <li><p>Denmark</p></li>
-                                <li><p>Dominica</p></li>
-                                <li><p>Dominican Republic</p></li>
-                                <li><p>Faroe Islands</p></li>
-                                <li><p>France</p></li>
-                                <li><p>Germany</p></li>
-                                <li><p>Greenland</p></li>
-                                <li><p>Grenada</p></li>
-                                <li><p>Jamaica</p></li>
-                                <li><p>Luxembourg</p></li>
-                                <li><p>Netherlands</p></li>
-                                <li><p>Puerto Rico</p></li>
-                                <li><p>Spain</p></li>
-                                <li><p>Trinidad And Tobago</p></li>
-                                <li><p>United Kingdom</p></li>
-                                <li><p>United States</p></li>
-                                <li><p>Virgin Islands, U.S.</p></li>
+                              <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 center">
+                                  <li>
+                                     <ul> 
+                                        <li><p>Antigua</p></li>
+                                        <li><p>Barbuda</p></li>
+                                        <li><p>Australia</p></li>
+                                        <li><p>Bahamas</p></li>
+                                        <li><p>Barbados</p></li>
+                                        <li><p>Bermuda</p></li>
+                                     </ul>     
+                                  </li>
+                                  <li>
+                                      <ul> 
+                                        <li><p>Canada</p></li>
+                                        <li><p>Denmark</p></li>
+                                        <li><p>Dominica</p></li>
+                                        <li><p>Dominican Republic</p></li>
+                                        <li><p>Faroe Islands</p></li>
+                                        <li><p>France</p></li>
+                                     </ul> 
+                                  </li>    
+                                  <li>    
+                                      <ul> 
+                                          <li><p>Germany</p></li>
+                                          <li><p>Greenland</p></li>
+                                          <li><p>Grenada</p></li>
+                                          <li><p>Jamaica</p></li>
+                                          <li><p>Luxembourg</p></li>
+                                          <li><p>Netherlands</p></li>
+                                     </ul> 
+                                  </li>
+                                  <li>
+                                      <ul> 
+                                          <li><p>Puerto Rico</p></li>
+                                          <li><p>Spain</p></li>
+                                          <li><p>Trinidad And Tobago</p></li>
+                                          <li><p>United Kingdom</p></li>
+                                          <li><p>United States</p></li>
+                                          <li><p>Virgin Islands, U.S.</p></li>
+                                     </ul> 
+                                  </li>
                               </ul>
                           </div>
                       </div>  
