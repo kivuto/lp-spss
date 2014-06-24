@@ -101,6 +101,10 @@ div#at4m-dock.ats-transparent {
   background: #FFF;
   border-color: #FFF; }
 
+@media only screen and (min-width: 40.063em) {
+  .firstRow.stick-padding {
+    margin-top: 45px !important; } }
+
 /*----------------------------------------------------------*\
 
     1. IMPORTS
@@ -195,7 +199,7 @@ nav .container {
         font-size: 15px; } }
   @media only screen and (min-width: 40.063em) {
     .row.mainContent {
-      min-height: 600px; }
+      min-height: 750px; }
       .row.mainContent p {
         font-size: 15px; }
       .row.mainContent .container {
@@ -300,7 +304,9 @@ nav.subHeader {
       .row.header .columns {
         padding-top: 5px; }
       .row.header img {
-        max-width: 110px; } }
+        max-width: 110px; }
+      .row.header .oth-logo {
+        padding-top: 17px; } }
   @media only screen and (min-width: 40.063em) {
     .row.header .oth-logo {
       padding-top: 20px; } }

@@ -121,13 +121,20 @@ $(document).ready(function(){
 	var stickyNavTop = $('.subHeader').offset().top;  
 	
 	var stickyNav = function(){  
-		var scrollTop = $(window).scrollTop();    
+		var scrollTop = $(window).scrollTop();  
+
+		// Statement to set value for stickynav when not rendered in mobile
+		if (stickyNavTop == 0 && scrollTop == 0) { 
+			stickyNavTop = 70;
+		}
+
 		if (scrollTop >= stickyNavTop) { 
-			$('.firstRow').css('margin-top', '45px');   
+			$('.firstRow').addClass('stick-padding');  
 		    $('.subHeader').addClass('snapNav'); 
-		} else {  
+		} 
+		else {  
 		    $('.subHeader').removeClass('snapNav');
-		    $('.firstRow').css('margin-top', '0px');   
+		    $('.firstRow').removeClass('stick-padding'); 
 		}  
 	};  
 	  

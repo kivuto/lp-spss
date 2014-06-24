@@ -53,3 +53,12 @@ div#at4m-dock.ats-transparent {
     background: #FFF;
     border-color: #FFF;
 }
+
+// Sticky nav MOBILE fixes
+
+.firstRow.stick-padding {
+	// Only adds in padding if user is in tablet or desktop
+	@media only screen and (min-width: 40.063em) {
+		margin-top: 45px !important;
+	}
+}
