@@ -195,7 +195,7 @@ nav .container {
         font-size: 15px; } }
   @media only screen and (min-width: 40.063em) {
     .row.mainContent {
-      min-height: 800px; }
+      min-height: 600px; }
       .row.mainContent p {
         font-size: 15px; }
       .row.mainContent .container {
@@ -314,7 +314,10 @@ nav.subHeader {
        Video background div
    #############################*/
 .content-overlay-video {
-  padding: 0px !important; }
+  padding: 0px !important;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; }
   .content-overlay-video video, .content-overlay-video img {
     width: 100%; }
   .content-overlay-video img {
@@ -344,18 +347,28 @@ nav.subHeader {
   .content-overlay-video .button {
     padding: 20px 20px !important; }
   @media screen and (max-width: 40em) {
-    .content-overlay-video img {
-      min-height: 250px; }
-    .content-overlay-video .container {
-      padding: 50px 50px; }
-      .content-overlay-video .container h1 {
-        font-size: 20px !important;
-        padding: 10px 0px; }
-    .content-overlay-video .button {
-      width: 50%; } }
+    .content-overlay-video {
+      background-image: url("../img/background-mobile.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      min-height: 150px !important; }
+      .content-overlay-video img {
+        min-height: 250px; }
+      .content-overlay-video .ovrlay {
+        min-height: 150px !important; }
+      .content-overlay-video .container {
+        padding: 50px 50px; }
+        .content-overlay-video .container h1 {
+          font-size: 20px !important;
+          padding: 10px 0px; }
+      .content-overlay-video .button {
+        width: 50%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-overlay-video {
+      min-height: 650px !important;
       min-height: 0 !important; }
+      .content-overlay-video .ovrlay {
+        min-height: 650px !important; }
       .content-overlay-video h1 {
         font-size: 30px; }
       .content-overlay-video p {
@@ -371,9 +384,10 @@ nav.subHeader {
         width: 30%; } }
   @media only screen and (min-width: 64em) {
     .content-overlay-video {
-      min-height: 0 !important; }
+      min-height: 550px !important; }
       .content-overlay-video .ovrlay {
-        padding: 85px 20px; }
+        padding: 85px 20px;
+        min-height: 550px !important; }
       .content-overlay-video .container {
         padding: 80px 100px 30px 100px !important; }
       .content-overlay-video .button {
@@ -384,15 +398,6 @@ nav.subHeader {
       .content-overlay-video p {
         padding-bottom: 40px;
         font-size: 25px !important; } }
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      c. CHALLENGES BLOCk
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-challenges .orbit-container .orbit-timer {
-  display: none; }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .content-challenges h1 {
-    padding-top: 40px; } }
 
 /* #############################
        Block with image left of content 
@@ -575,10 +580,12 @@ nav.subHeader {
   .headline-cta .simple {
     padding-left: 200px !important; } }
 @media only screen and (min-width: 40.063em) {
-  .headline-cta img {
-    padding-bottom: 30px; }
-  .headline-cta h2 {
-    padding-bottom: 30px; } }
+  .headline-cta {
+    min-height: 800px !important; }
+    .headline-cta img {
+      padding-bottom: 30px; }
+    .headline-cta h2 {
+      padding-bottom: 30px; } }
 @media only screen and (max-width: 40em) {
   .headline-cta {
     min-height: 450px !important; }
@@ -692,6 +699,34 @@ nav.subHeader {
     background-color: #2281a8 !important; }
     #Block6 .button:hover span, #Block6 .button:focus span, #Block6 .button:active span {
       color: white !important; }
+
+.down-arrow {
+  position: absolute;
+  padding-bottom: 60px;
+  left: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  z-index: 99; }
+
+.round-button {
+  z-index: 1200;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  background: #FFF;
+  box-shadow: 0 2px 3px gray;
+  font-size: 20px;
+  font-weight: bold; }
+
+.round-button:hover {
+  background: #EFEFEF; }
 
 /*----------------------------------------------------------*\
 

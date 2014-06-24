@@ -5,6 +5,9 @@
 	padding: 0px !important;
 	video, img  { width: 100%; }
 
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
 	// POSITIONING VIDEO OVER IMAGE
 	img {
 		position: relative;
@@ -47,6 +50,13 @@
 	// MOBILE //
     @media screen and (max-width: 40em) {
       	img { min-height: 250px; }
+      	background-image: url('../img/background-mobile.jpg');
+      	background-repeat: no-repeat;
+		background-size: 100%;
+      	.ovrlay { 
+			min-height: 150px !important;
+		}
+		min-height: 150px !important;
 
       	// TEXT SIZING //
       	.container { 
@@ -61,6 +71,10 @@
 
 	// MEDIUM SCREENS 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		.ovrlay { 
+			min-height: 650px !important;
+		}
+		min-height: 650px !important;
 		// TEXT SIZING //
 		h1 { font-size: 30px; }
 		p { font-size: 15px; }
@@ -76,30 +90,19 @@
 
 	// LARGE SCREENS  
 	@media only screen and (min-width: 64em) {
-		.ovrlay { padding: 85px 20px; }
+		.ovrlay { 
+			padding: 85px 20px; 
+			min-height: 550px !important;
+		}
+		min-height: 550px !important;
+
 		.container { padding: 80px 100px 30px 100px !important;} 
 		.button { width: 30%; }
-		min-height: 0 !important;
 		// TEXT STYLING //
 		h1 { 
 			padding-bottom: 30px; 
 			font-size: 50px;
 		}
 		p { padding-bottom: 40px; font-size: 25px !important;}
-	}
-}
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~
-      c. CHALLENGES BLOCk
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-challenges {
-	// BLOCK FONT COLOR
-	.orbit-container .orbit-timer { display: none; }
-
-	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
-	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-		// PADDING FOR TITLE IN TABLET
-		h1 { padding-top: 40px; }
 	}
 }
