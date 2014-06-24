@@ -22,17 +22,10 @@
         /* Block names: name them what you want them to show up in google analytics */ 
         $blocks = array(
         /*Block 1*/   'Block1', 
-        /*Block 2*/   'Block2',
-        /*Block 3*/   'Block3',
-        /*Block 4*/   'Block4',
-        /*Block 5*/   'Block5',
-        /*Block 6*/   'Block6',
-        /*Block 7*/   'Block7',
-        /*Block 8*/   'Block8',
-        /*Block 9*/   'Block9',
-        /*Block 10*/   'Block10',
-        /*Block 11*/   'Block11',
-        /*Block 12*/   'Last block',
+        /*Block 2*/   'SPSS-Statistics',
+        /*Block 3*/   'SPSS-Amos',
+        /*Block 4*/   'SPSS-Modeler',
+        /*Block 5*/   'SPSS-Data-Collection',
         );
 
 
@@ -65,8 +58,8 @@
                 include 'content-overlay-video.php';
                 $counter++;
           ?>
-          <div class="down-arrow">
-            <a href="#" class="round-button">&#x25BC;</a>
+          <div class="show-for-large-up down-arrow">
+            <a class="round-button" onclick="tib('#SPSS-Statistics', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Down Arrow');">&#x25BC;</a>
           </div>  
 
           <!-- INCLUDE First Band  --> 

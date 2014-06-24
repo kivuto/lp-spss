@@ -72,15 +72,15 @@
 	// MEDIUM SCREENS 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 		.ovrlay { 
-			min-height: 650px !important;
+			min-height: 450px !important;
 		}
-		min-height: 650px !important;
+		background-image: url('../img/background.jpg');
+      	background-repeat: no-repeat;
+		min-height: 450px !important;
 		// TEXT SIZING //
 		h1 { font-size: 30px; }
 		p { font-size: 15px; }
 		span { font-size: 21px !important; }
-		// SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS //
-		min-height: 0 !important;
 
 		// TEXT PADDING //
 		h1 { padding-bottom: 20px; }

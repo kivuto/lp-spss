@@ -365,10 +365,11 @@ nav.subHeader {
         width: 50%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-overlay-video {
-      min-height: 650px !important;
-      min-height: 0 !important; }
+      background-image: url("../img/background.jpg");
+      background-repeat: no-repeat;
+      min-height: 450px !important; }
       .content-overlay-video .ovrlay {
-        min-height: 650px !important; }
+        min-height: 450px !important; }
       .content-overlay-video h1 {
         font-size: 30px; }
       .content-overlay-video p {
@@ -602,103 +603,75 @@ nav.subHeader {
     2. ROW AND COLUMN STYLING
 
 \*----------------------------------------------------------*/
-.mainContent:nth-of-type(2) {
-  background-color: white; }
-
-.mainContent:nth-of-type(3) {
-  background-color: white; }
-
-.mainContent:nth-of-type(4) {
-  background-color: white; }
-
-.mainContent:nth-of-type(5) {
-  background-color: white; }
-
-.mainContent:nth-of-type(6) {
-  background-color: white; }
-
-.mainContent:nth-of-type(7) {
-  background-color: #ebebeb; }
-
-.mainContent:nth-of-type(8) {
-  background-color: #b8b8b8; }
-
-.mainContent:nth-of-type(9) {
-  background-color: #ebebeb; }
-
-.mainContent:nth-of-type(10) {
-  background-color: #b8b8b8; }
-
 /*----------------------------------------------------------*\
 
     3. SECTION BLOCKS STYLING
 
 \*----------------------------------------------------------*/
-#Block1 h1, #Block1 h2, #Block1 h3, #Block1 p {
-  color: black !important; }
-#Block1 .button {
-  background-color: white !important; }
-  #Block1 .button span {
+#Block1 {
+  background-color: white; }
+  #Block1 h1, #Block1 h2, #Block1 h3, #Block1 p {
     color: black !important; }
-  #Block1 .button:hover, #Block1 .button:focus, #Block1 .button:active {
-    background-color: #007095 !important; }
-    #Block1 .button:hover span, #Block1 .button:focus span, #Block1 .button:active span {
-      color: white !important; }
+  #Block1 .button {
+    background-color: white !important; }
+    #Block1 .button span {
+      color: black !important; }
+    #Block1 .button:hover, #Block1 .button:focus, #Block1 .button:active {
+      background-color: #007095 !important; }
+      #Block1 .button:hover span, #Block1 .button:focus span, #Block1 .button:active span {
+        color: white !important; }
 
-#Block2 h1, #Block2 h2, #Block2 h3, #Block2 p {
-  color: black !important; }
-#Block2 .button {
-  background-color: #f05038 !important; }
-  #Block2 .button span {
-    color: white !important; }
-  #Block2 .button:hover, #Block2 .button:focus, #Block2 .button:active {
-    background-color: #70251a !important; }
-    #Block2 .button:hover span, #Block2 .button:focus span, #Block2 .button:active span {
+#SPSS-Statistics {
+  background-color: white; }
+  #SPSS-Statistics h1, #SPSS-Statistics h2, #SPSS-Statistics h3, #SPSS-Statistics p {
+    color: black !important; }
+  #SPSS-Statistics .button {
+    background-color: #f05038 !important; }
+    #SPSS-Statistics .button span {
       color: white !important; }
+    #SPSS-Statistics .button:hover, #SPSS-Statistics .button:focus, #SPSS-Statistics .button:active {
+      background-color: #70251a !important; }
+      #SPSS-Statistics .button:hover span, #SPSS-Statistics .button:focus span, #SPSS-Statistics .button:active span {
+        color: white !important; }
 
-#Block3 h1, #Block3 h2, #Block3 h3, #Block3 p {
-  color: black !important; }
-#Block3 .button {
-  background-color: #2eb24d !important; }
-  #Block3 .button span {
-    color: white !important; }
-  #Block3 .button:hover, #Block3 .button:focus, #Block3 .button:active {
-    background-color: #1e7231 !important; }
-    #Block3 .button:hover span, #Block3 .button:focus span, #Block3 .button:active span {
+#SPSS-Amos {
+  background-color: white; }
+  #SPSS-Amos h1, #SPSS-Amos h2, #SPSS-Amos h3, #SPSS-Amos p {
+    color: black !important; }
+  #SPSS-Amos .button {
+    background-color: #2eb24d !important; }
+    #SPSS-Amos .button span {
       color: white !important; }
+    #SPSS-Amos .button:hover, #SPSS-Amos .button:focus, #SPSS-Amos .button:active {
+      background-color: #1e7231 !important; }
+      #SPSS-Amos .button:hover span, #SPSS-Amos .button:focus span, #SPSS-Amos .button:active span {
+        color: white !important; }
 
-#Block4 h1, #Block4 h2, #Block4 h3, #Block4 p {
-  color: black !important; }
-#Block4 .button {
-  background-color: #81297d !important; }
-  #Block4 .button span {
-    color: white !important; }
-  #Block4 .button:hover, #Block4 .button:focus, #Block4 .button:active {
-    background-color: #41153f !important; }
-    #Block4 .button:hover span, #Block4 .button:focus span, #Block4 .button:active span {
+#SPSS-Modeler {
+  background-color: white; }
+  #SPSS-Modeler h1, #SPSS-Modeler h2, #SPSS-Modeler h3, #SPSS-Modeler p {
+    color: black !important; }
+  #SPSS-Modeler .button {
+    background-color: #81297d !important; }
+    #SPSS-Modeler .button span {
       color: white !important; }
+    #SPSS-Modeler .button:hover, #SPSS-Modeler .button:focus, #SPSS-Modeler .button:active {
+      background-color: #41153f !important; }
+      #SPSS-Modeler .button:hover span, #SPSS-Modeler .button:focus span, #SPSS-Modeler .button:active span {
+        color: white !important; }
 
-#Block5 h1, #Block5 h2, #Block5 h3, #Block5 p {
-  color: black !important; }
-#Block5 .button {
-  background-color: #2fb2e8 !important; }
-  #Block5 .button span {
-    color: white !important; }
-  #Block5 .button:hover, #Block5 .button:focus, #Block5 .button:active {
-    background-color: #2281a8 !important; }
-    #Block5 .button:hover span, #Block5 .button:focus span, #Block5 .button:active span {
+#SPSS-Data-Collection {
+  background-color: white; }
+  #SPSS-Data-Collection h1, #SPSS-Data-Collection h2, #SPSS-Data-Collection h3, #SPSS-Data-Collection p {
+    color: black !important; }
+  #SPSS-Data-Collection .button {
+    background-color: #2fb2e8 !important; }
+    #SPSS-Data-Collection .button span {
       color: white !important; }
-
-#Block6 h1, #Block6 h2, #Block6 h3, #Block6 p {
-  color: black !important; }
-#Block6 .button {
-  background-color: #2fb2e8 !important; }
-  #Block6 .button span {
-    color: white !important; }
-  #Block6 .button:hover, #Block6 .button:focus, #Block6 .button:active {
-    background-color: #2281a8 !important; }
-    #Block6 .button:hover span, #Block6 .button:focus span, #Block6 .button:active span {
-      color: white !important; }
+    #SPSS-Data-Collection .button:hover, #SPSS-Data-Collection .button:focus, #SPSS-Data-Collection .button:active {
+      background-color: #2281a8 !important; }
+      #SPSS-Data-Collection .button:hover span, #SPSS-Data-Collection .button:focus span, #SPSS-Data-Collection .button:active span {
+        color: white !important; }
 
 .down-arrow {
   position: absolute;

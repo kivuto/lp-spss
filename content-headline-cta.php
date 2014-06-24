@@ -24,7 +24,7 @@
                   <li></li>
                   <li>
                       <h5 class="avenir-light">Students</h5>
-                      <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Lorem ipsum'); return false;">
+                      <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Student Buy'); return false;">
                           <div class="button center">
                              <span>BUY NOW</span>
                           </div>
@@ -32,7 +32,7 @@
                   </li>    
                   <li>    
                       <h5 class="avenir-light">Faculty/Staff</h5>
-                      <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Lorem ipsum'); return false;">
+                      <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Faculty Buy'); return false;">
                           <div class="button center">
                              <span>BUY NOW</span>
                           </div>

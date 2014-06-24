@@ -20,7 +20,7 @@
                   <p>12 month license available to verified students only.</p>
                   <p class="hide-for-mobile" >Amos 22 for Windows</p>
                   <div class="row ctaBtns">
-                      <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Lorem - Ipsum'); return false;">
+                      <a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Amos - Buy'); return false;">
                           <div class="large-6 columns button rent">
                              <span>BUY NOW</span>
                           </div>
@@ -28,7 +28,7 @@
                   </div>
                   <div class="row">
                       <div class="large-12 columns">
-                          <p><a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Lorem - Ipsum'); return false;">Looking for Amos 21?</a></p>
+                          <p><a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Amos - Looking for 21?'); return false;">Looking for Amos 21?</a></p>
                       </div>
                   </div>
               </div>

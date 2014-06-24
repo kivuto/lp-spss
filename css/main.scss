@@ -93,8 +93,9 @@ $block10-color: #EBEBEB;
 }
 
 // The defaults are the values stated after the variables
-@mixin block-colors($font-color: #000, $button-normal-color: #FFF, $button-hover-color: #007095, $button-text-normal: #000, $button-text-hover: #FFF) {
+@mixin block-colors($block-color: #FFF, $font-color: #000, $button-normal-color: #FFF, $button-hover-color: #007095, $button-text-normal: #000, $button-text-hover: #FFF) {
 	h1, h2, h3, p { color: $font-color !important; }
+	background-color: $block-color;
 	.button { 
 		background-color: $button-normal-color !important;
 		span { color: $button-text-normal !important; } 
@@ -149,19 +150,6 @@ $block10-color: #EBEBEB;
 \*----------------------------------------------------------*/
 
 
-.mainContent:nth-of-type(2){ background-color: $block1-color; }
-.mainContent:nth-of-type(3){ background-color: $block2-color; }
-.mainContent:nth-of-type(4){ background-color: $block3-color; }
-.mainContent:nth-of-type(5){ background-color: $block4-color; }
-.mainContent:nth-of-type(6){ background-color: $block5-color; }
-.mainContent:nth-of-type(7){ background-color: $block6-color; }
-.mainContent:nth-of-type(8){ background-color: $block7-color; }
-.mainContent:nth-of-type(9){ background-color: $block8-color; }
-.mainContent:nth-of-type(10){ background-color: $block9-color; }
-
-
-
-
 
 /*----------------------------------------------------------*\
 
@@ -170,23 +158,21 @@ $block10-color: #EBEBEB;
 \*----------------------------------------------------------*/
 
 #Block1 {
-	@include block-colors($block1-font-color, $block1-button-normal, $block1-button-hover, $block1-button-font, $block1-button-font-hover);
+	@include block-colors($block1-color, $block1-font-color, $block1-button-normal, $block1-button-hover, $block1-button-font, $block1-button-font-hover);
 }
-#Block2 {
-	@include block-colors($block2-font-color, $block2-button-normal, $block2-button-hover, $block2-button-font, $block2-button-font-hover);
+#SPSS-Statistics {
+	@include block-colors($block2-color, $block2-font-color, $block2-button-normal, $block2-button-hover, $block2-button-font, $block2-button-font-hover);
 }
-#Block3 {
-	@include block-colors($block3-font-color, $block3-button-normal, $block3-button-hover, $block3-button-font, $block3-button-font-hover);
+#SPSS-Amos {
+	@include block-colors($block3-color, $block3-font-color, $block3-button-normal, $block3-button-hover, $block3-button-font, $block3-button-font-hover);
 }
-#Block4 {
-	@include block-colors($block4-font-color, $block4-button-normal, $block4-button-hover, $block4-button-font, $block4-button-font-hover);
+#SPSS-Modeler {
+	@include block-colors($block4-color, $block4-font-color, $block4-button-normal, $block4-button-hover, $block4-button-font, $block4-button-font-hover);
 }	
-#Block5 {
-	@include block-colors($block5-font-color, $block5-button-normal, $block5-button-hover, $block5-button-font, $block5-button-font-hover);
+#SPSS-Data-Collection {
+	@include block-colors($block5-color, $block5-font-color, $block5-button-normal, $block5-button-hover, $block5-button-font, $block5-button-font-hover);
 }
-#Block6 {
-	@include block-colors($block5-font-color, $block5-button-normal, $block5-button-hover, $block5-button-font, $block5-button-font-hover);
-}
+
 
 // Round button styling
 .down-arrow {
