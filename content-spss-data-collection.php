@@ -22,7 +22,7 @@
                       <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
                           <li>
                               <p>Premium Grad Pack</p>
-                              <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Data - Student Buy'); return false;">
+                              <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=5bafb0d2-23cd-e211-9d05-f04da23e67f4&utm_source=LandingPage-SPSS-Data-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Data - Student Buy'); return false;">
                                   <div class="large-6 columns button rent">
                                      <span>BUY NOW</span>
                                   </div>
@@ -30,7 +30,7 @@
                           </li>    
                           <li>    
                               <p>Premium Faculty Pack</p>
-                              <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Data - Faculty Buy'); return false;">
+                              <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=57afb0d2-23cd-e211-9d05-f04da23e67f4&utm_source=LandingPage-SPSS-Data-faculty&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Data - Faculty Buy'); return false;">
                                   <div class="large-6 columns button trial">
                                      <span>BUY NOW</span>
                                   </div>
