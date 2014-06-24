@@ -51,6 +51,14 @@
 	// MOBILE //
 		@media only screen and (max-width: 40em){
 			min-height: 450px !important;
+			img { 
+				padding-bottom: 15px; 
+			}
+			h2 { 
+				float: left; 
+				font-size: 19px; 
+				font-weight: bold;
+			}
 			.button { 
 				width: 100%;
 				margin-right: 0rem;
@@ -59,5 +67,12 @@
 				padding: 0px 20px; 
 			}
 			h4 { font-size: 14px; }
+
+			.small-10 {
+				width: 72.333%;
+			}
+			.small-2 {
+				margin-left: 20px;
+			}
 		}	
 }

@@ -322,8 +322,7 @@ nav.subHeader {
 .content-overlay-video {
   padding: 0px !important;
   background-image: url("../img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: contain; }
+  background-repeat: no-repeat; }
   .content-overlay-video video, .content-overlay-video img {
     width: 100%; }
   .content-overlay-video img {
@@ -391,6 +390,7 @@ nav.subHeader {
         width: 30%; } }
   @media only screen and (min-width: 64em) {
     .content-overlay-video {
+      background-position-y: -16px;
       min-height: 550px !important; }
       .content-overlay-video .ovrlay {
         padding: 85px 20px;
@@ -445,7 +445,9 @@ nav.subHeader {
       .inline-content-imgleft h1 span, .inline-content-imgleft h2 span {
         font-size: 14px; }
     .inline-content-imgleft h2 {
-      font-size: 20px !important; }
+      float: left;
+      font-size: 19px;
+      font-weight: bold; }
     .inline-content-imgleft .info p {
       padding: 0px 7px; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -509,6 +511,10 @@ nav.subHeader {
       font-size: 23px; }
       .inline-content-imgright h1 span, .inline-content-imgright h2 span {
         font-size: 14px; }
+    .inline-content-imgright h2 {
+      float: left;
+      font-size: 19px;
+      font-weight: bold; }
     .inline-content-imgright .large-7 {
       width: 95%; }
     .inline-content-imgright .large-5 {
@@ -596,13 +602,23 @@ nav.subHeader {
 @media only screen and (max-width: 40em) {
   .headline-cta {
     min-height: 450px !important; }
+    .headline-cta img {
+      padding-bottom: 15px; }
+    .headline-cta h2 {
+      float: left;
+      font-size: 19px;
+      font-weight: bold; }
     .headline-cta .button {
       width: 100%;
       margin-right: 0rem; }
     .headline-cta .ctaBtns {
       padding: 0px 20px; }
     .headline-cta h4 {
-      font-size: 14px; } }
+      font-size: 14px; }
+    .headline-cta .small-10 {
+      width: 72.333%; }
+    .headline-cta .small-2 {
+      margin-left: 20px; } }
 
 /*----------------------------------------------------------*\
 
@@ -700,6 +716,7 @@ nav.subHeader {
   text-align: center;
   text-decoration: none;
   background: #FFF;
+  position: absolute;
   box-shadow: 0 2px 3px gray;
   font-size: 20px;
   font-weight: bold; }
