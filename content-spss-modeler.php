@@ -38,11 +38,6 @@
                           </li>
                       </ul>
                   </div>
-                  <div class="row">
-                      <div class="large-12 columns">
-                          <p><a target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough - Modeler - Looking for 15?'); return false;">Looking for Modeler 15?</a></p>
-                      </div>
-                  </div>
               </div>
           </div> 
       </div>  
