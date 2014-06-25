@@ -364,7 +364,7 @@ nav.subHeader {
       .content-overlay-video .ovrlay {
         min-height: 150px !important; }
       .content-overlay-video .container {
-        padding: 50px 50px; }
+        padding: 0px 10px !important; }
         .content-overlay-video .container h1 {
           font-size: 20px !important;
           padding: 10px 0px; }
