@@ -46,12 +46,8 @@
                       <div> 
                           <p><a class="expander center">Academic Status</a></p>
                           <div class="content">
-                            <p>Pellentesque tincidunt vitae purus non tincidunt</p>
-                              <ul> 
-                                <li><p>Suspendisse ut sem sed metus fermentum fermentum sed convallis tortor</p></li>
-                                <li><p>Suspendisse scelerisque egestas orci, ac vehicula lorem elementum vel</p></li>
-                              </ul>
-                            <p>Integer sem ligula, semper a elit eget, lobortis iaculis dolor</p>
+                            <p>These IBM SPSS academic licenses are exclusively for educational purposes. </p>
+                            <p>They are available only to current students and faculty on personal computers. </p>
                           </div>
                       </div>
                       <div> 
