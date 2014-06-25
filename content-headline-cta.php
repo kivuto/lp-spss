@@ -41,7 +41,7 @@
                   <li></li>
               </ul>
           </div>
-          <div class="row show-for-medium-up">
+          <div class="row show-for-large-up">
                   <div class="large-12 columns">
                       <div> 
                           <p><a class="expander center">Academic Status</a></p>

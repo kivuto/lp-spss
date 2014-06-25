@@ -7,7 +7,7 @@
                 <img src="img/oth_logo.png" alt="OnTheHub">
               </a>
           </div>
-          <div class="large-2 large-offset-3 columns">
+          <div class="large-2 large-offset-3 columns ibm-logo">
               <a href="http://www.ibm.com" target="_blank" tabindex="2">
                 <img src="img/ibm_logo.png" alt="Minitab">
               </a>  

@@ -306,7 +306,9 @@ nav.subHeader {
       .row.header img {
         max-width: 110px; }
       .row.header .oth-logo {
-        padding-top: 17px; } }
+        padding-top: 17px; }
+      .row.header .ibm-logo {
+        padding-top: 0px; } }
   @media only screen and (min-width: 40.063em) {
     .row.header .oth-logo {
       padding-top: 20px; } }
