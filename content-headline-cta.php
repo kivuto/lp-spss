@@ -6,7 +6,7 @@
                     <img src="img/spss_stats_icon.jpg">
               </div> 
               <div class="small-10 columns">
-                    <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Statistics 22</h2>
+                    <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup><br class="special-break"/> Statistics 22</h2>
               </div> 
           </div> 
           <div class="row">

@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="large-5 columns qcImage hide-for-large-up">
-                  <img src="img/amos_computer.jpg" alt="Student and Teacher">
+                  <img src="img/amos_computer.jpg" alt="Amos 22 program screenshot">
               </div>
               <div class="large-7 columns info">
                   <div class="row title">

@@ -1,6 +1,6 @@
   <!-- Header -->
  
-  <div class="row header show-for-mobile">
+  <div class="row header hide-for-medium-up">
       <div class="container">
           <div class="large-2 columns oth-logo">
               <a href="http://www.onthehub.com" target="_blank" tabindex="1">

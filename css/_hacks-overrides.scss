@@ -62,3 +62,11 @@ div#at4m-dock.ats-transparent {
 		margin-top: 45px !important;
 	}
 }
+
+
+// Special Media query to add in a break within a certain view
+.special-break { display: none; }
+
+@media only screen and (min-width: 1066px) and (max-width: 1197px)  {
+		.special-break { display: block !important; }
+}
