@@ -47,6 +47,15 @@
 			img { padding-bottom: 30px; }
 			h2 { padding-bottom: 30px; }
 		}
+
+
+		// MEDIUM SCREENS 
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		min-height: 550px !important;
+		.button{
+			white-space: nowrap;
+		}
+	}
 			
 	// MOBILE //
 		@media only screen and (max-width: 40em){
