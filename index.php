@@ -15,9 +15,7 @@
     <?php 
         /*-=-=-=-=-=-=-=-=-=- Se - CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED =-=-=-=-=-=-=-=*/
 
-        /* ADROLL */
-        $adroll_segment_name = "landing-page-name-here"; 
-        
+      
 
         /* Block names: name them what you want them to show up in google analytics */ 
         $blocks = array(
@@ -52,7 +50,7 @@
           ?>
           
           <div class="inner-wrap">
-            
+
           <!-- INCLUDE First Band  --> 
          
           <?php  
