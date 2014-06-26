@@ -44,14 +44,15 @@
 
   <body>
   <div class="off-canvas-wrap">
-      <div class="inner-wrap">
 
           <!-- INCLUDE Header -->
          
           <?php  
                 include 'header.php';
           ?>
-         
+          
+          <div class="inner-wrap">
+            
           <!-- INCLUDE First Band  --> 
          
           <?php  
