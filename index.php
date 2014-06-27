@@ -19,7 +19,7 @@
 
         /* Block names: name them what you want them to show up in google analytics */ 
         $blocks = array(
-        /*Block 1*/   'Block1', 
+        /*Block 1*/   'Introduction', 
         /*Block 2*/   'SPSS-Statistics',
         /*Block 3*/   'SPSS-Amos',
         /*Block 4*/   'SPSS-Modeler',

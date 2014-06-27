@@ -204,31 +204,33 @@ nav .container {
       .row.mainContent h3 {
         font-size: 15px; } }
   @media only screen and (min-width: 40.063em) {
+    .row.mainContent p {
+      font-size: 15px; }
+    .row.mainContent .container {
+      padding: 15px 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .row.mainContent {
       min-height: 750px; }
-      .row.mainContent p {
-        font-size: 15px; }
       .row.mainContent .container {
-        padding: 15px 40px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); } }
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    .row.mainContent .container {
-      text-align: center; } }
+        text-align: center; } }
   @media only screen and (min-width: 64em) {
-    .row.mainContent:first-child h1 {
-      font-size: 2.75rem; }
-    .row.mainContent:first-child h2 {
-      font-size: 25px; }
-    .row.mainContent h2 {
-      font-size: 2.75rem; }
-    .row.mainContent h3 {
-      font-size: 25px; } }
+    .row.mainContent {
+      min-height: 600px; }
+      .row.mainContent:first-child h1 {
+        font-size: 2.75rem; }
+      .row.mainContent:first-child h2 {
+        font-size: 25px; }
+      .row.mainContent h2 {
+        font-size: 2.75rem; }
+      .row.mainContent h3 {
+        font-size: 25px; } }
 
 /* #############################
        Sub Header / Navigation

@@ -107,8 +107,6 @@ nav .container {
 	@media only screen and (min-width: 40.063em) {
 		p { font-size: 15px; }
 
-		// SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS 
-		min-height: 750px;
 
 		// VERTICALLY CENTERING CONTENT BLOCKS 
 		.container {
@@ -127,12 +125,16 @@ nav .container {
 		.container { 
 			text-align: center;
 		}
+
+		// SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS 
+		min-height: 750px;
 	}
 
 	// DEFAULT STYLING IN LARGE SCREENS  
 	@media only screen and (min-width: 64em) {
 		
-
+		// SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS 
+		min-height: 600px;
 
 		// FIRST CHILD STYLING (default)
 		&:first-child{
