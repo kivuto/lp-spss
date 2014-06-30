@@ -72,22 +72,8 @@
           <!-- INCLUDE Second Band -->
          
           <?php  
-              
-              if(isset($_SERVER['HTTP_REFERER'])) {
-                  $server = $_SERVER['HTTP_REFERER'];
-                  $last_page = GetHostByName($server);
-                  if(strpos($last_page,"minitab.com"))
-                  {
-                    
-                  } else {
-                     include 'content-spss-amos.php';
-                     $counter++;
-                  }
-              }
-              else {
-                  include 'content-spss-amos.php';
-                  $counter++;
-              }
+                include 'content-spss-amos.php';
+                $counter++;
           ?>
 
           <!-- INCLUDE Third Band -->

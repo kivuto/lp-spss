@@ -1,4 +1,4 @@
-##Landing Page Template 2014
+##SPSS Landing page update 2014
 
 
 ### What is it?
@@ -40,28 +40,4 @@ Then, ensure the corresponding SASS file is imported in `main.scss`
 
 ### Step 2: Enter general landing page information
 Once you have included your blocks, now enter the 
-
-
-### Step 3: Chicken, chicken chicken!
-Chicken chic chicken chicken chickenn chicken `chicken`, chicken chicken, chicken chic chich chicken.
-
-1. Find your httpd-vhosts.conf file (*You can find this in the XAMPP application C:/XAMPP/APACHE/conf/extra OR FOR OSX: Applications/MAMP/conf/apache/extra*)
-2. Make a new virtual host (copy and paste this) 
-
-		NameVirtualHost *:80
-
-		  <VirtualHost *:80>
-		    DocumentRoot "C:/xampp/htdocs"
-		    ServerName localhost
-		  </VirtualHost>
-		
-		  <VirtualHost *:80>
-		    DocumentRoot "C:/xampp/htdocs/kivuto"
-		    ServerName local.kivuto.dev
-			  <Directory "C:/xampp/htdocs/kivuto">
-			    Order allow,deny
-			    Allow from all
-			  </Directory>
-		  </VirtualHost>
-
 
