@@ -22,7 +22,7 @@
  <div class="fixed off-canvas-fixed">
    <nav class="tab-bar offHeader show-for-small" data-topbar>
      <a class="left-off-canvas-toggle menu-icon">
-       <span>ELMS&nbsp;for&nbsp;Student&nbsp;Advantage</span>
+       <span>IBM&reg;&nbsp;SPSS&reg;</span>
      </a>
    </nav>
  
