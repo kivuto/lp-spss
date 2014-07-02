@@ -77,13 +77,6 @@ $block5-button-font: #FFF;
 $block5-button-font-hover: #FFF; 
 
 
-
-$block6-color: #EBEBEB;
-$block7-color: #B8B8B8;
-$block8-color: #EBEBEB;
-$block9-color: #B8B8B8;
-$block10-color: #EBEBEB;
-
 // Mix in for transitions
 @mixin css-transition($attribute, $duration, $type) {
   webkit-transition: $attribute $duration $type;
