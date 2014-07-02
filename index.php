@@ -13,7 +13,7 @@
     <script src="js/jquery.form.js"></script>        
     <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
     <?php 
-        /*-=-=-=-=-=-=-=-=-=- Se - CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED =-=-=-=-=-=-=-=*/
+        /*-=-=-=-=-=-=-=-=-=- CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED =-=-=-=-=-=-=-=*/
 
       
 
@@ -57,6 +57,7 @@
                 include 'content-overlay-video.php';
                 $counter++;
           ?>
+
           <div class="show-for-large-up down-arrow">
             <a class="round-button" onclick="tib('#SPSS-Statistics', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Down Arrow');">&#x25BC;</a>
           </div>  

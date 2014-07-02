@@ -157,7 +157,7 @@ $block10-color: #EBEBEB;
 
 \*----------------------------------------------------------*/
 
-#Block1 {
+#Introduction {
 	@include block-colors($block1-color, $block1-font-color, $block1-button-normal, $block1-button-hover, $block1-button-font, $block1-button-font-hover);
 }
 #SPSS-Statistics {
