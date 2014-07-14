@@ -24,7 +24,7 @@
                   <li></li>
                   <li>
                       <h5 class="avenir-light">Students</h5>
-                      <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=5bafb0d2-23cd-e211-9d05-f04da23e67f4&utm_source=LandingPage-SPSS-Statistics-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Student Buy'); return false;">
+                      <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=e60626f1-6a03-e311-93f3-b8ca3a5db7a1&cmi_mnuMain=ed6ad73c-7bc7-e011-ae14-f04da23e67f6&utm_source=LandingPage-SPSS-Statistics-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Student Buy'); return false;">
                           <div class="button center">
                              <span>BUY NOW</span>
                           </div>
@@ -32,7 +32,7 @@
                   </li>    
                   <li>    
                       <h5 class="avenir-light">Faculty/Staff</h5>
-                      <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=57afb0d2-23cd-e211-9d05-f04da23e67f4&utm_source=LandingPage-SPSS-Statistics-faculty&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Faculty Buy'); return false;">
+                      <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=7e537809-a905-e311-93f3-b8ca3a5db7a1&utm_source=LandingPage-SPSS-Statistics-faculty&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Faculty Buy'); return false;">
                           <div class="button center">
                              <span>BUY NOW</span>
                           </div>
