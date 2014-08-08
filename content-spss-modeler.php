@@ -17,7 +17,7 @@
                       </div> 
                   </div> 
                   <p>IBM SPSS Modeler makes building predictive models and discovering trends in your data easy.</p>
-                  <p>12 month rental licenses available to verified students and faculty. Available for Windows and Mac</p>
+                  <p>12 month rental licenses available to verified students and faculty. Available for Windows and Mac.</p>
                   <div class="row ctaBtns">
                      <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
                           <li>

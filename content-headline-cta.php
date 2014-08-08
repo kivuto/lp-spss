@@ -16,7 +16,7 @@
           </div>
           <div class="row">
               <div class="large-12 columns center">
-                  <h4 class="avenir-light">6 or 12 month rental licenses available to verified students and faculty. Available for Windows and Mac</h4>
+                  <h4 class="avenir-light">6 or 12 month rental licenses available to verified students and faculty. Available for Windows and Mac.</h4>
               </div> 
           </div>
           <div class="row ctaBtns">
