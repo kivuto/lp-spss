@@ -16,7 +16,7 @@
                       <div class="small-2 columns ">
                       </div> 
                   </div> 
-                  <p>IBM SPSS Data Collection is a dynamic research platform used to survey creation, management, and analysis.</p>
+                  <p>IBM SPSS Data Collection is a dynamic research platform used for survey creation, management, and analysis.</p>
                   <p>12 month rental licenses available to verified students and faculty.</p>
                   <div class="row ctaBtns">
                       <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
