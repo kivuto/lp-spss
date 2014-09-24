@@ -96,3 +96,6 @@
     <script>
         var gaEvent = "<?php echo $gaEvent; ?>";
     </script>
+
+    <!-- SIMPLY CAST TRACKING PIXEL -->
+    <img src='http://simplycast.us/mUr6'>
