@@ -98,4 +98,4 @@
     </script>
 
     <!-- SIMPLY CAST TRACKING PIXEL -->
-    <img src='http://simplycast.us/mUr6'>
+    <img src='http://simplycast.us/mUr6' style="visibility: hidden;height: 1px;width: 1px;float: left;">
