@@ -60,35 +60,49 @@
                                         <li><p>Antigua</p></li>
                                         <li><p>Barbuda</p></li>
                                         <li><p>Australia</p></li>
+                                        <li><p>Austria</p></li>
                                         <li><p>Bahamas</p></li>
                                         <li><p>Barbados</p></li>
+                                        <li><p>Belgium</p></li>
                                         <li><p>Bermuda</p></li>
+                                        <li><p>Canada</p></li>
+                                        <li><p>Cyprus</p></li>
                                      </ul>     
                                   </li>
                                   <li>
                                       <ul> 
-                                        <li><p>Canada</p></li>
                                         <li><p>Denmark</p></li>
                                         <li><p>Dominica</p></li>
                                         <li><p>Dominican Republic</p></li>
+                                        <li><p>Estonia</p></li>
                                         <li><p>Faroe Islands</p></li>
+                                        <li><p>Finland</p></li>
                                         <li><p>France</p></li>
+                                        <li><p>Germany</p></li>
+                                        <li><p>Greece</p></li>
+                                        <li><p>Greenland</p></li>
                                      </ul> 
                                   </li>    
                                   <li>    
                                       <ul> 
-                                          <li><p>Germany</p></li>
-                                          <li><p>Greenland</p></li>
                                           <li><p>Grenada</p></li>
+                                          <li><p>Ireland</p></li>
+                                          <li><p>Italy</p></li>
                                           <li><p>Jamaica</p></li>
+                                          <li><p>Latvia</p></li>
                                           <li><p>Luxembourg</p></li>
+                                          <li><p>Malta</p></li>
                                           <li><p>Netherlands</p></li>
+                                          <li><p>Portugal</p></li>
+                                          <li><p>Puerto Rico</p></li>
                                      </ul> 
                                   </li>
                                   <li>
                                       <ul> 
-                                          <li><p>Puerto Rico</p></li>
+                                          <li><p>Slovakia</p></li>
+                                          <li><p>Slovenia</p></li>
                                           <li><p>Spain</p></li>
+                                          <li><p>Sweden</p></li>
                                           <li><p>Trinidad And Tobago</p></li>
                                           <li><p>United Kingdom</p></li>
                                           <li><p>United States</p></li>
