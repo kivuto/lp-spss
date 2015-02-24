@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="Students & faculty: Save up to 90% off IBM SPSS statistical analysis and data mining software from OnTheHub, your source for academic discounts.">
     <title>IBM SPSS software discounts for students and faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
