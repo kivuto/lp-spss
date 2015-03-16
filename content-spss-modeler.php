@@ -19,7 +19,7 @@
                   <p>IBM SPSS Modeler makes building predictive models and discovering trends in your data easy.</p>
                   <p>12 month rental licenses available to verified students and faculty. Available for Windows.</p>
                   <div class="row ctaBtns">
-                              <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=84820d1d-aa78-e311-93f9-b8ca3a5db7a1&utm_source=LandingPage-SPSS-Modeler-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Modeler -Student Buy'); return false;">
+                              <a class="ctaBtn" href="o http://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=3b78caf0-47c3-e411-940a-b8ca3a5db7a1&cmi_mnuMain=ed6ad73c-7bc7-e011-ae14-f04da23e67f6&utm_source=LandingPage-SPSS-Modeler&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Modeler -Student Buy'); return false;">
                                   <div class="large-6 columns button rent">
                                      <span>BUY NOW</span>
                                   </div>

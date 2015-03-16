@@ -19,7 +19,7 @@
                   <p>IBM SPSS Data Collection is a dynamic research platform used for survey creation, management, and analysis.</p>
                   <p>12 month rental licenses available to verified students and faculty.</p>
                   <div class="row ctaBtns">
-                              <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=5bafb0d2-23cd-e211-9d05-f04da23e67f4&utm_source=LandingPage-SPSS-Data-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Data - Student Buy'); return false;">
+                              <a class="ctaBtn" href="- http://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=3fa5bb23-c5f8-df11-9c87-0030487d8897&cmi_mnuMain=ed6ad73c-7bc7-e011-ae14-f04da23e67f6 &utm_source=LandingPage-SPSS-Data&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Data - Student Buy'); return false;">
                                   <div class="large-6 columns button rent">
                                      <span>BUY NOW</span>
                                   </div>
