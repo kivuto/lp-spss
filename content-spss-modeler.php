@@ -19,24 +19,11 @@
                   <p>IBM SPSS Modeler makes building predictive models and discovering trends in your data easy.</p>
                   <p>12 month rental licenses available to verified students and faculty. Available for Windows.</p>
                   <div class="row ctaBtns">
-                     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
-                          <li>
-                              <p>Premium Grad Pack</p>
                               <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=84820d1d-aa78-e311-93f9-b8ca3a5db7a1&utm_source=LandingPage-SPSS-Modeler-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Modeler -Student Buy'); return false;">
                                   <div class="large-6 columns button rent">
                                      <span>BUY NOW</span>
                                   </div>
                               </a>
-                          </li>    
-                          <li>    
-                              <p>Premium Faculty Pack</p>
-                              <a class="ctaBtn" href="http://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=80820d1d-aa78-e311-93f9-b8ca3a5db7a1&utm_source=LandingPage-SPSS-Modeler-faculty&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Modeler - Faculty Buy'); return false;">
-                                  <div class="large-6 columns button trial">
-                                     <span>BUY NOW</span>
-                                  </div>
-                              </a>
-                          </li>
-                      </ul>
                   </div>
               </div>
           </div> 
