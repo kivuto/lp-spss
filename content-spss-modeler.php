@@ -11,7 +11,7 @@
                           <img src="img/spss_modeler_icon.jpg" alt="SPSS Modeller ">
                       </div>  
                       <div class="small-4 columns">
-                          <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Modeler 16</h2>
+                          <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Modeler 17</h2>
                       </div> 
                       <div class="small-4 large-offset-1 columns ">
                       </div> 

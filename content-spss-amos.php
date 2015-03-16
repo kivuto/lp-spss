@@ -11,7 +11,7 @@
                           <img src="img/spss-amos-icon.jpg" alt="SPSS Amos">
                       </div>  
                       <div class="small-4 columns">
-                          <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Amos 22</h2>
+                          <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Amos 23</h2>
                       </div> 
                       <div class="small-2 columns ">
                       </div> 
