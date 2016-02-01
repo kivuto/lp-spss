@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta name="description" content="Students & faculty: Save up to 90% off IBM SPSS statistical analysis and data mining software from OnTheHub, your source for academic discounts.">
-    <title>IBM SPSS software discounts for students and faculty | OnTheHub</title>
+    <meta name="description" content="Save up to 90% off IBM SPSS statistical analysis and data mining software, including Statistics 23, Amos 23, and Modeler 17. ">
+    <title> IBM SPSS Software Discounts for Students & Faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
@@ -24,7 +24,7 @@
         /*Block 2*/   'SPSS-Statistics',
         /*Block 3*/   'SPSS-Amos',
         /*Block 4*/   'SPSS-Modeler',
-        /*Block 5*/   'SPSS-Data-Collection',
+        /*Block 5*/   //'SPSS-Data-Collection',
         );
 
 
@@ -88,8 +88,8 @@
           <!-- INCLUDE Fourth Band -->
          
           <?php  
-                include 'content-spss-data-collection.php';
-                $counter++;
+                //include 'content-spss-data-collection.php';
+                //$counter++;
           ?>
 
           <!-- INCLUDE THE FOOTER AND SUBFOOTER -->
