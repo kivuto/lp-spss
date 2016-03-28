@@ -68,7 +68,7 @@
                                   </li>
                                   <li>
                                       <ul> 
-                                       <liL><p>Guatemala</p></li>
+                                       <li><p>Guatemala</p></li>
                                        <li><p>Haiti  </p></li>
                                        <li><p>Honduras</p></li>
                                        <li><p>Iran, Islamic Republic Of</p></li>
