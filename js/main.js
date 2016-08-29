@@ -4,8 +4,25 @@ $(document).ready(function(){
 	Simple expand code
 
 	--------------------*/
-
+                             
 	$('.expander').simpleexpand();
+    
+    $('.expander').click(function() { 
+        $(".content").not($(this).parent().next()).hide();  // hide any other dropdown 
+        $(".expander").not($(this)).addClass("collapsed").removeClass("expanded");                  // that is already open
+        
+        if (($("#SPSS-Statistics").hasClass("expand-height") && $(this).attr("id") == "country-exp") || ($(this).hasClass("academic-status") && $("#SPSS-Statistics").hasClass("expand-height"))) { 
+            $("#SPSS-Statistics").removeClass("expand-height"); }
+        else if ($(this).attr("id") == "country-exp") { 
+            $("#SPSS-Statistics").addClass("expand-height"); }
+        
+        if ($(this).find("i").hasClass("fa-rotate-90")) {       // rotate the font-awesome icons
+            $(this).find("i").removeClass("fa-rotate-90"); }
+        else { $(this).find("i").addClass("fa-rotate-90"); }
+        
+        if ($("i").not($(this).find("i")).hasClass("fa-rotate-90")) {
+            $("i").not($(this).find("i")).removeClass("fa-rotate-90"); }
+    });
 
 
 	/*--------------------

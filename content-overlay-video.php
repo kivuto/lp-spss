@@ -2,14 +2,14 @@
  
   <div class="row header hide-for-medium-up">
       <div class="container">
-          <div class="large-2 columns oth-logo">
-              <a href="http://www.onthehub.com" target="_blank" tabindex="1">
-                <img src="img/oth_logo.png" alt="OnTheHub">
+          <div class="large-2 columns oth-logo" style="float:left !important;">
+              <a href="http://www.onthehub.com" target="_blank" tabindex="1" >
+                <img src="img/oth_logo.png" alt="OnTheHub" >
               </a>
           </div>
-          <div class="large-2 large-offset-3 columns ibm-logo">
+          <div class="large-2 large-offset-3 ibm-logo" style="float:right !important; position: relative;">
               <a href="http://www.ibm.com" target="_blank" tabindex="2">
-                <img src="img/ibm_logo.png" alt="Minitab">
+                <img src="img/ibm_logo.png" alt="Minitab" >
               </a>  
           </div>  
       </div>  
@@ -21,12 +21,12 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">
-                        <h1 class="avenir-heavy">IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> discounts for students & faculty</h1>
+                      <h1 class="avenir-heavy">IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> discounts for students & faculty</h1>
                   </div> 
               </div> 
               <div class="row ">
                   <div class="large-12 columns center">
-                      <p class="avenir-medium">Download statistical analysis and data mining software by IBM SPSS<br/> at exclusive academic pricing.</p>
+                      <p class="avenir-medium">Download statistical analysis and data mining software by IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup><br/> at exclusive academic pricing.</p>
                   </div> 
               </div>
           </div>  

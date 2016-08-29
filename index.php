@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta name="description" content="Save up to 90% off IBM SPSS statistical analysis and data mining software, including Statistics 23, Amos 23, and Modeler 17. ">
+    <meta name="description" content="Save up to 90% off IBM SPSS statistical analysis and data mining software, including Statistics 23, Amos 23, and Modeler 18. ">
     <title> IBM SPSS Software Discounts for Students & Faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/viewport.js"></script>
@@ -21,10 +22,11 @@
         /* Block names: name them what you want them to show up in google analytics */ 
         $blocks = array(
         /*Block 1*/   'Introduction', 
-        /*Block 2*/   'SPSS-Statistics',
-        /*Block 3*/   'SPSS-Amos',
-        /*Block 4*/   'SPSS-Modeler',
-        /*Block 5*/   //'SPSS-Data-Collection',
+        /*Block 2*/   'SPSS-PreviousVersions',
+        /*Block 3*/   'SPSS-Statistics',
+        /*Block 4*/   'SPSS-Amos',
+        /*Block 5*/   'SPSS-Modeler',
+        /*Block 6*/   //'SPSS-Data-Collection',
         );
 
 
@@ -60,10 +62,16 @@
           ?>
 
           <div class="show-for-large-up down-arrow">
-            <a class="round-button" onclick="tib('#SPSS-Statistics', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Down Arrow');">&#x25BC;</a>
+            <a onclick="tib('#SPSS-Statistics', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Down Arrow');"><img class="round-button" src="img/arrow.png" style="margin-top:-10px;" /></a>
           </div>  
-
-          <!-- INCLUDE First Band  --> 
+          
+          <!-- INCLUDE First Band  -->
+          <?php  
+                include 'content-spss-prev-versions.php';
+                $counter++;
+          ?>  
+              
+          <!-- INCLUDE Headline Band  --> 
                    
           <?php  
                 include 'content-headline-cta.php';

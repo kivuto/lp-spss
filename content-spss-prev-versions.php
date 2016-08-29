@@ -3,19 +3,16 @@
       <div class="container">
           <div class="row">
               <div class="large-5 columns qcImage hide-for-large-up">
-                  <img src="img/block-4-imagery.png" alt="Amos 24 program screenshot">
+                  <img src="img/block-2-imagery.png" alt="Spss version 22 and 23 screenshot">
+              </div>
+               <div class="large-5 columns show-for-large-up">
+                  <img src="img/block-2-imagery.png" alt="Spss version 22 and 23 screenshot">
               </div>
               <div class="large-7 columns info">
-                  <div class="row title">
-                      <div class="small-4 columns" style="padding:0;">
-                          <h2>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Amos 24</h2>
-                      </div> 
-                      <div class="small-2 columns ">
-                      </div> 
+                  <div class="row title"> 
+                        <h2>Looking for previous versions?</h2>
                   </div> 
-                  <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. </p>
-                  <p>12 month license available to verified students only.</p>
-                  <p class="hide-for-mobile" >Amos 24 for Windows</p>
+                  <p style="font-size:18px">You can still order IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Statistics 22 and IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Statistics 23 through OnTheHub. Students and faculty can both take comfort in knowing that the software they use matches course materials.</p>
                   <div class="row ctaBtns">
                       <a href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=4e2b505c-afeb-e511-9417-b8ca3a5db7a1&utm_source=LandingPage-SPSS-Amos-&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Amos - Buy'); return false;">
                           <div class="large-6 columns button rent">
@@ -23,9 +20,6 @@
                           </div>
                       </a>    
                   </div>
-              </div>
-              <div class="large-5 columns show-for-large-up">
-                  <img src="img/block-4-imagery.png" alt="Student and Teacher">
               </div>
           </div> 
       </div>  

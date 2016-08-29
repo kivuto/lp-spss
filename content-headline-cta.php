@@ -2,11 +2,8 @@
   <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-pricing headline-cta" data-block="<?php echo $blocks[$counter]; ?>">
       <div class="container">
           <div class="row">
-              <div class="small-2 columns statistics-logo">
-                    <img src="img/spss_stats_icon.jpg">
-              </div> 
-              <div class="small-10 columns">
-                    <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup><br class="special-break"/> Statistics 24</h2>
+              <div class="small-12 columns" style="text-align:center;">
+                  <h2><img src="img/spss_stats_icon.jpg" style="display:inline-block; float: none !important; margin-top:9px;"> IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup><br class="special-break"/> Statistics 24</h2>
               </div> 
           </div> 
           <div class="row">
@@ -23,38 +20,38 @@
               <ul class="small-block-grid-1 medium-block-grid-4 large-block-grid-4 center">
                   <li></li>
                   <li>
-                      <h5 class="avenir-light">Students</h5>
                       <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=12c7bd0a-436e-e511-9411-b8ca3a5db7a1&cmi_mnuMain=2ff73789-74c7-e011-ae14-f04da23e67f6&cmi_mnuMain_child=2a1143f0-74c7-e011-ae14-f04da23e67f6&utm_source=LandingPage-SPSS-Statistics-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Student Buy'); return false;">
                           <div class="button center">
-                             <span>BUY NOW</span>
+                             <span><em>Students</em> buy now</span>
                           </div>
                       </a>
                   </li>    
                   <li>    
-                      <h5 class="avenir-light">Faculty/Staff</h5>
                       <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=6bc36423-88eb-e511-9417-b8ca3a5db7a1&cmi_mnuMain=2ff73789-74c7-e011-ae14-f04da23e67f6&cmi_mnuMain_child=2a1143f0-74c7-e011-ae14-f04da23e67f6&utm_source=LandingPage-SPSS-Statistics-faculty&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Faculty Buy'); return false;">
                           <div class="button center">
-                             <span>BUY NOW</span>
+                              <span><em>Faculty</em> buy now</span>
                           </div>
                       </a>
                   </li>
                   <li></li>
               </ul>
           </div>
+          <br/>
           <div class="row show-for-large-up">
-                  <div class="large-12 columns">
-                      <div> 
-                          <p><a class="expander center">Academic Status</a></p>
-                          <div class="content">
+                  <div class="large-12 columns" style="margin: 0 auto; text-align:center; position: relative;">
+                      <div style="text-align:center; display:inline-block; margin-right: 40px; margin-left:-20px;"> 
+                          <p style="font-size: 18px;"><a class="expander center academic-status">Academic Status &nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a></p>
+                          <div class="content expand-content">
                             <p>These IBM SPSS academic licenses are exclusively for educational purposes. </p>
                             <p>They are available only to current students and faculty on personal computers. </p>
                           </div>
                       </div>
-                      <div> 
-                        <p><a class="expander" tabindex="6">Country Eligibility</a></p>
-                        <div class="content">
-                            <p>Our IBM SPSS offerings are available to academic users worldwide with the following exceptions</p>
-                              <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 center">
+                      <div style="text-align:center; display:inline-block;"> 
+                        <p style="font-size: 18px;"><a class="expander country-eligibility" id="country-exp" tabindex="6">Country Eligibility  &nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a></p>
+                        <div class="content expand-content country-list">
+                            <p style="text-align:center; font-size: 16px;">Our IBM SPSS offerings are available to academic users worldwide with the following exceptions</p>
+                            <br/>
+                              <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 center spps-list">
                                   <li>
                                      <ul> 
                                         <li><p>Algeria</p></li>
@@ -102,4 +99,3 @@
               </div>
       </div>  
   </div>
-  <hr/>

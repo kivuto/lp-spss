@@ -108,7 +108,7 @@ div#at4m-dock.ats-transparent {
 .special-break {
   display: none; }
 
-@media only screen and (min-width: 1066px) and (max-width: 1197px) {
+@media only screen and (max-width: 1050px) and (min-width: 1026px) {
   .special-break {
     display: block !important; } }
 /*----------------------------------------------------------*\
@@ -158,8 +158,7 @@ nav .container {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    height: 50px;
-    padding-top: 0.60rem !important; }
+    height: 50px; }
     .row.mainContent .button span {
       webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
@@ -191,18 +190,19 @@ nav .container {
         padding-right: 0px !important;
         padding-left: 0px !important; }
         .row.mainContent .button span {
-          font-size: 20px !important; }
+          font-size: 18px !important; }
       .row.mainContent .container {
         padding: 0px 0px;
         text-align: center; }
       .row.mainContent p {
         font-size: 14px; }
       .row.mainContent h1 {
-        font-size: 25px !important; }
+        font-size: 32px !important; }
       .row.mainContent h2 {
-        font-size: 18px; }
+        font-size: 28px; text-align: center; float: none !important; width: 100%;}
       .row.mainContent h3 {
-        font-size: 15px; } }
+        font-size: 15px; } 
+      .columns { float: none !important; }}
   @media only screen and (min-width: 40.063em) {
     .row.mainContent p {
       font-size: 15px; }
@@ -339,12 +339,16 @@ nav.subHeader {
       .row.header img {
         max-width: 110px; }
       .row.header .oth-logo {
-        padding-top: 17px; }
+        padding-top: 10px; margin-left: 10px;}
       .row.header .ibm-logo {
-        padding-top: 0px; } }
+          padding-top: 10px; padding-right: 0; }
+      .row.header .ibm-logo img {
+          height: 35px; width: auto; right:0;} }
   @media only screen and (min-width: 40.063em) {
     .row.header .oth-logo {
-      padding-top: 5px; } }
+      padding-top: 5px; } 
+      .row.header .ibm-logo {
+        margin-right: 20px; }}
 
 /*~~~~~~~~~~~~~~~~~~~ 
 	
@@ -356,8 +360,10 @@ nav.subHeader {
    #############################*/
 .content-overlay-video {
   padding: 0px !important;
-  background-image: url("../img/background.jpg");
-  background-repeat: no-repeat; }
+  background-image: url("../img/block-1-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;}
   .content-overlay-video video, .content-overlay-video img {
     width: 100%; }
   .content-overlay-video img {
@@ -374,7 +380,6 @@ nav.subHeader {
     overflow: hidden; }
   .content-overlay-video .container {
     position: relative;
-    color: #fff;
     padding: 50px 100px;
     text-align: center;
     position: absolute;
@@ -386,32 +391,35 @@ nav.subHeader {
     transform: translate(-50%, -50%); }
   .content-overlay-video .button {
     padding: 20px 20px !important; }
+  .content-overlay-video h1, .content-overlay-video p, .content-overlay-video span { color: black !important; }
   @media screen and (max-width: 40em) {
     .content-overlay-video {
-      background-image: url("../img/background-mobile.jpg");
+      background-image: url("../img/block-1-background.jpg");
       background-repeat: no-repeat;
-      background-size: 100%;
-      min-height: 150px !important; }
+      background-size: 180%;
+      min-height: 260px !important; }
       .content-overlay-video img {
-        min-height: 250px; }
+        min-height: 260px; }
       .content-overlay-video .ovrlay {
-        min-height: 150px !important; }
+        min-height: 260px !important; }
       .content-overlay-video .container {
         padding: 0px 10px !important; }
         .content-overlay-video .container h1 {
-          font-size: 20px !important;
+          font-size: 40px !important;
           padding: 10px 0px; }
       .content-overlay-video .button {
         width: 50%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-overlay-video {
-      background-image: url("../img/background-tablet.jpg") !important;
+      background-image: url("../img/block-1-background.jpg") !important;
       background-repeat: no-repeat;
-      min-height: 450px !important; }
+      min-height: 350px !important; }
+      .content-overlay-video .container { 
+        top: 45% !important; }
       .content-overlay-video .ovrlay {
         min-height: 450px !important; }
       .content-overlay-video h1 {
-        font-size: 30px; }
+        font-size: 40px; }
       .content-overlay-video p {
         font-size: 15px; }
       .content-overlay-video span {
@@ -425,13 +433,13 @@ nav.subHeader {
         width: 30%; } }
   @media only screen and (min-width: 64em) {
     .content-overlay-video {
-      background-position-y: -16px;
-      min-height: 550px !important; }
+      min-height: 450px !important; }
       .content-overlay-video .ovrlay {
-        padding: 85px 20px;
+        padding: 45px 20px;
         min-height: 550px !important; }
       .content-overlay-video .container {
-        padding: 80px 100px 30px 100px !important; }
+        top: 40% !important;  
+        padding: 50px 100px 30px 100px !important; }
       .content-overlay-video .button {
         width: 30%; }
       .content-overlay-video h1 {
@@ -473,9 +481,9 @@ nav.subHeader {
         padding-right: 0rem; }
     .inline-content-imgleft .small-4 {
       padding-top: 15px !important;
-      width: 70.333%; }
+      width: 100%; }
     .inline-content-imgleft h1, .inline-content-imgleft h2 {
-      text-align: left;
+      /* text-align: left; */
       line-height: 1.0; }
       .inline-content-imgleft h1 span, .inline-content-imgleft h2 span {
         font-size: 14px; }
@@ -564,7 +572,7 @@ nav.subHeader {
       padding-right: 0rem; }
     .inline-content-imgright .small-4 {
       padding: 3% 0px 0px 6px !important;
-      width: 74.333%; }
+      width: 100%; }
     .inline-content-imgright .info p {
       padding: 0px 7px; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -624,12 +632,12 @@ nav.subHeader {
   .headline-cta p {
     margin-bottom: 5px; }
   .headline-cta .statistics-logo {
-    margin-top: 40px; }
+    margin-top: 28px; }
   .headline-cta .simple {
     padding-left: 200px !important; } }
 @media only screen and (min-width: 40.063em) {
   .headline-cta {
-    min-height: 800px !important; }
+    min-height: 800px; }
     .headline-cta img {
       padding-bottom: 30px; }
     .headline-cta h2 {
@@ -654,7 +662,7 @@ nav.subHeader {
     .headline-cta .ctaBtns {
       padding: 0px 20px; }
     .headline-cta h4 {
-      font-size: 14px; }
+      font-size: 18px; }
     .headline-cta .small-10 {
       width: 72.333%; }
     .headline-cta .small-2 {
@@ -670,6 +678,17 @@ nav.subHeader {
     3. SECTION BLOCKS STYLING
 
 \*----------------------------------------------------------*/
+.button { 
+    min-width: 200px; 
+    transition: 300ms; 
+    height: auto !important; 
+    padding: 12px 0 !important; 
+    margin-top: 15px; }
+.button span { 
+    font-size: 18px !important; 
+    text-transform: none; 
+    font-weight: 600 !important; }
+
 #Block1 {
   background-color: white; }
   #Block1 h1, #Block1 h2, #Block1 h3, #Block1 p {
@@ -683,8 +702,22 @@ nav.subHeader {
       #Block1 .button:hover span, #Block1 .button:focus span, #Block1 .button:active span {
         color: white !important; }
 
+#SPSS-PreviousVersions {
+  background-color: #f05038; min-height: 450px !important; }
+#SPSS-PreviousVersions p { font-weight: 400 !important; }
+  #SPSS-PreviousVersions h1, #SPSS-PreviousVersions h2, #SPSS-PreviousVersions h3, #SPSS-PreviousVersions p {
+    color:white !important; }
+  #SPSS-PreviousVersions .button {
+    background-color: white !important; width: 220px; }
+    #SPSS-PreviousVersions .button span {
+      color: #f05038 !important; }
+    #SPSS-PreviousVersions .button:hover, #SPSS-PreviousVersions .button:focus, #SPSS-PreviousVersions .button:active {
+      background-color: #ebebeb !important; }
+      #SPSS-PreviousVersions .button:hover span, #SPSS-PreviousVersions .button:focus span, #SPSS-PreviousVersions .button:active span {
+        color: #f05038 !important; }
+
 #SPSS-Statistics {
-  background-color: white; }
+  background-color: white; min-height: 650px;  }
   #SPSS-Statistics h1, #SPSS-Statistics h2, #SPSS-Statistics h3, #SPSS-Statistics p {
     color: black !important; }
   #SPSS-Statistics .button {
@@ -697,11 +730,12 @@ nav.subHeader {
         color: white !important; }
 
 #SPSS-Amos {
-  background-color: white; }
+  background-color: #ebebeb; }
   #SPSS-Amos h1, #SPSS-Amos h2, #SPSS-Amos h3, #SPSS-Amos p {
     color: black !important; }
+#SPSS-Amos p { font-size: 18px; }
   #SPSS-Amos .button {
-    background-color: #2eb24d !important; }
+    background-color: #2eb24d !important; max-width: 220px;}
     #SPSS-Amos .button span {
       color: white !important; }
     #SPSS-Amos .button:hover, #SPSS-Amos .button:focus, #SPSS-Amos .button:active {
@@ -713,8 +747,9 @@ nav.subHeader {
   background-color: white; }
   #SPSS-Modeler h1, #SPSS-Modeler h2, #SPSS-Modeler h3, #SPSS-Modeler p {
     color: black !important; }
+  #SPSS-Modeler p { font-size: 18px; }
   #SPSS-Modeler .button {
-    background-color: #81297d !important; }
+    background-color: #81297d !important; max-width: 220px; }
     #SPSS-Modeler .button span {
       color: white !important; }
     #SPSS-Modeler .button:hover, #SPSS-Modeler .button:focus, #SPSS-Modeler .button:active {
@@ -739,30 +774,54 @@ nav.subHeader {
   position: absolute;
   padding-bottom: 60px;
   left: 50%;
-  -webkit-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-  z-index: 99; }
+  /* margin-left: -35px; */
+  -webkit-transform: translate(-50%, -23%);
+  -ms-transform: translate(-50%, -23%);
+  transform: translate(-50%, -23%);
+  z-index: 99; 
+  transition: 300ms; }
 
 .round-button {
   z-index: 1200;
   display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border: 2px solid #f5f5f5;
-  border-radius: 50%;
-  color: #000;
-  text-align: center;
-  text-decoration: none;
-  background: #FFF;
-  position: absolute;
-  box-shadow: 0 2px 3px gray;
-  font-size: 20px;
-  font-weight: bold; }
+  width: 70px;
+  height: 70px; }
 
-.round-button:hover {
-  background: #EFEFEF; }
+.down-arrow:hover { margin-top:3px; }
+.expand-height { min-height: 860px !important; }
+.expand-height .container { top: 35% !important; }
+.expand-content {
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    max-width: 800px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+.country-list { min-width: 820px; }
+.spps-list ul li p { color: black; font-size: 14px !important; }
+.spps-list ul li { color: #f05038; list-style: disc; }
+.expander span i { color: #f05038; }
+.expander { color: black; }
+.expander.expanded, .expander:hover { color: #f05038; }
+
+@media screen and (min-width: 40.063em) { 
+    .button { 
+        margin:0 auto !important; 
+        text-align:center; 
+        float: none !important; } 
+    #SPSS-PreviousVersions { min-height: 580px !important; }
+}
+@media screen and (max-width: 900px) {
+    #SPSS-Statistics ul li { clear: both; width: 100%; }
+    #SPSS-Statistics ul { width: 100%; }
+}
+@media screen and (max-width:1028px) { 
+    .expand-height { min-height: 550px !important; }
+    .expand-height .container { top: 50% !important; }
+}
 
 /*----------------------------------------------------------*\
 

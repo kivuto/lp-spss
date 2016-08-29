@@ -22,7 +22,7 @@
  <div class="fixed off-canvas-fixed">
    <nav class="tab-bar offHeader show-for-small" data-topbar>
      <a class="left-off-canvas-toggle menu-icon">
-       <span>IBM&reg;&nbsp;SPSS&reg;</span>
+         <span><p style="margin-top:4px;">IBM<sup style="font-size:0.7em;"><sup>&reg;</sup></sup>&nbsp;&nbsp;&nbsp;&nbsp;SPSS<sup style="font-size:0.7em;"><sup>&reg;</sup></sup></p></span>
      </a>
    </nav>
  
@@ -51,11 +51,13 @@
       <section class="top-bar-section">
           <!-- Left Nav Section -->
             <ul>
-              <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">SPSS STATISTICS</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">SPSS STATISTICS</a></li>
               <li><a1> | </a1></li>
-              <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">AMOS</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[3]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">AMOS</a></li>
               <li><a1> | </a1></li>
-              <li><a onclick="tib('#<?php echo $blocks[3]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">MODELER</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[4]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[4]; ?>');">MODELER</a></li>
+              <li><a1> | </a1></li>
+              <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">PREVIOUS VERSIONS</a></li>
               <!-- <li><a1> | </a1></li> -->
               
             </ul>
