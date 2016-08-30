@@ -88,7 +88,11 @@
         } catch(err){}
          
         setTimeout(function() {
-        document.location.href = link.href;
+             if (link.target === '_blank') {
+                window.open(link.href);    
+            } else {
+                document.location.href = link.href;
+            }
         }, 100);
       }
       //<a href="link.htm" onClick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Clickthrough', 'Minitab LP v2 - Clickthrough - Minitab Rent Button'); return false;">link</a>   

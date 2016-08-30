@@ -11,16 +11,17 @@
                   <h4 class="avenir-light">Use IBM SPSS Statistics to solve business and research problems by means of ad hoc analysis, hypothesis testing, geospatial analysis, and predictive analytics.</h4>
               </div> 
           </div>
-          <div class="row">
+          <div class="row" style="margin-bottom:10px;">
               <div class="large-12 columns center">
                   <h4 class="avenir-light"> 6 or 12 month rental licenses available to verified students and faculty. Available for Windows and Mac.</h4>
               </div> 
           </div>
+          <br/>
           <div class="row ctaBtns">
               <ul class="small-block-grid-1 medium-block-grid-4 large-block-grid-4 center">
                   <li></li>
                   <li>
-                      <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=12c7bd0a-436e-e511-9411-b8ca3a5db7a1&cmi_mnuMain=2ff73789-74c7-e011-ae14-f04da23e67f6&cmi_mnuMain_child=2a1143f0-74c7-e011-ae14-f04da23e67f6&utm_source=LandingPage-SPSS-Statistics-student&utm_medium=LandingPage-b&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Student Buy'); return false;">
+                      <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=12c7bd0a-436e-e511-9411-b8ca3a5db7a1&cmi_mnuMain=2ff73789-74c7-e011-ae14-f04da23e67f6&cmi_mnuMain_child=2a1143f0-74c7-e011-ae14-f04da23e67f6&utm_source=statistics24-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Student Buy'); return false;">
                           <div class="button center">
                              <span><em>Students</em> buy now</span>
                           </div>
