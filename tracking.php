@@ -85,15 +85,12 @@
         ga('send', 'event', category, action, label);
         // OLD Analytics command for OTH Umbrella
         _gaq.push(['_trackEvent', category, action, label]);
-        } catch(err){}
-         
-        setTimeout(function() {
-             if (link.target === '_blank') {
-                window.open(link.href);    
-            } else {
-                document.location.href = link.href;
-            }
-        }, 100);
+        } catch(err){} 
+        if (link.target === '_blank') { 
+            window.open(link.href);    
+        } else {
+            document.location.href = link.href;
+        }
       }
       //<a href="link.htm" onClick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Clickthrough', 'Minitab LP v2 - Clickthrough - Minitab Rent Button'); return false;">link</a>   
     </script>
