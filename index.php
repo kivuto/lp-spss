@@ -21,9 +21,9 @@
 
         /* Block names: name them what you want them to show up in google analytics */ 
         $blocks = array(
-        /*Block 1*/   'Introduction', 
-        /*Block 2*/   'SPSS-PreviousVersions',
-        /*Block 3*/   'SPSS-Statistics',
+        /*Block 1*/   'Introduction',         
+        /*Block 2*/   'SPSS-Statistics',
+        /*Block 3*/   'SPSS-PreviousVersions',
         /*Block 4*/   'SPSS-Amos',
         /*Block 5*/   'SPSS-Modeler',
         /*Block 6*/   //'SPSS-Data-Collection',
@@ -67,16 +67,16 @@
           
           <!-- INCLUDE First Band  -->
           <?php  
-                include 'content-spss-prev-versions.php';
+                include 'content-headline-cta.php';
                 $counter++;
-          ?>  
+          ?>
               
           <!-- INCLUDE Headline Band  --> 
                    
           <?php  
-                include 'content-headline-cta.php';
+                include 'content-spss-prev-versions.php';
                 $counter++;
-          ?>
+          ?>  
          
          
           <!-- INCLUDE Second Band -->
