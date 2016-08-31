@@ -11,10 +11,10 @@ $(document).ready(function(){
         $(".content").not($(this).parent().next()).hide();  // hide any other dropdown 
         $(".expander").not($(this)).addClass("collapsed").removeClass("expanded");                  // that is already open
         
-        if (($("#SPSS-Statistics").hasClass("expand-height") && $(this).attr("id") == "country-exp") || ($(this).hasClass("academic-status") && $("#SPSS-Statistics").hasClass("expand-height"))) { 
-            $("#SPSS-Statistics").removeClass("expand-height"); }
+        if (($("#Introduction").hasClass("expand-height") && $(this).attr("id") == "country-exp") || ($(this).hasClass("academic-status") && $("#Introduction").hasClass("expand-height"))) { 
+            $("#Introduction").removeClass("expand-height"); }
         else if ($(this).attr("id") == "country-exp") { 
-            $("#SPSS-Statistics").addClass("expand-height"); }
+            $("#Introduction").addClass("expand-height"); }
         
         if ($(this).find("i").hasClass("fa-rotate-90")) {       // rotate the font-awesome icons
             $(this).find("i").removeClass("fa-rotate-90"); }

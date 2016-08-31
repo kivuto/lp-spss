@@ -397,9 +397,9 @@ nav.subHeader {
       background-image: url("../img/block-1-background.jpg");
       background-repeat: no-repeat;
       background-size: 180%;
-      min-height: 260px !important; }
+      min-height: 350px !important; }
       .content-overlay-video img {
-        min-height: 260px; }
+        min-height: 350px; }
       .content-overlay-video .ovrlay {
         min-height: 260px !important; }
       .content-overlay-video .container {
@@ -413,13 +413,14 @@ nav.subHeader {
     .content-overlay-video {
       background-image: url("../img/block-1-background.jpg") !important;
       background-repeat: no-repeat;
-      min-height: 350px !important; }
+      min-height: 500px !important; }
       .content-overlay-video .container { 
-        top: 45% !important; }
+        top: 50% !important;
+        padding: 50px 50px 30px 50px !important; }
       .content-overlay-video .ovrlay {
-        min-height: 450px !important; }
+        min-height: 500px !important;  }
       .content-overlay-video h1 {
-        font-size: 40px; }
+        font-size: 56px; }
       .content-overlay-video p {
         font-size: 15px; }
       .content-overlay-video span {
@@ -433,21 +434,27 @@ nav.subHeader {
         width: 30%; } }
   @media only screen and (min-width: 64em) {
     .content-overlay-video {
-      min-height: 450px !important; }
+      min-height: 640px !important; }
       .content-overlay-video .ovrlay {
         padding: 45px 20px;
         min-height: 550px !important; }
       .content-overlay-video .container {
-        top: 40% !important;  
+        top: 50% !important;  
         padding: 50px 100px 30px 100px !important; }
       .content-overlay-video .button {
         width: 30%; }
       .content-overlay-video h1 {
         padding-bottom: 30px;
-        font-size: 50px; }
+        font-size: 70px; }
       .content-overlay-video p {
-        padding-bottom: 40px;
-        font-size: 25px !important; } }
+        padding-bottom: 20px;
+        font-size: 25px !important; }
+      .content-overlay-video .content p {
+        font-size: 17px !important; 
+        padding-bottom: 0px; 
+        margin-bottom: 4px !important; 
+        text-align: left;
+        text-shadow: 1px 1px 5px white; } }
 
 /* #############################
        Block with image left of content 
@@ -464,7 +471,7 @@ nav.subHeader {
   .inline-content-imgleft h2 {
     color: #6EB43F !important; }
   .inline-content-imgleft .small-4 {
-    width: 80.33333%; }
+    width: 100%; }
   .inline-content-imgleft span {
     font-size: 16px; }
   .inline-content-imgleft .large-12 {
@@ -544,7 +551,7 @@ nav.subHeader {
   .inline-content-imgright span {
     font-size: 16px; }
   .inline-content-imgright .small-4 {
-    width: 87.33333%; }
+    width: 100%; }
   .inline-content-imgright .large-12 {
     padding-left: 0rem; }
   @media only screen and (max-width: 40em) {
@@ -611,7 +618,7 @@ nav.subHeader {
 .headline-cta .button span {
   font-size: 19px;
   font-weight: bold; }
-.headline-cta img {
+.headline-cta .show-for-large-up img {
   float: right !important; }
 @media only screen and (min-width: 64.063em) {
   .headline-cta .button {
@@ -622,15 +629,15 @@ nav.subHeader {
     padding-bottom: 30px;
     float: right; }
   .headline-cta h2 {
-    font-size: 80px !important;
-    padding-botom: 15px !important; }
+    font-size: 42px !important;
+    padding-bottom: 15px !important; }
   .headline-cta h5 {
     margin-bottom: 5px;
     margin-top: 25px;
     font-size: 18px !important;
     text-align: left; }
   .headline-cta p {
-    margin-bottom: 5px; }
+    margin-bottom: 1.25rem; }
   .headline-cta .statistics-logo {
     margin-top: 28px; }
   .headline-cta .simple {
@@ -644,7 +651,7 @@ nav.subHeader {
       padding-bottom: 30px; } }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .headline-cta {
-    min-height: 550px !important; }
+    min-height: 700px !important; }
     .headline-cta .button {
       white-space: nowrap; } }
 @media only screen and (max-width: 40em) {
@@ -717,9 +724,10 @@ nav.subHeader {
         color: #f05038 !important; }
 
 #SPSS-Statistics {
-  background-color: white; min-height: 650px;  }
+  background-color: white; min-height: 600px; border-top: 2px solid #f05038; }
   #SPSS-Statistics h1, #SPSS-Statistics h2, #SPSS-Statistics h3, #SPSS-Statistics p {
     color: black !important; }
+  #SPSS-Statistics p { font-size: 18px; }
   #SPSS-Statistics .button {
     background-color: #f05038 !important; }
     #SPSS-Statistics .button span {
@@ -728,6 +736,13 @@ nav.subHeader {
       background-color: #70251a !important; }
       #SPSS-Statistics .button:hover span, #SPSS-Statistics .button:focus span, #SPSS-Statistics .button:active span {
         color: white !important; }
+    #SPSS-Statistics .large-block-grid-4 > li {
+        width: 45% !important;
+    }
+    @media screen and (max-width: 1025px) {
+        .center-small { max-width: 500px; margin: 0 auto; }
+        #SPSS-Statistics .large-block-grid-4 > li { width: 50% !important; }
+    }
 
 #SPSS-Amos {
   background-color: #ebebeb; }
@@ -788,19 +803,20 @@ nav.subHeader {
   height: 70px; }
 
 .down-arrow:hover { margin-top:3px; }
-.expand-height { min-height: 860px !important; }
+.expand-height { min-height: 760px !important; }
 .expand-height .container { top: 35% !important; }
 .expand-content {
     position: absolute;
     top: 40px;
     text-align: center;
     max-width: 800px;
+    min-width: 600px;
     left: 50%;
     -webkit-transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
 }
-.country-list { min-width: 820px; }
+.country-list { min-width: 820px; text-align: left; }
 .spps-list ul li p { color: black; font-size: 14px !important; }
 .spps-list ul li { color: #f05038; list-style: disc; }
 .expander span i { color: #f05038; }
@@ -814,9 +830,10 @@ nav.subHeader {
         float: none !important; } 
     #SPSS-PreviousVersions { min-height: 580px !important; }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 642px) {
     #SPSS-Statistics ul li { clear: both; width: 100%; }
-    #SPSS-Statistics ul { width: 100%; }
+    #SPSS-Statistics ul { width: 100%; margin: 0 auto; }
+    #SPSS-Statistics .large-block-grid-4 > li { width: 100% !important; }
 }
 @media screen and (max-width:1028px) { 
     .expand-height { min-height: 550px !important; }

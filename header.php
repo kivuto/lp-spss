@@ -51,13 +51,13 @@
       <section class="top-bar-section">
           <!-- Left Nav Section -->
             <ul>
-              <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">SPSS STATISTICS</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">SPSS STATISTICS</a></li>
               <li><a1> | </a1></li>
               <li><a onclick="tib('#<?php echo $blocks[3]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">AMOS</a></li>
               <li><a1> | </a1></li>
               <li><a onclick="tib('#<?php echo $blocks[4]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[4]; ?>');">MODELER</a></li>
               <li><a1> | </a1></li>
-              <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">PREVIOUS VERSIONS</a></li>
+              <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">PREVIOUS VERSIONS</a></li>
               <!-- <li><a1> | </a1></li> -->
               
             </ul>
