@@ -9,8 +9,10 @@
                   <div class="row title">
                     <h2>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup><br class="special-break"/> Statistics 24</h2>
                 </div>
+                <div class="padding-for-mobile">  
                 <p>Use IBM SPSS Statistics to solve business and research problems by means of ad hoc analysis, hypothesis testing, geospatial analysis, and predictive analytics.</p>
                 <p> 6 or 12 month rental licenses available to verified students and faculty. Available for Windows and Mac.</p>
+                </div>
               <br/>
               <div class="ctaBtns center-small">
                   <ul class="small-block-grid-1 medium-block-grid-4 large-block-grid-4 center">

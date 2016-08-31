@@ -20,7 +20,7 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">
-                      <h1 class="avenir-heavy">IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> discounts for students & faculty</h1>
+                      <h1 class="avenir-heavy">IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> discounts <span class="break-on-large">for students & faculty</span></h1>
                   </div> 
               </div> 
               <div class="row ">

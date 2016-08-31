@@ -107,6 +107,12 @@ div#at4m-dock.ats-transparent {
 
 .special-break {
   display: none; }
+.break-on-large {
+  display: block; }
+
+@media screen and (max-width: 720px) {
+    .break-on-large {
+        display: inline; } }
 
 @media only screen and (max-width: 1050px) and (min-width: 1026px) {
   .special-break {
@@ -423,8 +429,7 @@ nav.subHeader {
         font-size: 56px; }
       .content-overlay-video p {
         font-size: 15px; }
-      .content-overlay-video span {
-        font-size: 21px !important; }
+ 
       .content-overlay-video h1 {
         padding-bottom: 20px; }
       .content-overlay-video p {
@@ -445,7 +450,7 @@ nav.subHeader {
         width: 30%; }
       .content-overlay-video h1 {
         padding-bottom: 30px;
-        font-size: 70px; }
+        font-size: 65px; }
       .content-overlay-video p {
         padding-bottom: 20px;
         font-size: 25px !important; }
@@ -566,7 +571,7 @@ nav.subHeader {
       font-size: 19px;
       font-weight: bold; }
     .inline-content-imgright .large-7 {
-      width: 95%; }
+      width: 100%; }
     .inline-content-imgright .large-5 {
       width: 100%; }
     .inline-content-imgright .small-3 {
@@ -834,6 +839,7 @@ nav.subHeader {
     #SPSS-Statistics ul li { clear: both; width: 100%; }
     #SPSS-Statistics ul { width: 100%; margin: 0 auto; }
     #SPSS-Statistics .large-block-grid-4 > li { width: 100% !important; }
+    .padding-for-mobile p { padding: 0 8px; }
 }
 @media screen and (max-width:1028px) { 
     .expand-height { min-height: 550px !important; }
@@ -853,7 +859,7 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 .avenir-medium {
   font-family: 'AvenirLTStd-Medium', Verdana, sans-serif !important; }
 
-.avenir-heavy {
+.avenir-heavy, h1 span {
   font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
 
 .avenir-light {
