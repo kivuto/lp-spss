@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta name="description" content="Save up to 90% off IBM SPSS statistical analysis and data mining software, including Statistics 23, Amos 23, and Modeler 18. ">
+    <meta name="description" content="Save up to 90% off IBM SPSS statistical analysis and data mining software, including Statistics 24, Amos 24, and Modeler 18. You can still get versions 23 and 22 from OnTheHub. ">
     <title> IBM SPSS Software Discounts for Students & Faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
