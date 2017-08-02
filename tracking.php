@@ -46,14 +46,12 @@
        'theme' : 'transparent',
        'share' : {
          'position' : 'left',
-         'numPreferredServices' : 5
+         'numPreferredServices' : 3
        }, 
        'follow' : {
          'services' : [
            {'service': 'facebook', 'id': 'onthehub.network'},
            {'service': 'twitter', 'id': 'OnTheHub'},
-           {'service': 'google_follow', 'id': '115290003144094460033'},
-           {'service': 'pinterest', 'id': 'onthehub'}
          ]
        }   
      });

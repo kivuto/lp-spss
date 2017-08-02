@@ -25,7 +25,7 @@
               </div> 
               <div class="row ">
                   <div class="large-12 columns center">
-                      <p class="avenir-medium">Download statistical analysis and data mining software by IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup><br/> at exclusive academic pricing.</p>
+                      <p class="avenir-medium" style="max-width: 800px; margin: 0 auto 30px auto;">Download statistical analysis and data mining software by IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> at exclusive academic pricing.</p>
                   </div> 
               </div>
               <div class="row show-for-large-up">

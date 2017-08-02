@@ -367,8 +367,9 @@ nav.subHeader {
 .content-overlay-video {
   padding: 0px !important;
   background-image: url("../img/block-1-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: 100%;
+	border-top: 2px solid #e3e3e3;
   background-position: center center;}
   .content-overlay-video video, .content-overlay-video img {
     width: 100%; }
@@ -398,12 +399,17 @@ nav.subHeader {
   .content-overlay-video .button {
     padding: 20px 20px !important; }
   .content-overlay-video h1, .content-overlay-video p, .content-overlay-video span { color: black !important; }
+@media screen and (max-width: 1420px) {
+    .content-overlay-video {
+      background-size: cover !important;
+      }
+}
   @media screen and (max-width: 40em) {
     .content-overlay-video {
       background-image: url("../img/block-1-background.jpg");
       background-repeat: no-repeat;
-      background-size: 180%;
-      min-height: 350px !important; }
+      background-size: cover !important;
+      min-height: 380px !important; }
       .content-overlay-video img {
         min-height: 350px; }
       .content-overlay-video .ovrlay {
@@ -417,8 +423,9 @@ nav.subHeader {
         width: 50%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-overlay-video {
-      background-image: url("../img/block-1-background.jpg") !important;
+      background-image: url("../img/block-1-background.jpg");
       background-repeat: no-repeat;
+		background-size: 160%;
       min-height: 500px !important; }
       .content-overlay-video .container { 
         top: 50% !important;
@@ -437,6 +444,15 @@ nav.subHeader {
         font-size: 20px !important; }
       .content-overlay-video .button {
         width: 30%; } }
+@media only screen and (max-width: 1024px) {
+    .content-overlay-video {
+      background-image: url("../img/block-1-background-mobile.jpg");
+		 }
+		.content-overlay-video .large-12.columns.center {
+			padding-right: 0 !important;
+			padding-left: 0 !important;
+		}
+	}
   @media only screen and (min-width: 64em) {
     .content-overlay-video {
       min-height: 640px !important; }
@@ -697,7 +713,7 @@ nav.subHeader {
     padding: 12px 0 !important; 
     margin-top: 15px; }
 .button span { 
-    font-size: 18px !important; 
+    font-size: 20px !important; 
     text-transform: none; 
     font-weight: 600 !important; }
 
@@ -715,35 +731,78 @@ nav.subHeader {
         color: white !important; }
 
 #SPSS-PreviousVersions {
-  background-color: #f05038; min-height: 450px !important; }
-#SPSS-PreviousVersions p { font-weight: 400 !important; }
+  background-color: #497CBF; min-height: auto !important; padding: 70px 10px 100px 10px; }
+#SPSS-PreviousVersions p { font-weight: 400 !important; font-size: 22px; }
   #SPSS-PreviousVersions h1, #SPSS-PreviousVersions h2, #SPSS-PreviousVersions h3, #SPSS-PreviousVersions p {
     color:white !important; }
   #SPSS-PreviousVersions .button {
     background-color: white !important; width: 220px; }
     #SPSS-PreviousVersions .button span {
-      color: #f05038 !important; }
+      color: #497CBF !important; }
     #SPSS-PreviousVersions .button:hover, #SPSS-PreviousVersions .button:focus, #SPSS-PreviousVersions .button:active {
       background-color: #ebebeb !important; }
       #SPSS-PreviousVersions .button:hover span, #SPSS-PreviousVersions .button:focus span, #SPSS-PreviousVersions .button:active span {
-        color: #f05038 !important; }
+        color: #497CBF !important; }
+#SPSS-PreviousVersions .large-6 {
+	padding-left: 0;
+}
+#SPSS-PreviousVersions .large-5 {
+	min-height: 330px;
+}
+#SPSS-PreviousVersions .large-5 img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0%);
+	-o-transform: translate(-50%,0%);
+	-ms-transform: translate(-50%,0%);
+	-webkit-transform: translate(-50%,0%);
+	transition: 200ms;
+}
+#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(odd) {
+	margin-top: 160px;
+}
+#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(1) {
+	margin-left: -110px;
+}
+#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(3) {
+	margin-left: 110px;
+}
+#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(1).hover{
+	content: url(../img/block-3-22-selected.png);
+	cursor: pointer;
+}
+#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(2).hover {
+	content: url(../img/block-3-24-selected.png);
+	cursor: pointer;
+}
+#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(3).hover {
+	content: url(../img/block-3-23-selected.png);
+	cursor: pointer;
+}
 
 #SPSS-Statistics {
-  background-color: white; min-height: 600px; border-top: 2px solid #f05038; }
+  background-color: white; min-height: 560px; border-top: 2px solid #E3E3E3; padding-top: 70px !important; }
   #SPSS-Statistics h1, #SPSS-Statistics h2, #SPSS-Statistics h3, #SPSS-Statistics p {
     color: black !important; }
-  #SPSS-Statistics p { font-size: 18px; }
+  #SPSS-Statistics p { font-size: 22px; }
   #SPSS-Statistics .button {
-    background-color: #f05038 !important; }
+    background-color: #ED714E !important; }
     #SPSS-Statistics .button span {
       color: white !important; }
     #SPSS-Statistics .button:hover, #SPSS-Statistics .button:focus, #SPSS-Statistics .button:active {
-      background-color: #70251a !important; }
+      background-color: #F05038 !important; }
       #SPSS-Statistics .button:hover span, #SPSS-Statistics .button:focus span, #SPSS-Statistics .button:active span {
         color: white !important; }
     #SPSS-Statistics .large-block-grid-4 > li {
         width: 45% !important;
     }
+	#SPSS-Statistics .large-5.columns {
+		padding-right: 0 !important;
+	}
+	#SPSS-Statistics .large-7.columns {
+		padding-left: 0 !important;
+		padding-right: 80px;
+		}
     @media screen and (max-width: 1025px) {
         .center-small { max-width: 500px; margin: 0 auto; }
         #SPSS-Statistics .large-block-grid-4 > li { width: 50% !important; }
@@ -790,6 +849,17 @@ nav.subHeader {
       #SPSS-Data-Collection .button:hover span, #SPSS-Data-Collection .button:focus span, #SPSS-Data-Collection .button:active span {
         color: white !important; }
 
+
+#SPSS-Statistics.row .container, #SPSS-PreviousVersions.row .container {
+	position: relative !important;
+	top: auto;
+	left: auto;
+	transform: translate(0%, 0%);
+	-o-transform: translate(0%, 0%);
+	-ms-transform: translate(0%, 0%);
+	-webkit-transform: translate(0%, 0%);
+}
+
 .down-arrow {
   position: absolute;
   padding-bottom: 60px;
@@ -804,8 +874,8 @@ nav.subHeader {
 .round-button {
   z-index: 1200;
   display: block;
-  width: 70px;
-  height: 70px; }
+  width: 87px;
+  height: 87px; }
 
 .down-arrow:hover { margin-top:3px; }
 .expand-height { min-height: 760px !important; }
@@ -823,17 +893,28 @@ nav.subHeader {
 }
 .country-list { min-width: 820px; text-align: left; }
 .spps-list ul li p { color: black; font-size: 14px !important; }
-.spps-list ul li { color: #f05038; list-style: disc; }
-.expander span i { color: #f05038; }
-.expander { color: black; }
-.expander.expanded, .expander:hover { color: #f05038; }
+.spps-list ul li { color: #4178be; list-style: disc; }
+.expander span i { color: #4178be; }
+.expander { color: black; font-weight: 600; font-size: 1.15em; }
+.expander.expanded, .expander:hover { color: #4178be; }
 
+@media screen and (max-width: 1150px) {
+	#SPSS-Statistics {
+  		min-height: 620px; }
+	#SPSS-Statistics.row .container {
+	}
+}
+@media screen and (max-width: 1024px) {
+	#SPSS-Statistics .large-7.columns {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		}
+}
 @media screen and (min-width: 40.063em) { 
     .button { 
         margin:0 auto !important; 
         text-align:center; 
         float: none !important; } 
-    #SPSS-PreviousVersions { min-height: 580px !important; }
 }
 @media screen and (max-width: 642px) {
     #SPSS-Statistics ul li { clear: both; width: 100%; }

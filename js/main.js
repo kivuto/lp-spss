@@ -23,6 +23,16 @@ $(document).ready(function(){
         if ($("i").not($(this).find("i")).hasClass("fa-rotate-90")) {
             $("i").not($(this).find("i")).removeClass("fa-rotate-90"); }
     });
+	
+	
+	
+	$(".hover-circle").hover(function(){
+		$(".hover-circle").not(this).removeClass("hover");
+		$(this).toggleClass("hover");
+	});
+	$(".hover-grp").mouseleave(function(){
+		$(".hover-circle.default").addClass("hover");
+	});
 
 
 	/*--------------------
