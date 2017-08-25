@@ -758,24 +758,24 @@ nav.subHeader {
 	-webkit-transform: translate(-50%,0%);
 	transition: 200ms;
 }
-#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(odd) {
+#SPSS-PreviousVersions .large-5 a:nth-of-type(odd) .hover-circle {
 	margin-top: 160px;
 }
-#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(1) {
+#SPSS-PreviousVersions .large-5 a:nth-of-type(1) .hover-circle {
 	margin-left: -110px;
 }
-#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(3) {
+#SPSS-PreviousVersions .large-5 a:nth-of-type(3) .hover-circle {
 	margin-left: 110px;
 }
-#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(1).hover{
+#SPSS-PreviousVersions .large-5 a:nth-of-type(1) .hover-circle.hover{
 	content: url(../img/block-3-22-selected.png);
 	cursor: pointer;
 }
-#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(2).hover {
+#SPSS-PreviousVersions .large-5 a:nth-of-type(2) .hover-circle.hover {
 	content: url(../img/block-3-24-selected.png);
 	cursor: pointer;
 }
-#SPSS-PreviousVersions .large-5 .hover-circle:nth-of-type(3).hover {
+#SPSS-PreviousVersions .large-5 a:nth-of-type(3) .hover-circle.hover {
 	content: url(../img/block-3-23-selected.png);
 	cursor: pointer;
 }

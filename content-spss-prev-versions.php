@@ -3,9 +3,9 @@
       <div class="container">
           <div class="row">
                <div class="large-5 columns hover-grp">
-                  <img src="img/block-3-22.png" alt="SPSS Statistics 22" class="hover-circle hover default">
-                  <img src="img/block-3-24.png" alt="SPSS Statistics 24" class="hover-circle">
-                  <img src="img/block-3-23.png" alt="SPSS Statistics 23" class="hover-circle">
+                  <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=e60626f1-6a03-e311-93f3-b8ca3a5db7a1&cmi_mnuMain=2ff73789-74c7-e011-ae14-f04da23e67f6&cmi_mnuMain_child=2a1143f0-74c7-e011-ae14-f04da23e67f6" target="_blank"><img src="img/block-3-22.png" alt="SPSS Statistics 22" class="hover-circle hover default"></a>
+				   <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=12c7bd0a-436e-e511-9411-b8ca3a5db7a1&cmi_mnuMain=2ff73789-74c7-e011-ae14-f04da23e67f6&cmi_mnuMain_child=2a1143f0-74c7-e011-ae14-f04da23e67f6" target="_blank"><img src="img/block-3-24.png" alt="SPSS Statistics 24" class="hover-circle"></a>
+					  <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=89cf975c-47c3-e411-940a-b8ca3a5db7a1&cmi_mnuMain=2ff73789-74c7-e011-ae14-f04da23e67f6&cmi_mnuMain_child=2a1143f0-74c7-e011-ae14-f04da23e67f6" target="_blank"><img src="img/block-3-23.png" alt="SPSS Statistics 23" class="hover-circle"></a>
               </div>
               <div class="large-6 columns info">
                   <div class="row title"> 

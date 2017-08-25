@@ -3,22 +3,22 @@
       <div class="container">
           <div class="row">
               <div class="large-5 columns qcImage hide-for-large-up">
-                  <img src="img/block-4-imagery.png" alt="Amos 24 program screenshot">
+                  <img src="img/block-4-imagery.png" alt="Amos 25 program screenshot">
               </div>
               <div class="large-7 columns info">
                   <div class="row title">
                       <div class="small-4 columns" style="padding:0;">
-                          <h2>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Amos 24</h2>
+                          <h2>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Amos 25</h2>
                       </div> 
                       <div class="small-2 columns ">
                       </div> 
                   </div> 
                   <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. </p>
                   <p>12 month license available to verified students only.</p>
-                  <p class="hide-for-mobile" style="margin-bottom:15px;">Amos 24 for Windows</p>
+                  <p class="hide-for-mobile" style="margin-bottom:15px;">Amos 25 for Windows</p>
                   <br />
                   <div class="row ctaBtns">
-                      <a href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=4e2b505c-afeb-e511-9417-b8ca3a5db7a1&utm_source=amos-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Amos - Buy'); return false;">
+                      <a href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=2ac379dc-4a84-e711-80f3-000d3af41938&utm_source=amos-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Amos - Buy'); return false;">
                           <div class="large-6 columns button rent">
                              <span>Buy now</span>
                           </div>
