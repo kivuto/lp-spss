@@ -1,5 +1,5 @@
 <div class="special-footer cgg-promo" id="CollegeGear">
-<p><a href="http://onthehub.com/college-gear-giveaway/?utm_source=spss-lp&utm_medium=onthehub-lp&utm_campaign=onthehub#contest-entry" target="_blank">Launch yourself into the new school year with awesome gear from Microsoft and OnTheHub! <span class="cgg-cta">Enter our College Gear Giveaway</span> for your chance to win!</a></p>
+<p><a href="http://onthehub.com/college-gear-giveaway/?utm_source=spss-lp&utm_medium=onthehub-lp&utm_campaign=onthehub#contest-entry" target="_blank">Launch yourself into the new school year with awesome gear from SPSS and OnTheHub! <span class="cgg-cta">Enter our College Gear Giveaway</span> for your chance to win!</a></p>
 	<img class="space-shuttle" src="http://onthehub.com/wp-content/themes/onthehub/images/college-gear/space-shuttle.png" />
 </div>
 
