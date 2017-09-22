@@ -104,10 +104,6 @@
            <?php  
                 include 'footer/footer.php';
            ?> 
-			  
-		   <?php
-			  	include 'cgg-footer.php';
-		   ?>
 
       </div>
   </div>
