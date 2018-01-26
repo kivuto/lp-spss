@@ -103,6 +103,8 @@
           <!-- INCLUDE THE FOOTER AND SUBFOOTER -->
            <?php  
                 include 'footer/footer.php';
+			  
+			  	include 'dtd-footer.php'; // add jan 2018
            ?> 
 
       </div>
