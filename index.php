@@ -104,7 +104,7 @@
            <?php  
                 include 'footer/footer.php';
 			  
-			  	include 'dtd-footer.php'; // add jan 2018
+			  	//include 'dtd-footer.php'; // add/remove jan 2018 
            ?> 
 
       </div>
