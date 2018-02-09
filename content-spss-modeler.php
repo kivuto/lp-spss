@@ -18,7 +18,7 @@
                   <p style="margin-bottom:15px;">Available for Windows and Mac.</p>
                   <br />
                   <div class="row ctaBtns">
-                              <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=3e099c43-2263-e611-9420-b8ca3a5db7a1&utm_source=modeler-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Modeler -Student Buy'); return false;">
+                              <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=efc0e99f-1ee4-4dc6-aed4-9108efa170a5&cmi_mnuMain=8659da1b-241d-e611-941a-b8ca3a5db7a1&utm_source=modeler-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Modeler -Student Buy'); return false;">
                                   <div class="large-6 columns button rent">
                                      <span>Buy now</span>
                                   </div>
