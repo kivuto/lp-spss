@@ -18,7 +18,7 @@
                   <p class="hide-for-mobile" style="margin-bottom:15px;">Amos 25 for Windows</p>
                   <br />
                   <div class="row ctaBtns">
-                      <a href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=2ac379dc-4a84-e711-80f3-000d3af41938&utm_source=amos-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Amos - Buy'); return false;">
+                      <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=7e9af842-5f83-e711-80f3-000d3af41938&utm_source=amos-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Amos - Buy'); return false;">
                           <div class="large-6 columns button rent">
                              <span>Buy now</span>
                           </div>
