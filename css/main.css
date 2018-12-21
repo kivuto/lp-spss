@@ -110,6 +110,11 @@ div#at4m-dock.ats-transparent {
 .break-on-large {
   display: block; }
 
+.red { color: #D6272C !important; }
+.yellow { color: #FFE672 !important; }
+.green { color: #29B256 !important; }
+.purple { color: #7F2A7D !important; }
+
 @media screen and (max-width: 720px) {
     .break-on-large {
         display: inline; } }
@@ -940,7 +945,7 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 .avenir-medium {
   font-family: 'AvenirLTStd-Medium', Verdana, sans-serif !important; }
 
-.avenir-heavy, h1 span {
+.avenir-heavy, h1 span, strong {
   font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
 
 .avenir-light {
