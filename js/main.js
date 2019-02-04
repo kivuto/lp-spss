@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('.expander').simpleexpand();
     
     $('.expander').click(function() { 
-        $(".content").not($(this).parent().next()).hide();  // hide any other dropdown 
+        $("#Introduction .content").not($(this).parent().next()).hide();  // hide any other dropdown 
         $(".expander").not($(this)).addClass("collapsed").removeClass("expanded");                  // that is already open
         
         if (($("#Introduction").hasClass("expand-height") && $(this).attr("id") == "country-exp") || ($(this).hasClass("academic-status") && $("#Introduction").hasClass("expand-height"))) { 
