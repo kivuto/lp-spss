@@ -924,6 +924,11 @@ nav.subHeader {
     #SPSS-Statistics .large-block-grid-4 > li { width: 100% !important; }
     .padding-for-mobile p { padding: 0 8px; }
 }
+@media screen and (max-width: 640px) {
+	.header.hide-for-mobile {
+		display: none !important;
+	}
+}
 @media screen and (max-width:1028px) { 
     .expand-height { min-height: 550px !important; }
     .expand-height .container { top: 50% !important; }
