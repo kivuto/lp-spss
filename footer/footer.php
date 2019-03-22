@@ -33,7 +33,7 @@
 			<p class="big-text">Newsletter Sign Up</p>
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
-			<form action="https://kivuto.us13.list-manage.com/subscribe/post?u=56207817284eac40f14c245a7&amp;id=2deb975deb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form action="https://onthehub.us20.list-manage.com/subscribe/post?u=7920b28730d6d155b035115d0&amp;id=1c081a8bba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div id="mc_embed_signup_scroll">
 					<div class="mc-field-group">
 						<label for="mce-EMAIL" class="hidden" id="email_label">Email address</label>
@@ -46,6 +46,9 @@
 							<option value='Faculty'>I'm a faculty member</option>
 							<option value=''>Other</option>
 						</select>
+					</div>
+					<div style="position: absolute; left: -5000px;" aria-hidden="true">
+						<input type="text" value="<?php echo $gaEvent; ?>" name="SIGNUP" class="" id="mce-SIGNUP">
 					</div>
 					<div id="mce-responses" class="clear">
 						<div class="response" id="mce-error-response" style="display:none"></div>
