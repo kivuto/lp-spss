@@ -13,7 +13,7 @@
                       <div class="small-4 large-offset-1 columns ">
                       </div> 
                   </div> 
-                  <p>IBM SPSS Modeler makes building predictive models and discovering trends in your data easy. 12 month rental licenses are available to eligible students and faculty.</p>
+                  <p>IBM SPSS Modeler makes building predictive models and discovering trends in your data easy. 12-month rental licenses are available to eligible students and faculty.</p>
                   <p style="margin-bottom:15px;">Modeler v18.x is available for Windows and Mac.</p>
 				  <p><strong class="purple">No Cost</strong> – Students and Faculty Save</p>
                   <br />

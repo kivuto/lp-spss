@@ -13,7 +13,7 @@
                       <div class="small-2 columns ">
                       </div> 
                   </div> 
-                  <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. 12 month license available to verified students only.</p>
+                  <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. 12-month license available to verified students only.</p>
                   <p class="hide-for-mobile" style="margin-bottom:15px;">Amos 26 is available for Windows.</p>
 				  <p><strong class="green">$39.99 USD</strong> – Students Only</p>
                   <br />
