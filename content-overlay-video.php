@@ -20,12 +20,12 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">
-                      <h1 class="avenir-heavy">IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> discounts <span class="break-on-large">for students & faculty</span></h1>
+                      <h1 class="avenir-heavy">IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Discounts <span class="break-on-large">for Students &amp; Faculty</span></h1>
                   </div> 
               </div> 
               <div class="row ">
                   <div class="large-12 columns center">
-                      <p class="avenir-medium" style="max-width: 800px; margin: 0 auto 30px auto;">Download statistical analysis and data mining software by IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> at exclusive academic pricing.</p>
+                      <p class="avenir-medium" style="max-width: 700px; margin: 0 auto 30px auto;">Download statistical analysis and data mining software by IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> at exclusive academic pricing.</p>
                   </div> 
               </div>
               <div class="row show-for-large-up">
@@ -40,7 +40,7 @@
                           <div style="text-align:center; display:inline-block;"> 
                             <p style="font-size: 18px !important;"><a class="expander country-eligibility" id="country-exp" tabindex="6">Country Eligibility  &nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a></p>
                             <div class="content expand-content country-list">
-                                <p style="text-align:center; font-size: 16px;">Our IBM SPSS offerings are available to academic users worldwide with the following exceptions</p>
+                                <p>Our IBM SPSS offerings are available to academic users worldwide<br/>with the following exceptions:</p>
                                 <br/>
                                   <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 center spps-list">
                                       <li>

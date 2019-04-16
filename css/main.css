@@ -203,7 +203,8 @@ nav .container {
         padding: 0px 0px;
         text-align: center; }
       .row.mainContent p {
-        font-size: 14px; }
+		  padding: 0 20px;
+        font-size: 16px; }
       .row.mainContent h1 {
         font-size: 32px !important; }
       .row.mainContent h2 {
@@ -213,7 +214,7 @@ nav .container {
       .columns { float: none !important; }}
   @media only screen and (min-width: 40.063em) {
     .row.mainContent p {
-      font-size: 15px; }
+      font-size: 16px; }
     .row.mainContent .container {
       padding: 15px 40px;
       position: absolute;
@@ -367,12 +368,17 @@ nav.subHeader {
        Video background div
    #############################*/
 .content-overlay-video {
-  padding: 0px !important;
-  background-image: url("../img/block-1-background.jpg");
+	padding: 0px !important; }
+.content-overlay-video .ovrlay::after {
+  content: " ";
+  top: 0; left: 0; right: 0; bottom: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url("../img/top-imagery-left.png"), url("../img/top-imagery-right.png");
   background-repeat: repeat-y;
-  background-size: 100%;
-	border-top: 2px solid #e3e3e3;
-  background-position: center center;}
+  background-size: 606px 560px, 593px 523px;
+  border-top: 2px solid #e3e3e3;
+  background-position: -150px center, calc(100% + 150px) center; }
   .content-overlay-video video, .content-overlay-video img {
     width: 100%; }
   .content-overlay-video img {
@@ -401,18 +407,27 @@ nav.subHeader {
   .content-overlay-video .button {
     padding: 20px 20px !important; }
   .content-overlay-video h1, .content-overlay-video p, .content-overlay-video span { color: black !important; }
-@media screen and (max-width: 1420px) {
-    .content-overlay-video {
-      background-size: cover !important;
-      }
+@media screen and (max-width: 1620px) {
+    .content-overlay-video .ovrlay::after {
+  	background-position: -350px center, calc(100% + 350px) center; }
 }
+@media screen and (max-width: 1200px) {
+    .content-overlay-video .ovrlay::after {
+  	opacity: 0.3; }
+}
+@media only screen and (max-width: 1024px) {
+		.content-overlay-video .large-12.columns.center {
+			padding-right: 0 !important;
+			padding-left: 0 !important;
+		}
+	.content-overlay-video .ovrlay::after {
+  	opacity: 0.2; }
+	}
   @media screen and (max-width: 40em) {
     .content-overlay-video {
-      background-image: url("../img/block-1-background.jpg");
-      background-repeat: no-repeat;
-      background-size: cover !important;
       min-height: 380px !important; }
       .content-overlay-video img {
+		  border-top: 1px solid #ebebeb;
         min-height: 350px; }
       .content-overlay-video .ovrlay {
         min-height: 260px !important; }
@@ -425,9 +440,6 @@ nav.subHeader {
         width: 50%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-overlay-video {
-      background-image: url("../img/block-1-background.jpg");
-      background-repeat: no-repeat;
-		background-size: 160%;
       min-height: 500px !important; }
       .content-overlay-video .container { 
         top: 50% !important;
@@ -446,38 +458,32 @@ nav.subHeader {
         font-size: 20px !important; }
       .content-overlay-video .button {
         width: 30%; } }
-@media only screen and (max-width: 1024px) {
-    .content-overlay-video {
-      background-image: url("../img/block-1-background-mobile.jpg");
-		 }
-		.content-overlay-video .large-12.columns.center {
-			padding-right: 0 !important;
-			padding-left: 0 !important;
-		}
-	}
   @media only screen and (min-width: 64em) {
     .content-overlay-video {
-      min-height: 640px !important; }
+      min-height: 600px !important; }
       .content-overlay-video .ovrlay {
         padding: 45px 20px;
         min-height: 550px !important; }
       .content-overlay-video .container {
         top: 50% !important;  
-        padding: 50px 100px 30px 100px !important; }
+        padding: 20px 100px important; }
       .content-overlay-video .button {
         width: 30%; }
       .content-overlay-video h1 {
         padding-bottom: 30px;
-        font-size: 65px; }
+        font-size: 58px; }
       .content-overlay-video p {
         padding-bottom: 20px;
         font-size: 25px !important; }
       .content-overlay-video .content p {
-        font-size: 17px !important; 
+        font-size: 15px !important; 
         padding-bottom: 0px; 
         margin-bottom: 4px !important; 
-        text-align: left;
-        text-shadow: 1px 1px 5px white; } }
+        text-align: center;
+        text-shadow: 1px 1px 5px white; }
+	  .content-overlay-video .content ul li p {
+		  font-size: 14px !important; text-align: left;
+	  }}
 
 /* #############################
        Block with image left of content 
@@ -539,8 +545,6 @@ nav.subHeader {
   @media only screen and (min-width: 64.063em) {
     .inline-content-imgleft .image {
       padding-right: 0px; }
-    .inline-content-imgleft .info {
-      width: 55.333%; }
       .inline-content-imgleft .info p {
         padding-top: 10px;
         width: 97%; }
@@ -604,7 +608,9 @@ nav.subHeader {
       padding: 3% 0px 0px 6px !important;
       width: 100%; }
     .inline-content-imgright .info p {
-      padding: 0px 7px; } }
+      padding: 0px 7px; } 
+	  #SPSS-PreviousVersions .large-5 .main-prev {
+		margin-left: -60px;  }}
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .inline-content-imgright .row.title {
       padding: 25px 0px 25px 15px; }
@@ -617,7 +623,10 @@ nav.subHeader {
       padding: 0px; }
     .inline-content-imgright .trial {
       width: 98%;
-      padding: 0px; } }
+      padding: 0px; } 
+	  #SPSS-PreviousVersions .large-5 .main-prev {
+		margin-left: -60px;  }
+}
   @media only screen and (min-width: 64.063em) {
     .inline-content-imgright .large-offset-1 {
       margin-left: 5.33333% !important; }
@@ -649,7 +658,7 @@ nav.subHeader {
   .headline-cta p {
     text-align: left; }
   .headline-cta img {
-    padding-bottom: 30px;
+    margin: 30px 0;
     float: right; }
   .headline-cta h2 {
     font-size: 42px !important;
@@ -669,7 +678,7 @@ nav.subHeader {
   .headline-cta {
     min-height: 800px; }
     .headline-cta img {
-      padding-bottom: 30px; }
+      margin: 30px 0; }
     .headline-cta h2 {
       padding-bottom: 30px; } }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -733,55 +742,47 @@ nav.subHeader {
         color: white !important; }
 
 #SPSS-PreviousVersions {
-  background-color: #497CBF; min-height: auto !important; padding: 70px 10px 100px 10px; }
+  background-color: #eeeeee; min-height: auto !important; padding: 70px 10px 100px 10px; }
 #SPSS-PreviousVersions p { font-weight: 400 !important; font-size: 22px; }
   #SPSS-PreviousVersions h1, #SPSS-PreviousVersions h2, #SPSS-PreviousVersions h3, #SPSS-PreviousVersions p {
-    color:white !important; }
+    color: #000 !important; }
   #SPSS-PreviousVersions .button {
-    background-color: white !important; width: 220px; }
+    border: 2px solid #ED714E; background-color: #fff; width: 220px; }
     #SPSS-PreviousVersions .button span {
-      color: #497CBF !important; }
+      color: #ED714E !important; }
     #SPSS-PreviousVersions .button:hover, #SPSS-PreviousVersions .button:focus, #SPSS-PreviousVersions .button:active {
-      background-color: #ebebeb !important; }
+      background-color: #F05038 !important; border-color: #F05038 !important; }
       #SPSS-PreviousVersions .button:hover span, #SPSS-PreviousVersions .button:focus span, #SPSS-PreviousVersions .button:active span {
-        color: #497CBF !important; }
+        color: #fff !important; }
 #SPSS-PreviousVersions .large-6 {
 	padding-left: 0;
 }
 #SPSS-PreviousVersions .large-5 {
 	min-height: 330px;
 }
-#SPSS-PreviousVersions .large-5 img {
+#SPSS-PreviousVersions .large-5 a { transition: 200ms; }
+#SPSS-PreviousVersions .large-5 a:hover, #SPSS-PreviousVersions .large-5 a:focus {
+	opacity: 0.7;
+}
+#SPSS-PreviousVersions .large-5 .main-prev {
+	display: inline-block;
+	margin-top: 40px;
+}
+#SPSS-PreviousVersions .large-5 .sub-prev {
 	position: absolute;
-	left: 50%;
-	transform: translate(-50%,0%);
-	-o-transform: translate(-50%,0%);
-	-ms-transform: translate(-50%,0%);
-	-webkit-transform: translate(-50%,0%);
-	transition: 200ms;
+	display: inline-block;
+	max-width: 100px;
+	text-align: center;
+	margin-left: 20px;
 }
-#SPSS-PreviousVersions .large-5 a:nth-of-type(odd) .hover-circle {
-	margin-top: 160px;
+#SPSS-PreviousVersions .large-5 .sub-prev img {
+	margin-bottom: 15px; }
+@media (max-width: 500px) {
+	#SPSS-PreviousVersions .large-5 .main-prev {
+		margin-left: 0; margin-bottom: 30px;  }
+	#SPSS-PreviousVersions .large-5 .sub-prev { display: none; }
+	#SPSS-PreviousVersions .large-5 { min-height: auto; }
 }
-#SPSS-PreviousVersions .large-5 a:nth-of-type(1) .hover-circle {
-	margin-left: -110px;
-}
-#SPSS-PreviousVersions .large-5 a:nth-of-type(3) .hover-circle {
-	margin-left: 110px;
-}
-#SPSS-PreviousVersions .large-5 a:nth-of-type(1) .hover-circle.hover{
-	content: url(../img/block-3-22-selected.png);
-	cursor: pointer;
-}
-#SPSS-PreviousVersions .large-5 a:nth-of-type(2) .hover-circle.hover {
-	content: url(../img/block-3-24-selected.png);
-	cursor: pointer;
-}
-#SPSS-PreviousVersions .large-5 a:nth-of-type(3) .hover-circle.hover {
-	content: url(../img/block-3-23-selected.png);
-	cursor: pointer;
-}
-
 #SPSS-Statistics {
   background-color: white; min-height: 560px; border-top: 2px solid #E3E3E3; padding-top: 70px !important; }
   #SPSS-Statistics h1, #SPSS-Statistics h2, #SPSS-Statistics h3, #SPSS-Statistics p {
@@ -811,7 +812,7 @@ nav.subHeader {
     }
 
 #SPSS-Amos {
-  background-color: #ebebeb; }
+  background-color: #fff; border-bottom: 2px solid #ebebeb; }
   #SPSS-Amos h1, #SPSS-Amos h2, #SPSS-Amos h3, #SPSS-Amos p {
     color: black !important; }
 #SPSS-Amos p { font-size: 18px; }
@@ -893,7 +894,7 @@ nav.subHeader {
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
 }
-.country-list { min-width: 820px; text-align: left; }
+.country-list { min-width: 620px; text-align: left; }
 .spps-list ul li p { color: black; font-size: 14px !important; }
 .spps-list ul li { color: #4178be; list-style: disc; }
 .expander span i { color: #4178be; }
