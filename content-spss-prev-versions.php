@@ -7,14 +7,13 @@
 				   <div class="sub-prev">
 					   <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=12c7bd0a-436e-e511-9411-b8ca3a5db7a1&utm_source=spss-statistics-24-img&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank"><img src="img/spss-24-boxshot.jpg" alt="SPSS Statistics 24"></a>
 					   <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=89cf975c-47c3-e411-940a-b8ca3a5db7a1&utm_source=spss-statistics-23-img&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank"><img src="img/spss-23-boxshot.jpg" alt="SPSS Statistics 23"></a>
-					   <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=e60626f1-6a03-e311-93f3-b8ca3a5db7a1&utm_source=spss-statistics-22-img&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank"><img src="img/spss-22-boxshot.jpg" alt="SPSS Statistics 22"></a>
 				   </div>
               </div>
               <div class="large-6 columns info">
                   <div class="row title"> 
                         <h2>Looking for previous versions?</h2>
                   </div> 
-                  	<p>You can still order <strong>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Statistics 22, 23, 24,</strong> and <strong>25</strong> through OnTheHub. Students and faculty can both take comfort in knowing that the software they use matches course materials.</p>
+                  	<p>You can still order <strong>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Statistics 23, 24,</strong> and <strong>25</strong> through OnTheHub. Students and faculty can both take comfort in knowing that the software they use matches course materials.</p>
 				  	<p><strong class="red">$42.99 USD</strong> – Students <strong>Save 96%</strong></p>
                   <br />
                   <div class="row ctaBtns">
