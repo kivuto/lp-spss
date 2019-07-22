@@ -33,7 +33,7 @@
 
         /*~~~~~~~~~ Google analytics events ~~~~~~~~~~*/
 
-        // Google analytics command are sent in the format (event, category, action)
+        // Google analytics command are sent in the format (event, category, action) -- old
         // According to Katie and Angie, we send anaytics like so ('Landing Page 2014', 'Landing Page 2014 - Navigation', 'Landing Page 2014 - Navigation - Header click - Intro')
         // You can set the general name of the landing page here
         $gaEvent = "SPSS LP";
