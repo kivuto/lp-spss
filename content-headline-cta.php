@@ -11,7 +11,7 @@
                 </div>
                 <div class="padding-for-mobile">  
                 	<p>Use IBM SPSS Statistics to solve business and research problems by means of ad hoc analysis, hypothesis testing, geospatial analysis, and predictive analytics. 6- or 12-month rental licenses available to verified students and faculty. Available for Windows and Mac.</p>
-					<p><strong class="red">$42.99 USD</strong> – Students <strong>Save 96%</strong></p>
+					<p><strong class="red">$34.95 USD</strong> – Students <strong>Save 97%</strong></p>
 					<p><strong class="red">$259.99 USD</strong> – Faculty <strong>Save 78%</strong></p>
                 </div>
               <br/>

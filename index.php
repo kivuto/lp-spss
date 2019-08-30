@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta name="description" content="Download IBM SPSS statistical analysis and data mining software at up to 90% off, including Statistics 26, Amos 26, and versions 25, 24, and 23 are also available.">
+    <meta name="description" content="Download IBM SPSS statistical analysis and data mining software at up to 97% off, including Statistics 26, Amos 26, and versions 25, 24, and 23 are also available.">
     <title> IBM SPSS Software Discounts for Students &amp; Faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
