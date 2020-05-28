@@ -3,13 +3,13 @@
   <div class="row header hide-for-mobile">
       <div class="container">
           <div class="large-2 columns oth-logo">
-              <a href="http://www.onthehub.com" target="_blank" tabindex="1">
+              <a data-role="logo" data-cta="OnTheHub" href="https://onthehub.com" target="_blank" tabindex="1">
                 <img src="img/oth_logo.png" alt="OnTheHub">
               </a>
           </div>
           <div class="large-2 large-offset-3 columns ibm-logo">
-              <a href="http://www.ibm.com" target="_blank" tabindex="2">
-                <img src="img/ibm_logo.png" alt="Minitab">
+              <a data-role="logo" data-cta="Vendor" href="https://www.ibm.com" target="_blank" tabindex="2">
+                <img src="img/ibm_logo.png" alt="IBM">
               </a>  
           </div>  
       </div>  
@@ -29,10 +29,10 @@
    <aside class="left-off-canvas-menu">
      <ul class="off-canvas-list">
        <li></li>
-         <li><a onclick="tib('#<?php echo $blocks[0]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[0]; ?>');">Introduction</a></li>
-         <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">SPSS Statistics</a></li>
-		    <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">Previous Versions</a></li>
-         <li><a onclick="tib('#<?php echo $blocks[3]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">Amos</a></li>      
+         <li><a data-role="header" href="#<?php echo $blocks[0]; ?>">Introduction</a></li>
+         <li><a data-role="header" href="#<?php echo $blocks[1]; ?>">SPSS Statistics</a></li>
+		 <li><a data-role="header" href="#<?php echo $blocks[2]; ?>">Previous Versions</a></li>
+         <li><a data-role="header" href="#<?php echo $blocks[3]; ?>">Amos</a></li>      
      </ul>
    </aside>
    <a class="exit-off-canvas"></a>
@@ -50,13 +50,11 @@
       <section class="top-bar-section">
           <!-- Left Nav Section -->
             <ul>
-              <li><a onclick="tib('#<?php echo $blocks[1]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[2]; ?>');">SPSS STATISTICS</a></li>
+              <li><a data-role="header" href="#<?php echo $blocks[1]; ?>">SPSS STATISTICS</a></li>
               <li><a1> | </a1></li>
-              <li><a onclick="tib('#<?php echo $blocks[3]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[3]; ?>');">AMOS</a></li>
+              <li><a data-role="header" href="#<?php echo $blocks[3]; ?>">AMOS</a></li>
               <li><a1> | </a1></li>
-              <li><a onclick="tib('#<?php echo $blocks[2]; ?>', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Header click - <?php echo $blocks[1]; ?>');">PREVIOUS VERSIONS</a></li>
-              <!-- <li><a1> | </a1></li> -->
-              
+              <li><a data-role="header" href="#<?php echo $blocks[2]; ?>">PREVIOUS VERSIONS</a></li>              
             </ul>
       </section>
     </div>  

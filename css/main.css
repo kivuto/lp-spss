@@ -1002,65 +1002,81 @@ nav.subHeader {
   text-decoration: none; }
 .subFooter ul a:hover, .subFooter ul a:focus, .subFooter ul a:active {
     color: #B0b0b0; }
-.subFooter #mc_embed_signup form {
+
+.subFooter .hbspt-form form {
   padding: 0; }
-.subFooter #mc_embed_signup div.mc-field-group {
-  width: calc(50% - 10px);
-  float: left;
-  clear: none;
-  margin-right: 10px; }
-.subFooter #mc_embed_signup div.mc-field-group:nth-child(even) {
-  margin-right: 0;
-  margin-left: 10px; }
-.subFooter #mc_embed_signup div.mc-field-group label.hidden {
+
+.subFooter .hbspt-form fieldset label:not(.hs-error-msg), .subFooter .hbspt-form fieldset .hs-form-required {
   width: 0;
   height: 0;
   opacity: 0;
   visibility: hidden; }
-.subFooter #mc_embed_signup div.mc-field-group input, .subFooter #mc_embed_signup div.mc-field-group select {
+
+.subFooter .hbspt-form fieldset input, .subFooter .hbspt-form fieldset select {
   border-radius: 5px;
   margin-bottom: 15px;
+  border-width: 1px;
   width: 100%;
   max-height: 38px;
   padding: 5px 10px; }
-.subFooter #mc_embed_signup div.mc-field-group input {
+
+.subFooter .hbspt-form fieldset input {
   font-weight: 700; }
-.subFooter #mc_embed_signup div.mc-field-group input::placeholder, .subFooter #mc_embed_signup div.mc-field-group select::placeholder {
+
+.subFooter .hbspt-form fieldset input::placeholder, .subFooter .hbspt-form fieldset select::placeholder {
   font-weight: 400;
-  color: #222; }
-.subFooter #mc_embed_signup div.mc-field-group select:focus, .subFooter #mc_embed_signup div.mc-field-group select:active {
+  color: #666; }
+
+.subFooter .hbspt-form fieldset select:focus, .subFooter .hbspt-form fieldset select:active {
   -webkit-box-shadow: 0 0 5px #999999;
   -moz-box-shadow: 0 0 5px #999999;
   box-shadow: 0 0 5px #999999; }
-.subFooter #mc_embed_signup div.mc-field-group div.mce_inline_error {
+
+.subFooter .hbspt-form fieldset .hs-error-msgs {
   display: none !important; }
-.subFooter #mc_embed_signup .button {
+
+.subFooter .hbspt-form fieldset .invalid {
+  border: 1px solid #f56868; }
+
+.subFooter .hbspt-form .hs-button {
   background-color: #fff;
   color: #000;
+  margin-top: 15px;
   border-radius: 24px;
+  border-width: 0;
   padding: 12px 60px;
   line-height: 1em;
   height: auto;
   font-family: 'helveticabold', Arial, sans-serif;
-  font-weight: 700; }
-.subFooter #mc_embed_signup .button:hover, .subFooter #mc_embed_signup .button:focus, .subFooter #mc_embed_signup .button:active {
+  font-weight: 700;
+  transition: 250ms; }
+
+.subFooter .hbspt-form .hs-button:hover, .subFooter .hbspt-form .hs-button:focus, .subFooter .hbspt-form .hs-button:active {
+  cursor: pointer;
   background-color: #B0B0B0; }
-.subFooter #mc_embed_signup div#mce-responses {
-	width: 100%;
-	margin: 0;
-	padding: 0; }
-.subFooter #mc_embed_signup div.response {
-	color:#ebebeb;
-	font-style: italic;
-	line-height: 1.2em;
-	margin: 0 0 20px 0;
-	padding: 0;
-	font-size: 14px !important;
-	font-weight: 400;
-	width: 100%; }
-.subFooter #mc_embed_signup div.response a {
-	color: #fff;
-	text-decoration: underline; }
+
+.subFooter .hbspt-form ul.hs-error-msgs {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.subFooter .hbspt-form ul.hs-error-msgs label {
+  color: #fff; }
+
+.subFooter .hbspt-form div.submitted-message p {
+  color: #ebebeb;
+  font-style: italic;
+  line-height: 1.2em;
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 14px !important;
+  font-weight: 400;
+  width: 100%; }
+
+.subFooter .hbspt-form div.submitted-message p a {
+  color: #fff;
+  text-decoration: underline; }
 
 /*----------------------------------------------------------*\
     8. FOOTER
@@ -1129,18 +1145,22 @@ footer .large-6:nth-child(even) {
   .subFooter .large-4.newsletter {
 	width: 100%;
   	text-align: center; }
-  .subFooter #mc_embed_signup .mc-field-group {
-	padding-bottom: 8px; }
-  .subFooter #mc_embed_signup div.clear {
-	text-align: center; }
-  .subFooter #mc_embed_signup .button {
-	margin: 0 auto;  }
+  .subFooter .hbspt-form fieldset {
+    margin-left: auto;
+    margin-right: auto; }
+
+  .subFooter .hbspt-form div.clear {
+    text-align: center; }
+
+  .subFooter .hbspt-form .button {
+    min-width: 100% !important;
+    margin: 0 auto; } 
 }
 @media (max-width: 500px) {
-  .subFooter #mc_embed_signup .mc-field-group {
-	width: 100% !important;
-	margin-right: 0 !important;
-	margin-left: 0 !important; }
+  .subFooter .hbspt-form fieldset > div {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important; }
 }
 
 /*----------------------------------------------------------*\

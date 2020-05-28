@@ -11,21 +11,21 @@
                 </div>
                 <div class="padding-for-mobile">  
                 	<p>Use IBM SPSS Statistics to solve business and research problems by means of ad hoc analysis, hypothesis testing, geospatial analysis, and predictive analytics. 6- or 12-month rental licenses available to verified students and faculty. Available for Windows and Mac.</p>
-					<p><strong class="red">$34.95 USD</strong> – Students <strong>Save 97%</strong></p>
+					<p><strong class="red">$39.95 USD</strong> – Students <strong>Save 97%</strong></p>
 					<p><strong class="red">$259.99 USD</strong> – Faculty <strong>Save 78%</strong></p>
                 </div>
               <br/>
               <div class="ctaBtns center-small">
                   <ul class="small-block-grid-1 medium-block-grid-4 large-block-grid-4 center">
                       <li>
-                          <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=304b1dff-5b5d-e911-8115-000d3af41938&utm_source=statistics26-students-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Student Buy'); return false;">
+                          <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=304b1dff-5b5d-e911-8115-000d3af41938" target="_blank">
                               <div class="button center">
                                  <span><em>Students</em> buy now</span>
                               </div>
                           </a>
                       </li>    
                       <li>    
-                          <a class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=2d4b1dff-5b5d-e911-8115-000d3af41938&utm_source=statistics26-faculty-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> - Clickthrough -  Statistics - Faculty Buy'); return false;">
+                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=2d4b1dff-5b5d-e911-8115-000d3af41938" target="_blank">
                               <div class="button center">
                                   <span><em>Faculty</em> buy now</span>
                               </div>

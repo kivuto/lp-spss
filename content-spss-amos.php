@@ -18,7 +18,7 @@
 				  <p><strong class="green">$39.99 USD</strong> – Students Only</p>
                   <br />
                   <div class="row ctaBtns">
-                      <a href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=49c12542-e973-4b07-b0ef-4d58ff753d52&utm_source=spss-amos-26-cta&utm_medium=othlandingpage&utm_campaign=SPSS" target="_blank" onclick="tob(this, '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Clickthrough', '<?php echo $gaEvent; ?> v2 - Clickthrough - Amos - Buy'); return false;">
+                      <a data-role="button" data-cta="Buy Amos Now" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=49c12542-e973-4b07-b0ef-4d58ff753d52" target="_blank">
                           <div class="large-6 columns button rent">
                              <span>Buy now</span>
                           </div>
