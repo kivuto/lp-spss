@@ -3,12 +3,12 @@
   <div class="row header hide-for-medium-up">
       <div class="container">
           <div class="large-2 columns oth-logo" style="float:left !important;">
-              <a data-role="logo" data-cta="OnTheHub" href="https://onthehub.com" target="_blank" tabindex="1" >
+              <a data-role="logo" data-location="header" href="https://onthehub.com" target="_blank" tabindex="1" >
                 <img src="img/oth_logo.png" alt="OnTheHub" >
               </a>
           </div>
           <div class="large-2 large-offset-3 ibm-logo" style="float:right !important; position: relative;">
-              <a data-role="logo" data-cta="Vendor" href="https://www.ibm.com" target="_blank" tabindex="2">
+              <a data-role="logo" data-location="header" href="https://www.ibm.com" target="_blank" tabindex="2">
                 <img src="img/ibm_logo.png" alt="IBM" >
               </a>  
           </div>  

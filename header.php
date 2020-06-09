@@ -3,12 +3,12 @@
   <div class="row header hide-for-mobile">
       <div class="container">
           <div class="large-2 columns oth-logo">
-              <a data-role="logo" data-cta="OnTheHub" href="https://onthehub.com" target="_blank" tabindex="1">
+              <a data-role="logo" data-location="header" href="https://onthehub.com" target="_blank" tabindex="1">
                 <img src="img/oth_logo.png" alt="OnTheHub">
               </a>
           </div>
           <div class="large-2 large-offset-3 columns ibm-logo">
-              <a data-role="logo" data-cta="Vendor" href="https://www.ibm.com" target="_blank" tabindex="2">
+              <a data-role="logo" data-location="header" href="https://www.ibm.com" target="_blank" tabindex="2">
                 <img src="img/ibm_logo.png" alt="IBM">
               </a>  
           </div>  
@@ -29,10 +29,10 @@
    <aside class="left-off-canvas-menu">
      <ul class="off-canvas-list">
        <li></li>
-         <li><a data-role="header" href="#<?php echo $blocks[0]; ?>">Introduction</a></li>
-         <li><a data-role="header" href="#<?php echo $blocks[1]; ?>">SPSS Statistics</a></li>
-		 <li><a data-role="header" href="#<?php echo $blocks[2]; ?>">Previous Versions</a></li>
-         <li><a data-role="header" href="#<?php echo $blocks[3]; ?>">Amos</a></li>      
+         <li><a data-role="menu" data-location="header" href="#<?php echo $blocks[0]; ?>">Introduction</a></li>
+         <li><a data-role="menu" data-location="header" href="#<?php echo $blocks[1]; ?>">SPSS Statistics</a></li>
+		 <li><a data-role="menu" data-location="header" href="#<?php echo $blocks[2]; ?>">Previous Versions</a></li>
+         <li><a data-role="menu" data-location="header" href="#<?php echo $blocks[3]; ?>">Amos</a></li>      
      </ul>
    </aside>
    <a class="exit-off-canvas"></a>
@@ -50,11 +50,11 @@
       <section class="top-bar-section">
           <!-- Left Nav Section -->
             <ul>
-              <li><a data-role="header" href="#<?php echo $blocks[1]; ?>">SPSS STATISTICS</a></li>
+              <li><a data-role="menu" data-location="header" href="#<?php echo $blocks[1]; ?>">SPSS STATISTICS</a></li>
               <li><a1> | </a1></li>
-              <li><a data-role="header" href="#<?php echo $blocks[3]; ?>">AMOS</a></li>
+              <li><a data-role="menu" data-location="header" href="#<?php echo $blocks[3]; ?>">AMOS</a></li>
               <li><a1> | </a1></li>
-              <li><a data-role="header" href="#<?php echo $blocks[2]; ?>">PREVIOUS VERSIONS</a></li>              
+              <li><a data-role="menu" data-location="header" href="#<?php echo $blocks[2]; ?>">PREVIOUS VERSIONS</a></li>              
             </ul>
       </section>
     </div>  
