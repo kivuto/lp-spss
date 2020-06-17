@@ -108,6 +108,8 @@ div#at4m-dock.ats-transparent {
   display: block; }
 
 .red { color: #D6272C !important; }
+.blue { color: #0f62fe !important; }
+.dark-blue { color: #001d6c !important; }
 .yellow { color: #FFE672 !important; }
 .green { color: #29B256 !important; }
 .purple { color: #7F2A7D !important; }
@@ -747,11 +749,11 @@ nav.subHeader {
   #SPSS-PreviousVersions h1, #SPSS-PreviousVersions h2, #SPSS-PreviousVersions h3, #SPSS-PreviousVersions p {
     color: #000 !important; }
   #SPSS-PreviousVersions .button {
-    border: 2px solid #ED714E; background-color: #fff; width: 220px; }
+    border: 2px solid #D6272C ; background-color: #fff; width: 220px; }
     #SPSS-PreviousVersions .button span {
-      color: #ED714E !important; }
+      color: #D6272C  !important; }
     #SPSS-PreviousVersions .button:hover, #SPSS-PreviousVersions .button:focus, #SPSS-PreviousVersions .button:active {
-      background-color: #F05038 !important; border-color: #F05038 !important; }
+      background-color: #D6272C !important; border-color: #F05038 !important; }
       #SPSS-PreviousVersions .button:hover span, #SPSS-PreviousVersions .button:focus span, #SPSS-PreviousVersions .button:active span {
         color: #fff !important; }
 #SPSS-PreviousVersions .large-6 {
@@ -790,11 +792,11 @@ nav.subHeader {
     color: black !important; }
   #SPSS-Statistics p { font-size: 22px; }
   #SPSS-Statistics .button {
-    background-color: #ED714E !important; }
+    background-color: #0f62fe !important; }
     #SPSS-Statistics .button span {
       color: white !important; }
     #SPSS-Statistics .button:hover, #SPSS-Statistics .button:focus, #SPSS-Statistics .button:active {
-      background-color: #F05038 !important; }
+      background-color: #0216E8 !important; }
       #SPSS-Statistics .button:hover span, #SPSS-Statistics .button:focus span, #SPSS-Statistics .button:active span {
         color: white !important; }
     #SPSS-Statistics .large-block-grid-4 > li {
@@ -818,11 +820,11 @@ nav.subHeader {
     color: black !important; }
 #SPSS-Amos p { font-size: 18px; }
   #SPSS-Amos .button {
-    background-color: #2eb24d !important; max-width: 220px;}
+    background-color: #001d6c !important; max-width: 220px;}
     #SPSS-Amos .button span {
       color: white !important; }
     #SPSS-Amos .button:hover, #SPSS-Amos .button:focus, #SPSS-Amos .button:active {
-      background-color: #1e7231 !important; }
+      background-color: #070782 !important; }
       #SPSS-Amos .button:hover span, #SPSS-Amos .button:focus span, #SPSS-Amos .button:active span {
         color: white !important; }
 
