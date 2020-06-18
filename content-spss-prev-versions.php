@@ -5,7 +5,7 @@
                <div class="large-5 columns grid-icons">
 				   <a data-role="button" data-cta="SPSS Statitics 26" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=304b1dff-5b5d-e911-8115-000d3af41938" target="_blank" class='main-prev'><img src="img/previous-26-boxshot.jpg" alt="SPSS Statistics 26 GradPack" /></a>
 				   <div class="sub-prev">
-					   <a data-role="button" data-cta="SPSS Statitics 25" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=fc2dece7-5e83-e711-80f3-000d3af41938" target="_blank"><img src="IMG/previous-25-boxshot.jpg" alt="SPSS Statistics 25"></a>
+					   <a data-role="button" data-cta="SPSS Statitics 25" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=fc2dece7-5e83-e711-80f3-000d3af41938" target="_blank"><img src="img/previous-25-boxshot.jpg" alt="SPSS Statistics 25"></a>
 					   <a data-role="button" data-cta="SPSS Statitics 24" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=12c7bd0a-436e-e511-9411-b8ca3a5db7a1" target="_blank"><img src="img/spss-24-boxshot.jpg" alt="SPSS Statistics 24"></a>
 				   </div>
               </div>
