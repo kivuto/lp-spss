@@ -32,7 +32,7 @@
 			<p class="big-text">Newsletter Sign Up</p>
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
-			<form action="https://onthehub.us20.list-manage.com/subscribe/post?u=7920b28730d6d155b035115d0&amp;id=1c081a8bba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form action="https://api.omnisend.com/v3/contacts" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div id="mc_embed_signup_scroll">
 					<div class="mc-field-group">
 						<label for="mce-EMAIL" class="hidden" id="email_label">Email address</label>
@@ -57,7 +57,9 @@
 					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 				</div>
 				</form>
+				<div class='newsletter-validate' style="display:none;"><p>Sorry, that email address is invalid.</p></div>
 			</div>
+			<div class='newsletter-thank-you' style="display:none;"><p>Thanks for signing up!</p></div>
 			<!--End mc_embed_signup-->
 		</div>
 	</div>  
