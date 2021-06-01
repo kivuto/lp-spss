@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="large-6 columns qcImage hide-for-large-up" style="text-align: center;">
-                  <img src="img/lp-amos-screen-27.png" alt="IBM SPSS Amos 27 screenshot" width="514" height="319">
+                  <img src="img/lp-amos-screen-28.jpg" alt="IBM SPSS Amos 28 screenshot" width="514" height="319">
               </div>
               <div class="large-6 columns info">
                   <div class="row title">
