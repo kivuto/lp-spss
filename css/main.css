@@ -113,6 +113,7 @@ div#at4m-dock.ats-transparent {
 .yellow { color: #FFE672 !important; }
 .green { color: #29B256 !important; }
 .purple { color: #7F2A7D !important; }
+.purple-new {color: #432585 !important;}
 
 @media screen and (max-width: 720px) {
     .break-on-large {
@@ -749,11 +750,11 @@ nav.subHeader {
   #SPSS-PreviousVersions h1, #SPSS-PreviousVersions h2, #SPSS-PreviousVersions h3, #SPSS-PreviousVersions p {
     color: #000 !important; }
   #SPSS-PreviousVersions .button {
-    border: 2px solid #D6272C ; background-color: #fff; width: 220px; }
+    border: 2px solid #0f62fe ; background-color: #fff; width: 220px; }
     #SPSS-PreviousVersions .button span {
-      color: #D6272C  !important; }
+      color: #0f62fe  !important; }
     #SPSS-PreviousVersions .button:hover, #SPSS-PreviousVersions .button:focus, #SPSS-PreviousVersions .button:active {
-      background-color: #D6272C !important; border-color: #F05038 !important; }
+      background-color: #0f62fe !important; border-color: #0f62fe !important; }
       #SPSS-PreviousVersions .button:hover span, #SPSS-PreviousVersions .button:focus span, #SPSS-PreviousVersions .button:active span {
         color: #fff !important; }
 #SPSS-PreviousVersions .large-6 {
@@ -792,7 +793,8 @@ nav.subHeader {
     color: black !important; }
   #SPSS-Statistics p { font-size: 22px; }
   #SPSS-Statistics .button {
-    background-color: #0f62fe !important; }
+    background-image: linear-gradient(to right, #0f59e6, #432585) !important; }
+   
     #SPSS-Statistics .button span {
       color: white !important; }
     #SPSS-Statistics .button:hover, #SPSS-Statistics .button:focus, #SPSS-Statistics .button:active {
@@ -820,7 +822,7 @@ nav.subHeader {
     color: black !important; }
 #SPSS-Amos p { font-size: 18px; }
   #SPSS-Amos .button {
-    background-color: #001d6c !important; max-width: 220px;}
+    background-image: linear-gradient(to right, #0f59e6, #432585) !important; max-width: 220px;}
     #SPSS-Amos .button span {
       color: white !important; }
     #SPSS-Amos .button:hover, #SPSS-Amos .button:focus, #SPSS-Amos .button:active {

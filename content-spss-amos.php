@@ -8,17 +8,17 @@
               <div class="large-6 columns info">
                   <div class="row title">
                       <div class="small-4 columns" style="padding:0;">
-                          <h2>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Amos 27</h2>
+                          <h2>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Amos 28</h2>
                       </div> 
                       <div class="small-2 columns ">
                       </div> 
                   </div> 
                   <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. 12-month license available to verified students only.</p>
-                  <p class="hide-for-mobile" style="margin-bottom:15px;">Amos 27 is available for Windows.</p>
-				  <p><strong class="dark-blue">$39.99 USD</strong> – Students Only</p>
+                  <p class="hide-for-mobile" style="margin-bottom:15px;">Amos 28 is available for Windows.</p>
+				  <p><strong class="purple-new">$39.99 USD</strong> – Students Only</p>
                   <br />
                   <div class="row ctaBtns">
-                      <a data-role="button" data-cta="Buy Amos Now" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=e3512568-aab0-ea11-812c-000d3af41938" target="_blank">
+                      <a data-role="button" data-cta="Buy Amos Now" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=bd698f09-0fbf-eb11-813b-000d3af41938" target="_blank">
                           <div class="large-6 columns button rent">
                              <span>Buy now</span>
                           </div>
@@ -26,7 +26,7 @@
                   </div>
               </div>
               <div class="large-6 columns show-for-large-up" style="text-align: center;">
-                  <img src="img/lp-amos-screen-27.png" alt="IBM SPSS Amos 27 Screenshot" width="514" height="319">
+                  <img src="img/lp-amos-screen-28.jpg" alt="IBM SPSS Amos 28 Screenshot" width="514" height="319">
               </div>
           </div> 
       </div>  
