@@ -18,7 +18,7 @@
 				  <p><strong class="purple-new">$34.95 USD</strong> – Students Only <strong><span style="color: red;">(Lowest Price In The Market)</span></strong></p>
                   <br />
                   <div class="row ctaBtns">
-                      <a data-role="button" data-cta="Buy Amos Now" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=bd698f09-0fbf-eb11-813b-000d3af41938" target="_blank">
+                      <a data-role="button" data-cta="Buy Amos Now" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=fde68673-10bf-eb11-813b-000d3af41938" target="_blank">
                           <div class="large-6 columns button rent">
                              <span>Buy now</span>
                           </div>

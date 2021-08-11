@@ -25,7 +25,7 @@
                           </a>
                       </li>    
                       <li>    
-                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=ca698f09-0fbf-eb11-813b-000d3af41938" target="_blank">
+                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=0fe78673-10bf-eb11-813b-000d3af41938" target="_blank">
                               <div class="button center" style="background-image: none !important; background-color: #432585 !important;">
                                   <span><em>Faculty</em> buy now</span>
                               </div>
