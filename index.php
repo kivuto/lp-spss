@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
     <link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <script src=https://www.googleoptimize.com/optimize.js?id=OPT-TKZJGS6></script>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/viewport.js"></script>
