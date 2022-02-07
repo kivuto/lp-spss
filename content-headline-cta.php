@@ -15,25 +15,6 @@
 					<p><strong class="purple-new">$259.99 USD</strong> – Faculty <strong>Save 78%</strong></p>
                 </div>
               <br/>
-              <div class="ctaBtns center-small">
-                  <ul class="small-block-grid-1 medium-block-grid-4 large-block-grid-4 center">
-                      <li>
-                          <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
-                              <div class="button center">
-                                 <span><em>Students</em> buy now</span>
-                              </div>
-                          </a>
-                      </li>    
-                      <li>    
-                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=0fe78673-10bf-eb11-813b-000d3af41938" target="_blank">
-                              <div class="button center" style="background-image: none !important; background-color: #432585 !important;">
-                                  <span><em>Faculty</em> buy now</span>
-                              </div>
-                          </a>
-                      </li>
-                      <li></li>
-                  </ul>
-              </div>
           </div>
            <div class="large-5 columns show-for-large-up">
                   <img src="img/lp-stats-screens-28.png" alt="SPSS Statistics 28 on a Laptop with a Chart and Graph" style="max-height: 349px; width:474px;">

@@ -59,6 +59,18 @@
 
 .inline-block {
   display: inline-block !important; }
+   .newCTA1 span{
+    padding: 20px 30px;
+    color: #fff !important;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #0f59e6, #432585) !important;
+  }
+  .newCTA2 span{
+    padding: 20px 38px;
+    color: #fff !important;
+    font-size: 20px;
+     background-color: #432585 !important;
+  }
 
 @media only screen {
   .small-3 {
@@ -189,6 +201,14 @@ nav .container {
   .row.mainContent p, .row.mainContent h1, .row.mainContent h2, .row.mainContent h3 {
     color: #4A4A4A; }
   @media only screen and (max-width: 40em) {
+    .left, .right {
+      float: none !important;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .left {
+      margin-top: 50px;
+    }
     .row.mainContent {
       padding: 25px 0px; }
       .row.mainContent .container {
@@ -409,7 +429,7 @@ nav.subHeader {
     transform: translate(-50%, -50%); }
   .content-overlay-video .button {
     padding: 20px 20px !important; }
-  .content-overlay-video h1, .content-overlay-video p, .content-overlay-video span { color: black !important; }
+  .content-overlay-video h1, .content-overlay-video p, .content-overlay-video span { color: black; }
 @media screen and (max-width: 1620px) {
     .content-overlay-video .ovrlay::after {
   	background-position: -350px center, calc(100% + 350px) center; }
@@ -428,7 +448,7 @@ nav.subHeader {
 	}
   @media screen and (max-width: 40em) {
     .content-overlay-video {
-      min-height: 380px !important; }
+      min-height: 580px !important; }
       .content-overlay-video img {
 		  border-top: 1px solid #ebebeb;
         min-height: 350px; }

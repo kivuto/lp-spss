@@ -28,9 +28,25 @@
                       <p class="avenir-medium" style="max-width: 700px; margin: 0 auto 30px auto;">Download statistical analysis and data mining software by IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> at exclusive academic pricing.</p>
                   </div> 
               </div>
+                  <div class="row center">
+                  <div class="medium-6 columns">
+                       <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
+                              <div class="right newCTA1">
+                                 <span><em>Students</em> buy now</span>
+                              </div>
+                          </a>
+                  </div> 
+                   <div class="medium-6 columns">
+                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=0fe78673-10bf-eb11-813b-000d3af41938" target="_blank">
+                              <div class="left newCTA2" >
+                                  <span><em>Faculty</em> buy now</span>
+                              </div>
+                          </a>
+                  </div> 
+              </div> 
               <div class="row show-for-large-up">
-                      <div class="large-12 columns" style="margin: 0 auto; text-align:center; position: relative;">
-                          <div style="text-align:center; display:inline-block; margin-right: 40px; margin-left:-20px;"> 
+                      <div class="large-12 columns" style="margin: 40px auto 0 auto; text-align:center; position: relative;">
+                          <div style="text-align:center; display:inline-block; margin-right: 60px; margin-left:-20px;"> 
                               <p style="font-size: 18px !important;"><a class="expander center academic-status">Academic Status &nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a></p>
                               <div class="content expand-content">
                                 <p>These IBM SPSS academic licenses are exclusively for educational purposes. </p>
