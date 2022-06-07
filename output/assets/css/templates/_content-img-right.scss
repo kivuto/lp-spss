@@ -1,0 +1,89 @@
+/* #############################
+       Block with image right of content 
+   #############################*/
+
+.inline-content-imgright {
+	.button {
+		align: baseline;
+		span { 
+			font-size: 18px; 
+			font-weight: bold; 
+		}
+	}
+	h2 { color: #F4911E !important; }
+	span { font-size: 16px; }
+	.small-4 { width: 87.33333%; }
+	.large-12 { padding-left: 0rem; }
+	
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+		/* MOBILE */
+		@media only screen and (max-width: 40em){
+			h1, h2 { 
+				text-align: left; 
+				line-height: 1.0;
+				font-size: 23px;
+				span {
+					font-size: 14px;
+				}
+			}
+			h2 { 
+				float: left; 
+				font-size: 19px; 
+				font-weight: bold;
+			}
+
+			// PADDING AND SIZING FIXES
+			.large-7 { width: 95%; }
+			.large-5 { width: 100%; }
+			.small-3 { width: 25%; }
+			.row.title { padding: 25px 0px 25px 15px; }
+			.ctaBtns { padding: 0px 10px; }
+			.button { padding-right: 0rem; }
+			.small-4 {
+				padding: 3% 0px 0px 6px !important;
+				width: 74.333%;
+			}
+			.info { 
+				p { padding: 0px 7px; }
+			}
+		}
+
+		/* MEDIUM SCREENS  */
+		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			.row.title { padding: 25px 0px 25px 15px; }
+			.button span { font-size: 17px; }
+			.large-offset-1 { margin-left: 2.33333% !important; }
+
+			.rent {
+				width: 98%;
+				padding: 0px;
+			}
+			.trial {
+				width: 98%;
+				padding: 0px;
+			}
+			
+		}
+
+		/* LARGE SCREENS AND UP*/
+		@media only screen and (min-width: 64.063em) {
+			// CHANGING THE SPACING BETWEEN THE TWO BUTTONS
+			.large-offset-1 { margin-left: 5.33333% !important; }
+			.rent {
+				width: 70%;
+				padding: 0px;
+			}
+			.trial {
+				width: 70%;
+				padding: 0px;
+			}
+			.info p {
+				padding-top: 10px; 
+				width: 97%;
+			}
+			p { margin-bottom: 5px; }
+			h2 { font-size: 42px !important; }
+		}
+}

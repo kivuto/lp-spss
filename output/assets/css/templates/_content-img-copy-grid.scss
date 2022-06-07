@@ -1,0 +1,26 @@
+/* #############################
+       Block with image next to text in a grid style
+   #############################*/
+.img-copy-grid {
+	.imgList li {
+		padding: 0 0.625rem 0.25rem 0rem;
+	}
+	ul {
+		img {
+			float: left;
+			padding-right: 13px;
+		}
+		p {
+			padding-top: 20px;
+			font-size: 15px;
+			text-align: left;
+		}
+	}
+
+	// SPECIAL CASES FOR TEXT PADDING 
+	.graphs { padding-top: 31px; }
+
+	@media screen and (max-width: 999px){
+		display: none;
+	}	
+}

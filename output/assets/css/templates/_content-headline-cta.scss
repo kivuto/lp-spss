@@ -1,0 +1,87 @@
+/* #############################
+       Centered CTA block
+   #############################*/
+.headline-cta {
+	.button { 
+		span { 
+			font-size: 19px; 
+			font-weight: bold;
+		}
+	}
+	img { float: right !important; }
+
+	// LARGE SCREENS AND UP //
+		@media only screen and (min-width: 64.063em) {
+			.button { 
+				width: 100%;
+			}
+			p { text-align: left; }
+			// TEXT PADDING //
+			img { 
+				padding-bottom: 30px; 
+				float: right;
+			}
+			h2 { 
+				font-size: 80px !important; 
+				padding-botom: 15px !important;
+			}
+			h5 { 
+				margin-bottom: 5px; 
+				margin-top: 25px;
+				font-size: 18px !important;
+				text-align: left;
+			}
+			p{
+				margin-bottom: 5px; 
+			}
+
+			.statistics-logo { margin-top: 40px; }
+
+			.simple { padding-left: 200px !important;}
+		}	
+
+	// MEDIUM  AND UP //
+		@media only screen and (min-width: 40.063em) {
+			min-height: 800px !important;
+			// TEXT PADDING //
+			img { padding-bottom: 30px; }
+			h2 { padding-bottom: 30px; }
+		}
+
+
+		// MEDIUM SCREENS 
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		min-height: 550px !important;
+		.button{
+			white-space: nowrap;
+		}
+	}
+			
+	// MOBILE //
+		@media only screen and (max-width: 40em){
+			min-height: 450px !important;
+			img { 
+				padding-bottom: 15px; 
+			}
+			h2 { 
+				float: left; 
+				font-size: 19px; 
+				font-weight: bold;
+			}
+			.button { 
+				width: 100%;
+				margin-right: 0rem;
+			}
+			.ctaBtns {
+				padding: 0px 20px; 
+			}
+			h4 { font-size: 14px; }
+
+			.small-10 {
+				width: 72.333%;
+			}
+			.small-2 {
+				margin-left: 20px;
+			}
+		}	
+}

@@ -1,0 +1,72 @@
+/* #############################
+       Hacks and Overrides
+   #############################*/
+
+.row { max-width: none !important; }
+.row.mainContent .row { margin-left: 0 !important; }
+.no_padding{ padding: 0px !important; } // ATTACH THIS CLASS TO AN ELEMENT TO RESET ITS PADDING
+.no_margin{ margin: 0px !important; } // ATTACH THIS CLASS TO AN ELEMENT TO RESET ITS MARGINS
+.center { text-align: center !important; } // ATTACH THIS CLASS TO AN ELEMENT TO CENTER THE TEXT
+.inline-block { display: inline-block !important; } // ATTACH THIS CLASS TO AN ELEMENT TO MAKE IT INLINE BLOCL
+.content { display:none; }
+
+
+@media only screen {
+    .small-3 { width: 9%; }
+}
+
+// OVERRIDING LINE HEIGHTS/MARGINS FOR MOBILE 
+@media only screen and (max-width: 40em) {
+	p { 
+		line-height: 1.5; 
+		margin-bottom: 1.0rem !important;
+	}
+	li {
+		padding-bottom: 0.65rem !important;
+	}
+
+	/* RESIZING THE FANCYBOX IN MOBILE */
+	.fancybox-inner {
+		height: 180px !important;
+	}
+}
+
+// TAB INDEX STYLES
+.ctaBtns a:focus { opacity: 0.5; }
+
+/* OFF-CANVAS STYLING */
+.left-off-canvas-menu {
+	background: #FFF !important;
+	a { color: #000 !important; } 
+}
+
+
+/* ADD-THIS STYLING */
+.at4-follow { position: fixed; }
+.at4-follow-inner { top: 0px;  }
+.at-follow-open-control { 
+	top: 0px; 
+	position: fixed;
+}
+// Fixing transparency issue 
+div#at4m-dock.ats-transparent {
+    background: #FFF;
+    border-color: #FFF;
+}
+
+// Sticky nav MOBILE fixes
+
+.firstRow.stick-padding {
+	// Only adds in padding if user is in tablet or desktop
+	@media only screen and (min-width: 40.063em) {
+		margin-top: 45px !important;
+	}
+}
+
+
+// Special Media query to add in a break within a certain view
+.special-break { display: none; }
+
+@media only screen and (min-width: 1066px) and (max-width: 1197px)  {
+		.special-break { display: block !important; }
+}

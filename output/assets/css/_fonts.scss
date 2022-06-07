@@ -1,0 +1,46 @@
+body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span { 
+    font-family: 'AvenirLTStd55Roman', Verdana, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.avenir-medium { font-family: 'AvenirLTStd-Medium', Verdana, sans-serif !important;}
+.avenir-heavy { font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important;}
+.avenir-light { font-family: 'AvenirLTStd35Light', Verdana, sans-serif !important;}
+
+@font-face {
+    font-family: 'AvenirLTStd55Roman';
+    src: url('fonts/avenirltstd-roman.eot');
+    src: url('fonts/avenirltstd-roman.eot') format('embedded-opentype'),
+         url('fonts/avenirltstd-roman.woff') format('woff'),
+         url('fonts/avenirltstd-roman.ttf') format('truetype'),
+         url('fonts/avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    src: url('fonts/avenirltstd-heavy.eot');
+    src: url('fonts/avenirltstd-heavy.eot') format('embedded-opentype'),
+         url('fonts/avenirltstd-heavy.woff') format('woff'),
+         url('fonts/avenirltstd-heavy.ttf') format('truetype'),
+         url('fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd35Light';
+    src: url('fonts/avenirltstd-light.eot');
+    src: url('fonts/avenirltstd-light.eot') format('embedded-opentype'),
+         url('fonts/avenirltstd-light.woff') format('woff'),
+         url('fonts/avenirltstd-light.ttf') format('truetype'),
+         url('fonts/avenirltstd-light.svg#AvenirLTStd35Light') format('svg');
+}
+
+
+@font-face {
+    font-family: 'AvenirLTStd-Medium';
+    src: url('fonts/AvenirLTStd-Medium.eot?') format('eot'), 
+         url('fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+         url('fonts/AvenirLTStd-Medium.woff') format('woff'), 
+         url('fonts/AvenirLTStd-Medium.ttf')  format('truetype'),
+         url('fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+}

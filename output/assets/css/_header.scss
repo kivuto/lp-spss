@@ -1,0 +1,36 @@
+/* #############################
+       Header
+   #############################*/
+
+.row.header {
+	background-color: #FFF !important;
+	padding: $header_padding;
+	height: 70px;
+	.columns { padding-top: 7px; }
+	img { max-width: none; }
+	.large-2 { 
+		width: 50%; 
+		padding-left: 0rem;
+		padding-right: 7rem;
+	}
+	.large-offset-3 {
+		width: 18%;
+	} 
+	
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+		/* MOBILE */
+		@media only screen and (max-width: 40em){
+			padding: 0px 10px;
+			height: 55px;
+			.columns { padding-top: 5px; }
+			img { max-width: 110px; }
+			.oth-logo { padding-top: 17px; }
+			.ibm-logo { padding-top: 0px; }
+		}
+
+		/* MEDIUM SCREENS AND UP*/
+		@media only screen and (min-width: 40.063em) {
+			.oth-logo { padding-top: 20px; }
+		}
+}

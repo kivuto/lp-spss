@@ -1,0 +1,109 @@
+/* #############################
+       Block with image and simple expand
+   #############################*/
+
+.inline-imgcontent-simple-expand {
+	// STYLING SECTION BUTTONS/COLORS
+	.button {
+		span { 
+			font-size: 18px; 
+			font-weight: bold; 
+		}
+	}
+	.large-12 { 
+		padding-left: 0rem; 
+		p { margin-bottom: 0.2em; }
+	}
+	h1 { 
+		font-size: 29px;
+		font-family: 'AvenirLTStd55Heavy', Verdana, sans-serif !important;
+	}
+
+	// ADDING THE EXPANDER ARROW EVENTS
+	.columns .expanded.expander {
+	    padding-left: 16px;
+	    padding-bottom: 1px;
+	    background-position: left center;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/list_icon_down.png);
+	}
+	// STYLING SECTION BUTTON HOVER STATES
+	.columns .collapsed.expander {
+	    padding-left: 16px;
+	    padding-bottom: 1px;
+	    background-position: left center;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/list_icon.png);
+	}
+	.content { padding-left: 10px; }
+
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+		/* MOBILE */
+		@media only screen and (max-width: 40em){
+			h1 { 
+				font-size: 22px;
+			}
+			// PADDING THE ELEMENTS
+			.circle { 
+				padding-left: 35px !important;
+				width: 93%; 
+			}
+			.circleText { 
+				padding: 0px 8px; 
+				p { padding: 0px 7px; }
+			}
+			.ctaBtns { 
+				padding: 0px 10px; 
+				margin-right: -0.5rem;
+				.button { padding-right: 0rem;}
+			}
+			.large-12 { text-align: left; }
+		}
+
+
+		/* MEDIUM SCREENS  */
+		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			span { font-size: 18px; }
+			.minitabBtn {
+				width: 48%;
+				min-width: 185px;
+				padding: 0px;
+			}
+			.qcBtn {
+				width: 48%;
+				min-width: 185px;
+				padding: 0px;
+			}
+			.large-offset-1 { margin-left: 2.33333% !important; }
+			.large-12 { text-align: left; }
+		}
+
+
+		/* LARGE SCREENS AND UP*/
+		@media only screen and (min-width: 64.063em) {
+			// CHANGING THE LENGTH AND MAX WIDTH OF THE CALL-TO-ACTION BUTTONS
+			.minitabBtn {
+				width: 41%;
+				max-width: 205px;
+				padding: 0px;
+			}
+			.qcBtn {
+				width: 55%;
+				max-width: 405px;
+				padding: 0px;
+			}
+
+			// CHANGING THE SPACING BETWEEN THE CIRCLE AND THE TEXT
+			.circle { width: 37.333%; }
+			.circleText { 
+				float: left !important; 
+				padding-top: 22px;
+				p { width: 90%; }
+			}
+
+			// CHANGING THE SPACING BETWEEN THE TWO BUTTONS
+			.large-offset-1 { margin-left: 2.33333% !important; }
+		}	
+}
