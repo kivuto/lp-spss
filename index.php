@@ -14,16 +14,16 @@
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/viewport.js"></script>
-    <script src="js/jquery.form.js"></script>        
+    <script src="js/jquery.form.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
-    <?php 
+    <?php
         /*-=-=-=-=-=-=-=-=-=- CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED =-=-=-=-=-=-=-=*/
 
-      
 
-        /* Block names: name them what you want them to show up in google analytics */ 
+
+        /* Block names: name them what you want them to show up in google analytics */
         $blocks = array(
-        /*Block 1*/   'Introduction',         
+        /*Block 1*/   'Introduction',
         /*Block 2*/   'SPSS-Statistics',
         /*Block 3*/   'SPSS-PreviousVersions',
         /*Block 4*/   'SPSS-Amos',
@@ -49,54 +49,44 @@
   <div class="off-canvas-wrap">
 
           <!-- INCLUDE Header -->
-         
-          <?php  
-                include 'header.php';
-          ?>
-          
+
           <div class="inner-wrap">
 
-          <!-- INCLUDE First Band  --> 
-         
-          <?php  
+          <!-- INCLUDE First Band  -->
+
+          <?php
                 include 'content-overlay-video.php';
                 $counter++;
           ?>
 
           <div class="show-for-large-up down-arrow">
             <a href="#SPSS-Statistics"><img class="round-button" src="img/arrow.png" style="margin-top:-10px;" /></a>
-          </div>  
-          
+          </div>
+
           <!-- INCLUDE First Band  -->
-          <?php  
+          <?php
                 include 'content-headline-cta.php';
                 $counter++;
           ?>
-              
-          <!-- INCLUDE Headline Band  --> 
-                   
-          <?php  
+
+          <!-- INCLUDE Headline Band  -->
+
+          <?php
                 include 'content-spss-prev-versions.php';
                 $counter++;
-          ?>  
-         
-         
+          ?>
+
+
           <!-- INCLUDE Second Band -->
-         
-          <?php  
+
+          <?php
                 include 'content-spss-amos.php';
                 $counter++;
           ?>
 
-          <!-- INCLUDE THE FOOTER AND SUBFOOTER -->
-           <?php  
-                include 'footer/footer.php';
-			  
-           ?> 
-
       </div>
   </div>
-	  
+
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='USERGROUP';ftypes[1]='text';fnames[2]='SIGNUP';ftypes[2]='text';fnames[3]='FNAME';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/waypoints.min.js"></script>
