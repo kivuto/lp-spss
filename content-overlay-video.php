@@ -30,14 +30,14 @@
               </div>
                   <div class="row center">
                   <div class="medium-6 columns">
-                       <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://qa1-onthehub.com/products/a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
+                       <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://onthehub.com/products/a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
                               <div class="right newCTA1">
                                  <span><em>Students</em> buy now</span>
                               </div>
                           </a>
                   </div> 
                    <div class="medium-6 columns">
-                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://qa1-onthehub.com/products/8a99689c-41be-eb11-813b-000d3af41938" target="_blank">
+                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://onthehub.com/products/8a99689c-41be-eb11-813b-000d3af41938" target="_blank">
                               <div class="left newCTA2" >
                                   <span><em>Faculty</em> buy now</span>
                               </div>
