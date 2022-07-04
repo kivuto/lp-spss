@@ -17,7 +17,7 @@
 				  	<p><strong class="black">$34.90 USD</strong> – Students <strong>Save 97%</strong><strong><span style="color: red;"> (Lowest Price On The Market)</span></strong></p>
                   <br />
                   <div class="row ctaBtns">
-                      <a data-role="button" data-cta="Buy Previous SPSS Versions" href="https://estore.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?cmi_mnuMain=8659da1b-241d-e611-941a-b8ca3a5db7a1&pc=ddc848d8-b4fe-e111-bd05-f04da23e67f6" target="_blank">
+                      <a data-role="button" data-cta="Buy Previous SPSS Versions" href="https://qa1-onthehub.com/products/0a915582-02b0-ea11-812c-000d3af41938" target="_blank">
                           <div class="large-6 columns button rent" target="_blank">
                              <span>Buy now</span>
                           </div>

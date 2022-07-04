@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <script src=https://www.googleoptimize.com/optimize.js?id=OPT-TKZJGS6></script>
+  <script src="https://kit.fontawesome.com/b0eeb9e565.js" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/viewport.js"></script>

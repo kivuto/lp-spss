@@ -30,14 +30,14 @@
               </div>
                   <div class="row center">
                   <div class="medium-6 columns">
-                       <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
+                       <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://qa1-onthehub.com/products/a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
                               <div class="right newCTA1">
                                  <span><em>Students</em> buy now</span>
                               </div>
                           </a>
                   </div> 
                    <div class="medium-6 columns">
-                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://estore.onthehub.com/WebStore/OfferingDetails.aspx?o=0fe78673-10bf-eb11-813b-000d3af41938" target="_blank">
+                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://qa1-onthehub.com/products/8a99689c-41be-eb11-813b-000d3af41938" target="_blank">
                               <div class="left newCTA2" >
                                   <span><em>Faculty</em> buy now</span>
                               </div>
@@ -56,7 +56,7 @@
                           <div style="text-align:center; display:inline-block;"> 
                             <p style="font-size: 18px !important;"><a class="expander country-eligibility" id="country-exp" tabindex="6">Country Eligibility  &nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a></p>
                             <div class="content expand-content country-list">
-                                <p>Our IBM SPSS offerings are available to academic users worldwide<br/>with the following exceptions:</p>
+                                <p>Our IBM SPSS offerings are <strong>not</strong> available to academic users <br/>in the following countries:</p>
                                 <br/>
                                   <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 center spps-list">
                                       <li>
@@ -87,6 +87,7 @@
                                             <li><p>Oman</p></li>
                                             <li><p>Panama</p></li>
                                             <li><p>Qatar</p></li>
+                                            <li><p>Russia</p></li>
 
                                          </ul> 
                                       </li>
