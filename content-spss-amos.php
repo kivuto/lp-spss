@@ -26,7 +26,7 @@
                   </div>
               </div>
               <div class="large-6 columns show-for-large-up" style="text-align: center;">
-                  <img src="img/lp-amos-screen-28.jpg" alt="IBM SPSS Amos 28 Screenshot" width="514" height="319">
+                  <img src="img/lp-amos-screen-28.jpg" style="max-width: 100%; height: auto;" alt="IBM SPSS Amos 28 Screenshot" width="514" height="319">
               </div>
           </div> 
       </div>  

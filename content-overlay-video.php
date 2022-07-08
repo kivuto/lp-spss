@@ -1,19 +1,5 @@
   <!-- Header -->
- 
-  <div class="row header hide-for-medium-up">
-      <div class="container">
-          <div class="large-2 columns oth-logo" style="float:left !important;">
-              <a data-role="logo" data-location="header" href="https://onthehub.com" target="_blank" tabindex="1" >
-                <img src="img/oth_logo.png" alt="OnTheHub" >
-              </a>
-          </div>
-          <div class="large-2 large-offset-3 ibm-logo" style="float:right !important; position: relative;">
-              <a data-role="logo" data-location="header" href="https://www.ibm.com" target="_blank" tabindex="2">
-                <img src="img/ibm_logo.png" alt="IBM" >
-              </a>  
-          </div>  
-      </div>  
-  </div>
+
 
   <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-introduction content-overlay-video" data-block="<?php echo $blocks[$counter]; ?>">
       <div class="ovrlay">
@@ -28,25 +14,29 @@
                       <p class="avenir-medium" style="max-width: 700px; margin: 0 auto 30px auto;">Download statistical analysis and data mining software by IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> at exclusive academic pricing.</p>
                   </div> 
               </div>
-                  <div class="row center">
-                  <div class="medium-6 columns">
+                <div class="row center">
+                  <div class="medium-6 columns center">
+                    <div class= "right">
                        <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://onthehub.com/products/a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
-                              <div class="right newCTA1">
+                              <div class="newCTA1">
                                  <span><em>Students</em> buy now</span>
                               </div>
                           </a>
+                      </div>    
                   </div> 
-                   <div class="medium-6 columns">
+                   <div class="medium-6 columns center">
+                      <div class="left">
                           <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://onthehub.com/products/8a99689c-41be-eb11-813b-000d3af41938" target="_blank">
-                              <div class="left newCTA2" >
+                              <div class="newCTA2" >
                                   <span><em>Faculty</em> buy now</span>
                               </div>
                           </a>
+                        </div>  
                   </div> 
               </div> 
               <div class="row show-for-large-up">
                       <div class="large-12 columns" style="margin: 40px auto 0 auto; text-align:center; position: relative;">
-                          <div style="text-align:center; display:inline-block; margin-right: 60px; margin-left:-20px;"> 
+                          <div style="text-align:center; display:inline-block; margin-right: 90px; margin-left:-20px;"> 
                               <p style="font-size: 18px !important;"><a class="expander center academic-status">Academic Status &nbsp;<span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a></p>
                               <div class="content expand-content">
                                 <p>These IBM SPSS academic licenses are exclusively for educational purposes. </p>

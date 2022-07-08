@@ -17,7 +17,7 @@
               <br/>
           </div>
            <div class="large-5 columns show-for-large-up">
-                  <img src="img/lp-stats-screens-28.png" alt="SPSS Statistics 28 on a Laptop with a Chart and Graph" style="max-height: 349px; width:474px;">
+                  <img src="img/lp-stats-screens-28.png" style="max-width: 100%; height: auto;" alt="SPSS Statistics 28 on a Laptop with a Chart and Graph" style="max-height: 349px; width:474px;">
               </div>
           </div> 
       </div>  

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta name="description" content="Download IBM SPSS statistical analysis and data mining software at up to 97% off, including Statistics 26, Amos 26, and versions 25, 24, and 23 are also available.">
+    <meta name="description" content="Download IBM SPSS statistical analysis and data mining software at up to 97% off, including Statistics 27, Amos 27, and versions 26, 25, and 24 are also available.">
     <title> IBM SPSS Software Discounts for Students &amp; Faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -12,10 +12,7 @@
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <script src=https://www.googleoptimize.com/optimize.js?id=OPT-TKZJGS6></script>
   <script src="https://kit.fontawesome.com/b0eeb9e565.js" crossorigin="anonymous"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.js"
-  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/viewport.js"></script>
