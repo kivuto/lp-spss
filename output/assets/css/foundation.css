@@ -2706,9 +2706,12 @@ hr {
   height: 0; }
 
 /* Helpful Typography Defaults */
-em,
-i {
+em
+{
   font-style: italic;
+  line-height: inherit; }
+
+i {
   line-height: inherit; }
 
 strong,

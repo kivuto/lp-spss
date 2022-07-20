@@ -7,17 +7,12 @@
     <title> IBM SPSS Software Discounts for Students &amp; Faculty | OnTheHub</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <script src=https://www.googleoptimize.com/optimize.js?id=OPT-TKZJGS6></script>
   <script src="https://kit.fontawesome.com/b0eeb9e565.js" crossorigin="anonymous"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
-    <script src="js/vendor/jquery.js"></script>
     <script src="js/viewport.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
     <?php
         /*-=-=-=-=-=-=-=-=-=- CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED =-=-=-=-=-=-=-=*/
 
@@ -89,8 +84,7 @@
       </div>
   </div>
 
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='USERGROUP';ftypes[1]='text';fnames[2]='SIGNUP';ftypes[2]='text';fnames[3]='FNAME';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-    <script src="js/waypoints.min.js"></script>
+
     <script src="js/waypoints.min.js"></script>
     <script src="js/simple-expand.min.js"></script>
     <script src="js/main.js"></script>

@@ -913,7 +913,7 @@ nav.subHeader {
 .expand-height .container { top: 35% !important; }
 .expand-content {
     position: absolute;
-    top: 40px;
+    top: 60px;
     text-align: center;
     max-width: 800px;
     min-width: 600px;
@@ -926,7 +926,7 @@ nav.subHeader {
 .spps-list ul li p { color: black; font-size: 14px !important; }
 .spps-list ul li { color: #4178be; list-style: disc; }
 .expander span i { color: #4178be; }
-.expander { color: black; font-weight: 600; font-size: 1.15em; }
+.expander { color: black; font-weight: 600;}
 .expander.expanded, .expander:hover { color: #4178be; }
 
 @media screen and (max-width: 1150px) {
