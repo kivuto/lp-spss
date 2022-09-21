@@ -17,7 +17,7 @@
                 <div class="row center">
                   <div class="medium-6 columns center">
                     <div class= "right">
-                       <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://onthehub.com/products/a4db50af-41be-eb11-813b-000d3af41938" target="_blank">
+                       <a data-role="button" data-cta="Buy SPSS for Students" class="ctaBtn" href="https://onthehub.com/products/4089c65e-9133-ed11-814e-000d3af41938" target="_blank">
                               <div class="newCTA1">
                                  <span><em>Students</em> buy now</span>
                               </div>
@@ -26,7 +26,7 @@
                   </div> 
                    <div class="medium-6 columns center">
                       <div class="left">
-                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://onthehub.com/products/8a99689c-41be-eb11-813b-000d3af41938" target="_blank">
+                          <a data-role="button" data-cta="Buy SPSS for Faculty" class="ctaBtn" href="https://onthehub.com/products/f769dc81-9033-ed11-814e-000d3af41938" target="_blank">
                               <div class="newCTA2" >
                                   <span><em>Faculty</em> buy now</span>
                               </div>
