@@ -15,7 +15,7 @@
                   </div> 
                   <p>With IBM SPSS Amos, it's easy to perform structural equation modeling (SEM) to test hypotheses among variables. 12-month license available to verified students only.</p>
                   <p class="hide-for-mobile" style="margin-bottom:15px;">Amos 29 is available for Windows.</p>
-				  <p><strong class="purple-new">$34.95 USD</strong> – Students Only <strong><span style="color: red;">(Lowest Price On The Market)</span></strong></p>
+				  <p><strong class="purple-new">$39.95 USD</strong> – Students Only</p>
                   <br />
                   <div class="row ctaBtns">
                       <a data-role="button" data-cta="Buy Amos Now" href="https://onthehub.com/products/972e4e9a-9033-ed11-814e-000d3af41938" target="_blank">
