@@ -10,7 +10,7 @@
 
 	2. ROW AND COLUMN STYLING
 
-	3. CUSTOM BLOCKS STYLING 
+	3. CUSTOM BLOCKS STYLING
 
 	4. FONTS
 
@@ -74,7 +74,7 @@
     font-weight:  700;
 
   }
-
+.img-responsive {max-width: 100%;height:auto;}
 @media only screen {
   .small-3 {
     width: 9%; } }
@@ -204,7 +204,7 @@ nav .container {
   .row.mainContent p, .row.mainContent h1, .row.mainContent h2, .row.mainContent h3 {
     color: #4A4A4A; }
   @media only screen and (max-width: 40em) {
-    .left, .right {
+    .vendor-page .left, .vendor-page .right {
       float: none !important;
       text-align: center;
       margin-top: 40px;
@@ -236,7 +236,7 @@ nav .container {
       .row.mainContent h2 {
         font-size: 28px; text-align: center; float: none !important; width: 100%;}
       .row.mainContent h3 {
-        font-size: 15px; } 
+        font-size: 15px; }
       .columns { float: none !important; }}
   @media only screen and (min-width: 40.063em) {
     .row.mainContent p {
@@ -381,12 +381,12 @@ nav.subHeader {
           height: 35px; width: auto; right:0;} }
   @media only screen and (min-width: 40.063em) {
     .row.header .oth-logo {
-      padding-top: 5px; } 
+      padding-top: 5px; }
       .row.header .ibm-logo {
         margin-right: 20px; }}
 
-/*~~~~~~~~~~~~~~~~~~~ 
-	
+/*~~~~~~~~~~~~~~~~~~~
+
 	Include your SASS file imports here!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -467,7 +467,7 @@ nav.subHeader {
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-overlay-video {
       min-height: 500px !important; }
-      .content-overlay-video .container { 
+      .content-overlay-video .container {
         top: 50% !important;
         padding: 50px 50px 30px 50px !important; }
       .content-overlay-video .ovrlay {
@@ -476,7 +476,7 @@ nav.subHeader {
         font-size: 56px; }
       .content-overlay-video p {
         font-size: 15px; }
- 
+
       .content-overlay-video h1 {
         padding-bottom: 20px; }
       .content-overlay-video p {
@@ -491,7 +491,7 @@ nav.subHeader {
         padding: 45px 20px;
         min-height: 550px !important; }
       .content-overlay-video .container {
-        top: 50% !important;  
+        top: 50% !important;
         padding: 20px 100px important; }
       .content-overlay-video .button {
         width: 30%; }
@@ -502,9 +502,9 @@ nav.subHeader {
         padding-bottom: 20px;
         font-size: 25px !important; }
       .content-overlay-video .content p {
-        font-size: 15px !important; 
-        padding-bottom: 0px; 
-        margin-bottom: 4px !important; 
+        font-size: 15px !important;
+        padding-bottom: 0px;
+        margin-bottom: 4px !important;
         text-align: center;
         text-shadow: 1px 1px 5px white; }
 	  .content-overlay-video .content ul li p {
@@ -512,7 +512,7 @@ nav.subHeader {
 	  }}
 
 /* #############################
-       Block with image left of content 
+       Block with image left of content
    #############################*/
 .inline-content-imgleft {
   /* MOBILE */
@@ -588,7 +588,7 @@ nav.subHeader {
       width: 70%; } }
 
 /* #############################
-       Block with image right of content 
+       Block with image right of content
    #############################*/
 .inline-content-imgright {
   /* MOBILE */
@@ -634,7 +634,7 @@ nav.subHeader {
       padding: 3% 0px 0px 6px !important;
       width: 100%; }
     .inline-content-imgright .info p {
-      padding: 0px 7px; } 
+      padding: 0px 7px; }
 	  #SPSS-PreviousVersions .large-5 .main-prev {
 		margin-left: -60px;  }}
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -649,7 +649,7 @@ nav.subHeader {
       padding: 0px; }
     .inline-content-imgright .trial {
       width: 98%;
-      padding: 0px; } 
+      padding: 0px; }
 	  #SPSS-PreviousVersions .large-5 .main-prev {
 		margin-left: -60px;  }
 }
@@ -743,15 +743,15 @@ nav.subHeader {
     3. SECTION BLOCKS STYLING
 
 \*----------------------------------------------------------*/
-.button { 
-    min-width: 200px; 
-    transition: 300ms; 
-    height: auto !important; 
-    padding: 12px 0 !important; 
+.button {
+    min-width: 200px;
+    transition: 300ms;
+    height: auto !important;
+    padding: 12px 0 !important;
     margin-top: 15px; }
-.button span { 
-    font-size: 20px !important; 
-    text-transform: none; 
+.button span {
+    font-size: 20px !important;
+    text-transform: none;
     font-weight: 600 !important; }
 
 #Block1 {
@@ -817,7 +817,7 @@ nav.subHeader {
   #SPSS-Statistics p { font-size: 22px; }
   #SPSS-Statistics .button {
     background-image: linear-gradient(to right, #0f59e6, #432585) !important; }
-   
+
     #SPSS-Statistics .button span {
       color: white !important; }
     #SPSS-Statistics .button:hover, #SPSS-Statistics .button:focus, #SPSS-Statistics .button:active {
@@ -899,7 +899,7 @@ nav.subHeader {
   -webkit-transform: translate(-50%, -23%);
   -ms-transform: translate(-50%, -23%);
   transform: translate(-50%, -23%);
-  z-index: 99; 
+  z-index: 99;
   transition: 300ms; }
 
 .round-button {
@@ -941,11 +941,11 @@ nav.subHeader {
 		padding-right: 0 !important;
 		}
 }
-@media screen and (min-width: 40.063em) { 
-    .button { 
-        margin:0 auto !important; 
-        text-align:center; 
-        float: none !important; } 
+@media screen and (min-width: 40.063em) {
+    .button {
+        margin:0 auto !important;
+        text-align:center;
+        float: none !important; }
 }
 @media screen and (max-width: 642px) {
     #SPSS-Statistics ul li { clear: both; width: 100%; }
@@ -958,7 +958,7 @@ nav.subHeader {
 		display: none !important;
 	}
 }
-@media screen and (max-width:1028px) { 
+@media screen and (max-width:1028px) {
     .expand-height { min-height: 550px !important; }
     .expand-height .container { top: 50% !important; }
 }
@@ -1110,7 +1110,7 @@ footer a.privacy:active, footer a.privacy:focus {
 footer .columns {
   padding: 15px 15px; }
 footer .large-6:nth-child(even) {
-  text-align: right; } 
+  text-align: right; }
 
 /*----------------------------------------------------------*\
     9. RESPONSIVE

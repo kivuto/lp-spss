@@ -10,7 +10,7 @@
 
 	2. ROW AND COLUMN STYLING
 
-	3. CUSTOM BLOCKS STYLING 
+	3. CUSTOM BLOCKS STYLING
 
 	4. FONTS
 
@@ -43,38 +43,38 @@ $sub-header-color: #000;
 /* Block 1 */
 $block1-color: #FFF;
 $block1-font-color: #000;
-$block1-button-normal: #FFF; 
-$block1-button-hover: #007095; 
-$block1-button-font: #000; 
-$block1-button-font-hover: #FFF; 
+$block1-button-normal: #FFF;
+$block1-button-hover: #007095;
+$block1-button-font: #000;
+$block1-button-font-hover: #FFF;
 /* Block 2 */
 $block2-color: #FFF;
 $block2-font-color: #000;
-$block2-button-normal: #F05038; 
-$block2-button-hover: #70251A; 
-$block2-button-font: #FFF; 
-$block2-button-font-hover: #FFF; 
+$block2-button-normal: #F05038;
+$block2-button-hover: #70251A;
+$block2-button-font: #FFF;
+$block2-button-font-hover: #FFF;
 /* Block 3 */
 $block3-color: #FFF;
 $block3-font-color: #000;
-$block3-button-normal: #2EB24D; 
-$block3-button-hover: #1E7231; 
-$block3-button-font: #FFF; 
-$block3-button-font-hover: #FFF; 
+$block3-button-normal: #2EB24D;
+$block3-button-hover: #1E7231;
+$block3-button-font: #FFF;
+$block3-button-font-hover: #FFF;
 /* Block 4 */
 $block4-color: #FFF;
 $block4-font-color: #000;
-$block4-button-normal: #81297D; 
-$block4-button-hover: #41153F; 
-$block4-button-font: #FFF; 
-$block4-button-font-hover: #FFF; 
+$block4-button-normal: #81297D;
+$block4-button-hover: #41153F;
+$block4-button-font: #FFF;
+$block4-button-font-hover: #FFF;
 /* Block 5 */
 $block5-color: #FFF;
 $block5-font-color: #000;
-$block5-button-normal: #2FB2E8; 
-$block5-button-hover: #2281A8; 
-$block5-button-font: #FFF; 
-$block5-button-font-hover: #FFF; 
+$block5-button-normal: #2FB2E8;
+$block5-button-hover: #2281A8;
+$block5-button-font: #FFF;
+$block5-button-font-hover: #FFF;
 
 
 // Mix in for transitions
@@ -89,12 +89,12 @@ $block5-button-font-hover: #FFF;
 @mixin block-colors($block-color: #FFF, $font-color: #000, $button-normal-color: #FFF, $button-hover-color: #007095, $button-text-normal: #000, $button-text-hover: #FFF) {
 	h1, h2, h3, p { color: $font-color !important; }
 	background-color: $block-color;
-	.button { 
+	.button {
 		background-color: $button-normal-color !important;
-		span { color: $button-text-normal !important; } 
-		&:hover, &:focus, &:active{ 
-			background-color: $button-hover-color !important; 
-			span { color: $button-text-hover !important; } 
+		span { color: $button-text-normal !important; }
+		&:hover, &:focus, &:active{
+			background-color: $button-hover-color !important;
+			span { color: $button-text-hover !important; }
 		}
 	}
 }
@@ -122,8 +122,8 @@ $block5-button-font-hover: #FFF;
 @import 'navigation';
 @import 'header';
 
-/*~~~~~~~~~~~~~~~~~~~ 
-	
+/*~~~~~~~~~~~~~~~~~~~
+
 	Include your SASS file imports here!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -161,7 +161,7 @@ $block5-button-font-hover: #FFF;
 }
 #SPSS-Modeler {
 	@include block-colors($block4-color, $block4-font-color, $block4-button-normal, $block4-button-hover, $block4-button-font, $block4-button-font-hover);
-}	
+}
 #SPSS-Data-Collection {
 	@include block-colors($block5-color, $block5-font-color, $block5-button-normal, $block5-button-hover, $block5-button-font, $block5-button-font-hover);
 }
@@ -169,7 +169,7 @@ $block5-button-font-hover: #FFF;
 
 // Round button styling
 .down-arrow {
-	position: absolute; 
+	position: absolute;
 	padding-bottom: 60px;
 	left: 50%;
 	-webkit-transform: translate(0%,-50%);
@@ -199,7 +199,10 @@ $block5-button-font-hover: #FFF;
     background: #EFEFEF;
 }
 
-
+.img-responsive {
+	max-width: 100%;
+	height:auto;
+}
 /*----------------------------------------------------------*\
 
     4. FONTS

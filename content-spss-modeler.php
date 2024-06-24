@@ -3,16 +3,16 @@
       <div class="container">
           <div class="row">
               <div class="large-6 columns image">
-                <img src="img/block-5-imagery.png" alt="IBM SPSS Modeler 18">
+                <img src="img/block-5-imagery.png" alt="IBM SPSS Modeler 18" class="img-responsive">
               </div>
               <div class="large-6 columns info">
                   <div class="row title">
                       <div class="small-4 columns" style="padding:0;">
                           <h2>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Modeler v18.x</h2>
-                      </div> 
+                      </div>
                       <div class="small-4 large-offset-1 columns ">
-                      </div> 
-                  </div> 
+                      </div>
+                  </div>
                   <p>IBM SPSS Modeler makes building predictive models and discovering trends in your data easy. 12-month rental licenses are available to eligible students and faculty.</p>
                   <p style="margin-bottom:15px;">Modeler v18.x is available for Windows and Mac.</p>
 				  <p><strong class="purple">No Cost</strong> – Students and Faculty Save</p>
@@ -25,6 +25,6 @@
                               </a>
                   </div>
               </div>
-          </div> 
-      </div>  
+          </div>
+      </div>
   </div>

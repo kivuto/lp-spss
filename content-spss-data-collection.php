@@ -3,19 +3,19 @@
       <div class="container">
           <div class="row">
               <div class="large-5 columns qcImage hide-for-large-up">
-                  <img src="img/data_computer.jpg" alt="Student and Teacher">
+                  <img src="img/data_computer.jpg" alt="Student and Teacher" class="img-responsive">
               </div>
               <div class="large-7 columns info">
                   <div class="row title">
                       <div class="small-3 columns no_padding">
-                          <img src="img/spss_data_icon.jpg" alt="SPSS Data Collection">
-                      </div>  
+                          <img src="img/spss_data_icon.jpg" alt="SPSS Data Collection" class="img-responsive">
+                      </div>
                       <div class="small-4 columns">
                           <h2>IBM<sup>&reg;</sup> SPSS<sup>&reg;</sup> Data Collection</h2>
-                      </div> 
+                      </div>
                       <div class="small-2 columns ">
-                      </div> 
-                  </div> 
+                      </div>
+                  </div>
                   <p>IBM SPSS Data Collection is a dynamic research platform used for survey creation, management, and analysis.</p>
                   <p>12 month rental licenses available to verified students and faculty.</p>
                   <div class="row ctaBtns">
@@ -27,8 +27,8 @@
                   </div>
               </div>
               <div class="large-5 columns show-for-large-up">
-                  <img src="img/data_computer.jpg" alt="Student and Teacher">
+                  <img src="img/data_computer.jpg" alt="Student and Teacher" class="img-responsive">
               </div>
-          </div> 
-      </div>  
+          </div>
+      </div>
   </div>

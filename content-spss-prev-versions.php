@@ -14,7 +14,6 @@
                 <h2>Looking for previous versions?</h2>
               </div>
               <p>You can still order <strong>IBM<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> SPSS<sup style="font-size:0.5em;"><sup>&reg;</sup></sup> Statistics 26, 27,</strong> and <strong>28</strong> through OnTheHub. Students and faculty can both take comfort in knowing that the software they use matches course materials.</p>
-              <p><strong class="black">$45.95 USD</strong> – Students <strong>Save 96%</strong></p>
               <br />
               <div class="row ctaBtns">
                 <a data-role="button" data-cta="Buy Previous SPSS Versions" href="https://onthehub.com/shop?search=spss" target="_blank">
